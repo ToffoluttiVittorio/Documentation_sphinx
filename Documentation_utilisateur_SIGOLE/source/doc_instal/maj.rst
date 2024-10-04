@@ -13,6 +13,7 @@ configuration supplémentaire et peuvent être installées avec les paquets debi
 
 Pour ce qui est de l'installation de versions majeurs, elle se font en modifiant le fichier ``georchestra.yml``,
 il faudra relancer toute l'installation et potentiellement faire des ajustements.
+
 Paquets debians
 -----------------------
 
