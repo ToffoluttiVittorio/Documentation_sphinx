@@ -9,7 +9,7 @@ Introduction
 ------------
 
 Les données de ce catalogue proviennent de différents catalogue nationaux mais peuvent aussi être propre à l'Office de l'eau Réunion.
-Chaque donnée est reliée à une organisation et possèdent une description détaillée. 
+Chaque donnée est reliée à une organisation et possède une description détaillée. 
 
 
 La recherche des données dans le catalogue 
@@ -95,6 +95,7 @@ Cette interface permet de :
    :align: center
    :width: 600px
 
+
 - visualiser le tableau attributaire
 
 .. image:: ../images/user_catalogue/fiche_table.png
@@ -110,7 +111,8 @@ Cette interface permet de :
    :align: center
    :width: 600px
 
-
+.. note::
+   La couche de donnée, le tableau ou encore le graphique peuvent ne pas s'afficher car la donnée est mal configurée coté serveur. 
 
 
 Téléchargement de la donnée
@@ -129,6 +131,10 @@ Mais aussi avoir accées à d'autre liens et URL, ainsi qu'aux flux OGC disponib
    :alt: Options de filtrage
    :align: center
    :width: 600px
+
+.. note::
+   Ces liens sont dépéndant de la qualité de la donnée et de son intégration, ils peuvent ne pas fonctionner. 
+
 
 
 Vous pouvez aussi visualiser la donnée dans une interface cartographique en cliquant ici et cela vous fera apparaître le :ref:`visualiseur <visualiseur>`.

@@ -7,6 +7,7 @@
   <title>Visualiseur &mdash; Documentation Plateforme cartographique OLE </title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
       <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
 
   
   <!--[if lt IE 9]>
@@ -18,11 +19,13 @@
         <script src="../_static/documentation_options.js?v=d1a510d7"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+        <script src="../_static/copybutton.js?v=f281be69"></script>
         <script src="../_static/translations.js?v=041d0952"></script>
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Recherche" href="../search.html" />
-    <link rel="next" title="Application" href="application.html" />
+    <link rel="next" title="Application - Cartothèque" href="application.html" />
     <link rel="prev" title="Catalogue" href="catalogue.html" /> 
 </head>
 
@@ -52,13 +55,13 @@
 <li class="toctree-l2"><a class="reference internal" href="catalogue.html">Catalogue</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Visualiseur</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#introduction">Introduction</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#interface-de-visualisation">Interface de visualisation</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#section-2-fonctionnalites">Section 2 : Fonctionnalités</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#la-gestion-des-couches">La gestion des couches</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#les-fonctionnalites-techniques">Les fonctionnalités techniques</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="application.html">Application</a></li>
-<li class="toctree-l2"><a class="reference internal" href="services.html">Services</a></li>
-<li class="toctree-l2"><a class="reference internal" href="import.html">Import</a></li>
+<li class="toctree-l2"><a class="reference internal" href="application.html">Application - Cartothèque</a></li>
+<li class="toctree-l2"><a class="reference internal" href="import.html">Import de données</a></li>
+<li class="toctree-l2"><a class="reference internal" href="error.html">Erreurs fréquentes</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../doc_admin.html">Documentation administrateur</a></li>
@@ -95,29 +98,104 @@
 <span id="id1"></span><p class="topic-title">Table des matières</p>
 <ul class="simple">
 <li><p><a class="reference internal" href="#introduction" id="id2">Introduction</a></p></li>
-<li><p><a class="reference internal" href="#interface-de-visualisation" id="id3">Interface de visualisation</a></p></li>
-<li><p><a class="reference internal" href="#section-2-fonctionnalites" id="id4">Section 2 : Fonctionnalités</a></p></li>
+<li><p><a class="reference internal" href="#la-gestion-des-couches" id="id3">La gestion des couches</a></p></li>
+<li><p><a class="reference internal" href="#les-fonctionnalites-techniques" id="id4">Les fonctionnalités techniques</a></p></li>
 </ul>
 </nav>
 <section id="introduction">
 <h2><a class="toc-backref" href="#id2" role="doc-backlink">Introduction</a><a class="headerlink" href="#introduction" title="Lien vers cette rubrique"></a></h2>
-<p>Le module cartographique de cette plateforme permet de présenter ces couches de données dans un environnement plus technique.
+<p>Le module cartographique de cette plateforme permet de présenter des couches de données géographique dans un environnement technique.
 Cette interface permet de représenter plusieurs couches géographique mais ne peut pas se substituer à l’utilisation complète d’un outil SIG bureautique type QGIS.</p>
-</section>
-<section id="interface-de-visualisation">
-<h2><a class="toc-backref" href="#id3" role="doc-backlink">Interface de visualisation</a><a class="headerlink" href="#interface-de-visualisation" title="Lien vers cette rubrique"></a></h2>
 <p>L’interface se présente comme ceci :</p>
-<a class="reference internal image-reference" href="../_images/visu_global.png"><img alt="Options de filtrage" class="align-center" src="../_images/visu_global.png" style="width: 600px;" /></a>
-</section>
-<section id="section-2-fonctionnalites">
-<h2><a class="toc-backref" href="#id4" role="doc-backlink">Section 2 : Fonctionnalités</a><a class="headerlink" href="#section-2-fonctionnalites" title="Lien vers cette rubrique"></a></h2>
-<p>Il y’a deux façons d’ajouter des données dans cette interface :</p>
+<a class="reference internal image-reference" href="../_images/visu_nbr.png"><img alt="Options de filtrage" class="align-center" src="../_images/visu_nbr.png" style="width: 600px;" /></a>
 <ul class="simple">
-<li><p>directement depuis le catalogue</p></li>
+<li><p>1 : l’arborescence des couches</p></li>
+<li><p>2 : recherche d’un lieu</p></li>
+<li><p>3 : les fonctionnalités</p></li>
+<li><p>4 : les outils de navigation</p></li>
+<li><p>5 : les fonds de plans</p></li>
 </ul>
-<a class="reference internal image-reference" href="../_images/fiche_carto.png"><img alt="Options de filtrage" class="align-center" src="../_images/fiche_carto.png" style="width: 600px;" /></a>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>La donnée peut ne pas s’afficher si elle n’est pas disponible ou alors dans le mauvais référentiel de coordonnée.</p>
+</div>
+</section>
+<section id="la-gestion-des-couches">
+<h2><a class="toc-backref" href="#id3" role="doc-backlink">La gestion des couches</a><a class="headerlink" href="#la-gestion-des-couches" title="Lien vers cette rubrique"></a></h2>
+<p>Si vous cliquez sur 1, l’arborescence des couches va apparaître et vous pourrez :</p>
 <ul class="simple">
-<li><p>ou depuis l’interface</p></li>
+<li><p>rendre visible ou non la couche</p></li>
+<li><p>modifier l’ordre des couches</p></li>
+<li><p>modifier l’opacité en pourcentage</p></li>
+</ul>
+<a class="reference internal image-reference" href="../_images/visu_couches_details.png"><img alt="Options de filtrage" class="align-center" src="../_images/visu_couches_details.png" style="width: 600px;" /></a>
+<p>Dans cet onglet, vous pouvez, à l’aide de ces 3 boutons :</p>
+<a class="reference internal image-reference" href="../_images/visu_couches_button.png"><img alt="Options de filtrage" class="align-center" src="../_images/visu_couches_button.png" style="width: 300px;" /></a>
+<ul class="simple">
+<li><p>ajouter des données, ce qui ouvrira cette onglet :</p></li>
+</ul>
+<a class="reference internal image-reference" href="../_images/visu_cat.png"><img alt="Options de filtrage" class="align-center" src="../_images/visu_cat.png" style="width: 600px;" /></a>
+<p>Dans cet onglet vous pouvez choisir le catalogue, chercher par mots clés puis ajouter la donnée</p>
+<ul class="simple">
+<li><p>ajouter des groupes pour vos données</p></li>
+<li><p>créer des annotations :</p></li>
+</ul>
+<a class="reference internal image-reference" href="../_images/visu_annotation.png"><img alt="Options de filtrage" class="align-center" src="../_images/visu_annotation.png" style="width: 600px;" /></a>
+<p>Lorsque vous cliquez sur une couche, plusieurs fonctions apparaissent :</p>
+<a class="reference internal image-reference" href="../_images/visu_couches_barre.png"><img alt="Options de filtrage" class="align-center" src="../_images/visu_couches_barre.png" style="width: 500px;" /></a>
+<ul class="simple">
+<li><p>zoomer sur la couche</p></li>
+<li><p>gérer les réglages de la couche :</p></li>
+</ul>
+<a class="reference internal image-reference" href="../_images/visu_couches_reglages.png"><img alt="Options de filtrage" class="align-center" src="../_images/visu_couches_reglages.png" style="width: 600px;" /></a>
+<p>Dans ces réglages vous pouvez modifier, les informations, l’affichage, filtrer les champs, le style et les informations attributaires.</p>
+<ul class="simple">
+<li><p>filtrer les couches</p></li>
+<li><p>ouvrir la table attributaire</p></li>
+<li><p>supprimer la couche</p></li>
+<li><p>créer un widget</p></li>
+<li><p>exporter la couche</p></li>
+<li><p>voir les métadonnées</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Les options sont dépendantes de la donnée, elle peuvent ne pas être toutes disponible en fonction de la donnée.</p>
+</div>
+<p>Pour les fonds de plans, vous cliquez sur l’imagette en bas à gauche et vous pourrez en changer :</p>
+<a class="reference internal image-reference" href="../_images/visu_fonds.png"><img alt="Options de filtrage" class="align-center" src="../_images/visu_fonds.png" style="width: 600px;" /></a>
+</section>
+<section id="les-fonctionnalites-techniques">
+<h2><a class="toc-backref" href="#id4" role="doc-backlink">Les fonctionnalités techniques</a><a class="headerlink" href="#les-fonctionnalites-techniques" title="Lien vers cette rubrique"></a></h2>
+<p>Pour ce qui est des différentes fonctionnalités :</p>
+<a class="reference internal image-reference" href="../_images/visu_fct.png"><img alt="Capture d'écran du catalogue" class="align-center" src="../_images/visu_fct.png" style="width: 50px;" /></a>
+<p>Dans l’ordre, vous pouvez :</p>
+<ul class="simple">
+<li><p>imprimer une réalisation :</p></li>
+</ul>
+<a class="reference internal image-reference" href="../_images/visu_print.png"><img alt="Capture d'écran du catalogue" class="align-center" src="../_images/visu_print.png" style="width: 600px;" /></a>
+<p>Choisir le titre, le format et si la légende apparaît ou non</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Ne marche pas pour l’instant.</p>
+</div>
+<ul class="simple">
+<li><p>importer des données</p></li>
+<li><p>exporter la carte au format WMC</p></li>
+<li><p>ajouter des données</p></li>
+<li><p>charger des cartes déjà enrigstrer</p></li>
+<li><p>mesurer des distances</p></li>
+<li><p>enrigstrer la carte :</p></li>
+</ul>
+<a class="reference internal image-reference" href="../_images/visu_download.png"><img alt="Capture d'écran du catalogue" class="align-center" src="../_images/visu_download.png" style="width: 600px;" /></a>
+<p>Vous pourrez choisir une imagette, le titre, vous pouvez aussi, en cliquant sur le crayon, définir un texte qui sera visible à l’ouverture de la carte.
+Pour définir des droits de lecture et d’édition, vous devez sélectionner un groupe et spécifier si il à les droits de lecture ou d’écriture.
+L’enregistrement ira dans la page <a class="reference internal" href="error.html#application"><span class="std std-ref">Application</span></a>.</p>
+<ul class="simple">
+<li><p>voir les réglages</p></li>
+<li><p>partager la réalisation</p></li>
+<li><p>voir la documentation</p></li>
+<li><p>faire le tutoriel</p></li>
+<li><p>effacer la session</p></li>
 </ul>
 </section>
 </section>
@@ -127,7 +205,7 @@ Cette interface permet de représenter plusieurs couches géographique mais ne p
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Pied de page">
         <a href="catalogue.html" class="btn btn-neutral float-left" title="Catalogue" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Précédent</a>
-        <a href="application.html" class="btn btn-neutral float-right" title="Application" accesskey="n" rel="next">Suivant <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="application.html" class="btn btn-neutral float-right" title="Application - Cartothèque" accesskey="n" rel="next">Suivant <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>

@@ -7,6 +7,6 @@ Documentation d'installation
    :maxdepth: 2
    :caption: Sections installation:
 
-   Catalogue <doc_instal/installation>
-   Visualiseur <doc_instal/configuration>
-   Application <doc_instal/maj>
+   Installation <doc_instal/installation>
+   Configuration <doc_instal/configuration>
+   Mise à jour <doc_instal/maj>

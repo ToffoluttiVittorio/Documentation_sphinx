@@ -9,7 +9,7 @@ Documentation utilisateur
 
    Catalogue <doc_user/catalogue>
    Visualiseur <doc_user/visualiseur>
-   Application <doc_user/application>
-   Services <doc_user/services>
-   Import <doc_user/import>
+   Application - Cartothèque<doc_user/application>
+   Import de données<doc_user/import>
+   Erreurs fréquentes <doc_user/error>
 

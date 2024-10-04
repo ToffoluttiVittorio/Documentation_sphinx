@@ -1,4 +1,4 @@
-Mises à jour
+Mise à jour
 =================
 
 .. contents:: Table des matières
@@ -8,14 +8,17 @@ Mises à jour
 Introduction
 ------------
 
-Ceci est l'introduction de la partie "Catalogue".
+La version actuelle de geOrchestra est la version 24, les versions sont supporté pendant 1 an avec des patchs mineurs qui ne demande pas de 
+configuration supplémentaire et peuvent être installées avec les paquets debians directement. 
 
+Pour ce qui est de l'installation de versions majeurs, elle se font en modifiant le fichier ``georchestra.yml``,
+il faudra relancer toute l'installation et potentiellement faire des ajustements.
 Paquets debians
 -----------------------
 
-Cette section fournit une description détaillée du catalogue.
+Voici la liste des paquets debians installé par georchestra : 
 
-Directements avec l'installation donc georchestra.yml
--------------------------------------------------------------
-
-Cette section détaille les fonctionnalités disponibles pour le catalogue.
+.. image:: ../images/install/debian_paquet.png
+   :alt: Capture d'écran du catalogue
+   :align: center
+   :width: 700px

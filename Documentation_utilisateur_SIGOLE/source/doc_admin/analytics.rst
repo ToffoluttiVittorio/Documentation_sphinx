@@ -5,27 +5,15 @@ Application
    :local:
    :depth: 1
 
-Introduction
-------------
+Le module analytics permet d'analyser les flux OGC donc les données issues des différents service web OGC de GeoServer : 
 
-Ceci est l'introduction de la partie "Catalogue".
+.. image:: ../images/admin_analytics/ana.png
+   :alt: Capture d'écran du catalogue
+   :align: center
+   :width: 700px
 
-Section 1 : Description
------------------------
+L'interface permet de connaître :
 
-Cette section fournit une description détaillée du catalogue.
-
-Section 2 : Fonctionnalités
----------------------------
-
-Cette section détaille les fonctionnalités disponibles pour le catalogue.
-
-Section 3 : Utilisation
------------------------
-
-Cette section explique comment utiliser le catalogue.
-
-Section 4 : Conseils et astuces
--------------------------------
-
-Des conseils pour tirer le meilleur parti du catalogue.
+- le service web, le titre de la couche et la requête
+- l'utilisateur et le nombre de requêtes 
+- l'organisation et le nombre de requêtes

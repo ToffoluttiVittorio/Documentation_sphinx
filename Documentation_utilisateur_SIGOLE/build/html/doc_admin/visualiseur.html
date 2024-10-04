@@ -4,9 +4,10 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Application &mdash; Documentation Plateforme cartographique OLE </title>
+  <title>MapStore &mdash; Documentation Plateforme cartographique OLE </title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
       <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
 
   
   <!--[if lt IE 9]>
@@ -18,12 +19,14 @@
         <script src="../_static/documentation_options.js?v=d1a510d7"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+        <script src="../_static/copybutton.js?v=f281be69"></script>
         <script src="../_static/translations.js?v=041d0952"></script>
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Recherche" href="../search.html" />
-    <link rel="next" title="Application" href="services.html" />
-    <link rel="prev" title="Application" href="catalogue.html" /> 
+    <link rel="next" title="Services - GeoServer" href="services.html" />
+    <link rel="prev" title="Catalogue - GeoNetwork" href="catalogue.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -50,17 +53,14 @@
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../doc_user.html">Documentation utilisateur</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="../doc_admin.html">Documentation administrateur</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="catalogue.html">Catalogue</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Visualiseur</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="catalogue.html">Catalogue - GeoNetwork</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Mapstore</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#introduction">Introduction</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#section-1-description">Section 1 : Description</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#section-2-fonctionnalites">Section 2 : Fonctionnalités</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#section-3-utilisation">Section 3 : Utilisation</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#section-4-conseils-et-astuces">Section 4 : Conseils et astuces</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#les-contextes">Les contextes</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="services.html">Services</a></li>
-<li class="toctree-l2"><a class="reference internal" href="utilisateurs.html">Utilisateurs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="services.html">Services - GeoServer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="utilisateurs.html">Utilisateur - console admin</a></li>
 <li class="toctree-l2"><a class="reference internal" href="analytics.html">Analytics</a></li>
 </ul>
 </li>
@@ -82,7 +82,7 @@
   <ul class="wy-breadcrumbs">
       <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
           <li class="breadcrumb-item"><a href="../doc_admin.html">Documentation administrateur</a></li>
-      <li class="breadcrumb-item active">Application</li>
+      <li class="breadcrumb-item active">MapStore</li>
       <li class="wy-breadcrumbs-aside">
       </li>
   </ul>
@@ -91,37 +91,30 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="application">
-<h1>Application<a class="headerlink" href="#application" title="Lien vers cette rubrique"></a></h1>
+  <section id="mapstore">
+<h1>MapStore<a class="headerlink" href="#mapstore" title="Lien vers cette rubrique"></a></h1>
 <nav class="contents local" id="table-des-matieres">
 <p class="topic-title">Table des matières</p>
 <ul class="simple">
 <li><p><a class="reference internal" href="#introduction" id="id1">Introduction</a></p></li>
-<li><p><a class="reference internal" href="#section-1-description" id="id2">Section 1 : Description</a></p></li>
-<li><p><a class="reference internal" href="#section-2-fonctionnalites" id="id3">Section 2 : Fonctionnalités</a></p></li>
-<li><p><a class="reference internal" href="#section-3-utilisation" id="id4">Section 3 : Utilisation</a></p></li>
-<li><p><a class="reference internal" href="#section-4-conseils-et-astuces" id="id5">Section 4 : Conseils et astuces</a></p></li>
+<li><p><a class="reference internal" href="#les-contextes" id="id2">Les contextes</a></p></li>
 </ul>
 </nav>
 <section id="introduction">
 <h2><a class="toc-backref" href="#id1" role="doc-backlink">Introduction</a><a class="headerlink" href="#introduction" title="Lien vers cette rubrique"></a></h2>
-<p>Ceci est l’introduction de la partie « Catalogue ».</p>
+<p>La partie administrateur du module Mapstore ajoute peu de fonctionnalités, la seule fonction en plus est la création de contextes.</p>
 </section>
-<section id="section-1-description">
-<h2><a class="toc-backref" href="#id2" role="doc-backlink">Section 1 : Description</a><a class="headerlink" href="#section-1-description" title="Lien vers cette rubrique"></a></h2>
-<p>Cette section fournit une description détaillée du catalogue.</p>
-</section>
-<section id="section-2-fonctionnalites">
-<h2><a class="toc-backref" href="#id3" role="doc-backlink">Section 2 : Fonctionnalités</a><a class="headerlink" href="#section-2-fonctionnalites" title="Lien vers cette rubrique"></a></h2>
-<p>Cette section détaille les fonctionnalités disponibles pour le catalogue.</p>
-</section>
-<section id="section-3-utilisation">
-<h2><a class="toc-backref" href="#id4" role="doc-backlink">Section 3 : Utilisation</a><a class="headerlink" href="#section-3-utilisation" title="Lien vers cette rubrique"></a></h2>
-<p>Cette section explique comment utiliser le catalogue.</p>
-</section>
-<section id="section-4-conseils-et-astuces">
-<h2><a class="toc-backref" href="#id5" role="doc-backlink">Section 4 : Conseils et astuces</a><a class="headerlink" href="#section-4-conseils-et-astuces" title="Lien vers cette rubrique"></a></h2>
-<p>Des conseils pour tirer le meilleur parti du catalogue.</p>
+<section id="les-contextes">
+<h2><a class="toc-backref" href="#id2" role="doc-backlink">Les contextes</a><a class="headerlink" href="#les-contextes" title="Lien vers cette rubrique"></a></h2>
+<p>Les contextes permettent de créer des cartes en choisissant l’interface finale pour par exemple rendre la carte plus abordable et moins technique.
+Par exemple avec ce contexte qui ne presente que le bouton accueil, télécharger et importer :</p>
+<a class="reference internal image-reference" href="../_images/mapstore_contexte.png"><img alt="../_images/mapstore_contexte.png" class="align-center" src="../_images/mapstore_contexte.png" style="width: 600px;" /></a>
+<p>Un tutoriel est automatiquement lancé lorsque vous créer un contexte et vous guide pas à pas dans la création
+Il faut commencer par choisir un titre, une description, ajouter les données que l’on veut afficher,
+et choisir les fonctions :</p>
+<a class="reference internal image-reference" href="../_images/mapstore_plugins.png"><img alt="../_images/mapstore_plugins.png" class="align-center" src="../_images/mapstore_plugins.png" style="width: 600px;" /></a>
+<p>Les fonctions à choisir sont explicite et facile à comprendre.
+Enfin il reste à enregister le contexte pour le rendre disponible aux groupes que l’on veut.</p>
 </section>
 </section>
 
@@ -129,8 +122,8 @@
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Pied de page">
-        <a href="catalogue.html" class="btn btn-neutral float-left" title="Application" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Précédent</a>
-        <a href="services.html" class="btn btn-neutral float-right" title="Application" accesskey="n" rel="next">Suivant <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="catalogue.html" class="btn btn-neutral float-left" title="Catalogue - GeoNetwork" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Précédent</a>
+        <a href="services.html" class="btn btn-neutral float-right" title="Services - GeoServer" accesskey="n" rel="next">Suivant <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>

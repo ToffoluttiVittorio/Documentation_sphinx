@@ -4,9 +4,10 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Application &mdash; Documentation Plateforme cartographique OLE </title>
+  <title>Catalogue - GeoNetwork &mdash; Documentation Plateforme cartographique OLE </title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
       <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
 
   
   <!--[if lt IE 9]>
@@ -18,11 +19,13 @@
         <script src="../_static/documentation_options.js?v=d1a510d7"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+        <script src="../_static/copybutton.js?v=f281be69"></script>
         <script src="../_static/translations.js?v=041d0952"></script>
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Recherche" href="../search.html" />
-    <link rel="next" title="Application" href="visualiseur.html" />
+    <link rel="next" title="MapStore" href="visualiseur.html" />
     <link rel="prev" title="Documentation administrateur" href="../doc_admin.html" /> 
 </head>
 
@@ -50,17 +53,26 @@
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../doc_user.html">Documentation utilisateur</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="../doc_admin.html">Documentation administrateur</a><ul class="current">
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Catalogue</a><ul>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Catalogue - GeoNetwork</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#introduction">Introduction</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#section-1-description">Section 1 : Description</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#section-2-fonctionnalites">Section 2 : Fonctionnalités</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#section-3-utilisation">Section 3 : Utilisation</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#section-4-conseils-et-astuces">Section 4 : Conseils et astuces</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#gestion-des-fiches-de-metadonnees">Gestion des fiches de métadonnées</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#gerer-les-droits-d-acces-aux-fiches-de-metadonnees">Gérer les droits d’accès aux fiches de métadonnées</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#administration">Administration</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#metadonnees-et-modeles">Métadonnées et modèles</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#utilisateur-et-groupe">Utilisateur et groupe</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#moissonnage">Moissonnage</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#statistique-et-statut">Statistique et statut</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#rapports">Rapports</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#thesaurus">Thésaurus</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#parametres">Paramètres</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#outils">Outils</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="visualiseur.html">Visualiseur</a></li>
-<li class="toctree-l2"><a class="reference internal" href="services.html">Services</a></li>
-<li class="toctree-l2"><a class="reference internal" href="utilisateurs.html">Utilisateurs</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="visualiseur.html">Mapstore</a></li>
+<li class="toctree-l2"><a class="reference internal" href="services.html">Services - GeoServer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="utilisateurs.html">Utilisateur - console admin</a></li>
 <li class="toctree-l2"><a class="reference internal" href="analytics.html">Analytics</a></li>
 </ul>
 </li>
@@ -82,7 +94,7 @@
   <ul class="wy-breadcrumbs">
       <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
           <li class="breadcrumb-item"><a href="../doc_admin.html">Documentation administrateur</a></li>
-      <li class="breadcrumb-item active">Application</li>
+      <li class="breadcrumb-item active">Catalogue - GeoNetwork</li>
       <li class="wy-breadcrumbs-aside">
       </li>
   </ul>
@@ -91,37 +103,137 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="application">
-<h1>Application<a class="headerlink" href="#application" title="Lien vers cette rubrique"></a></h1>
+  <section id="catalogue-geonetwork">
+<h1>Catalogue - GeoNetwork<a class="headerlink" href="#catalogue-geonetwork" title="Lien vers cette rubrique"></a></h1>
 <nav class="contents local" id="table-des-matieres">
 <p class="topic-title">Table des matières</p>
 <ul class="simple">
 <li><p><a class="reference internal" href="#introduction" id="id1">Introduction</a></p></li>
-<li><p><a class="reference internal" href="#section-1-description" id="id2">Section 1 : Description</a></p></li>
-<li><p><a class="reference internal" href="#section-2-fonctionnalites" id="id3">Section 2 : Fonctionnalités</a></p></li>
-<li><p><a class="reference internal" href="#section-3-utilisation" id="id4">Section 3 : Utilisation</a></p></li>
-<li><p><a class="reference internal" href="#section-4-conseils-et-astuces" id="id5">Section 4 : Conseils et astuces</a></p></li>
+<li><p><a class="reference internal" href="#gestion-des-fiches-de-metadonnees" id="id2">Gestion des fiches de métadonnées</a></p></li>
+<li><p><a class="reference internal" href="#gerer-les-droits-d-acces-aux-fiches-de-metadonnees" id="id3">Gérer les droits d’accès aux fiches de métadonnées</a></p></li>
+<li><p><a class="reference internal" href="#administration" id="id4">Administration</a></p></li>
 </ul>
 </nav>
 <section id="introduction">
 <h2><a class="toc-backref" href="#id1" role="doc-backlink">Introduction</a><a class="headerlink" href="#introduction" title="Lien vers cette rubrique"></a></h2>
-<p>Ceci est l’introduction de la partie « Catalogue ».</p>
+<p>La technologie utilisé par le catalogue est GeoNetwork, cette documentation à pour but de se repérer rapidement dans l’interface mais n’a pas
+pour vocation de remplacer la documentation officiel :
+<a class="reference external" href="https://docs.geonetwork-opensource.org/4.2/user-guide/">https://docs.geonetwork-opensource.org/4.2/user-guide/</a></p>
+<p>Le GeoNetwork est utilisé comme catalogue CSW (Catalogue Service for the Web) ce qui permet de référencer les métadonnées couplées aux flux de données.</p>
+<p>La page principale se compose de 4 composants : la recherche de données, la visualisation, les fiches de métadonnées et l’administration</p>
+<a class="reference internal image-reference" href="../_images/cat_barre.png"><img alt="Capture d'écran du catalogue" class="align-center" src="../_images/cat_barre.png" style="width: 700px;" /></a>
+<p>La recherche de données est la même que dans le catalogue mais avec l’interface basique de GeoNetwork.
+La visualisation renvoie sur le visualisateur qui est MapStore.</p>
 </section>
-<section id="section-1-description">
-<h2><a class="toc-backref" href="#id2" role="doc-backlink">Section 1 : Description</a><a class="headerlink" href="#section-1-description" title="Lien vers cette rubrique"></a></h2>
-<p>Cette section fournit une description détaillée du catalogue.</p>
+<section id="gestion-des-fiches-de-metadonnees">
+<h2><a class="toc-backref" href="#id2" role="doc-backlink">Gestion des fiches de métadonnées</a><a class="headerlink" href="#gestion-des-fiches-de-metadonnees" title="Lien vers cette rubrique"></a></h2>
+<p>Dans l’onglet « Contribuer » puis « Accueil édition » :</p>
+<a class="reference internal image-reference" href="../_images/cat_meta.png"><img alt="Capture d'écran du catalogue" class="align-center" src="../_images/cat_meta.png" style="width: 700px;" /></a>
+<p>Cette section fournit une liste des fiches avec les fonctionnalités associées, vous pouvez éditer les fiches, les supprimer,
+gérer les annuaires (inutile pour geOrchestra), faire de l’édition en série et gérer les droits d’accès.</p>
+<a class="reference internal image-reference" href="../_images/cat_fiche.png"><img alt="Capture d'écran du catalogue" class="align-center" src="../_images/cat_fiche.png" style="width: 700px;" /></a>
+<p>Dans l’interface d’édition d’une fiche, vous pouvez changez toutes les informations à gauche de l’écran, et ajouter des éléments à droite.
+Les ajouts peuvent être des images, des liens ou des ressources qui correspondent à des liens de parentés, des flux OGC ou d’autre.</p>
 </section>
-<section id="section-2-fonctionnalites">
-<h2><a class="toc-backref" href="#id3" role="doc-backlink">Section 2 : Fonctionnalités</a><a class="headerlink" href="#section-2-fonctionnalites" title="Lien vers cette rubrique"></a></h2>
-<p>Cette section détaille les fonctionnalités disponibles pour le catalogue.</p>
+<section id="gerer-les-droits-d-acces-aux-fiches-de-metadonnees">
+<h2><a class="toc-backref" href="#id3" role="doc-backlink">Gérer les droits d’accès aux fiches de métadonnées</a><a class="headerlink" href="#gerer-les-droits-d-acces-aux-fiches-de-metadonnees" title="Lien vers cette rubrique"></a></h2>
+<p id="privileges">Vous pouvez restraindre l’accès aux fiches de métadonnée, les fiches sont automatiquement visible pour toutes les organisation de l’infrastructure.
+Mais si vous aller dans la fiche de métadonnée que vous voulez modifier, allez dans »Gérer la fiche » puis « Privilèges » et vous pourrez modifier les
+différents droit en fonction des organisations :</p>
+<a class="reference internal image-reference" href="../_images/cat_gerer.png"><img alt="Capture d'écran du catalogue" class="align-center" src="../_images/cat_gerer.png" style="width: 700px;" /></a>
+<p>Vous pouvez modifier l’accès à la consultation simple ou encore, la visualisation, le téléchargement, l’édition ou la notification en fonction des organismes.</p>
+<a class="reference internal image-reference" href="../_images/cat_privileges.png"><img alt="Capture d'écran du catalogue" class="align-center" src="../_images/cat_privileges.png" style="width: 700px;" /></a>
 </section>
-<section id="section-3-utilisation">
-<h2><a class="toc-backref" href="#id4" role="doc-backlink">Section 3 : Utilisation</a><a class="headerlink" href="#section-3-utilisation" title="Lien vers cette rubrique"></a></h2>
-<p>Cette section explique comment utiliser le catalogue.</p>
+<section id="administration">
+<h2><a class="toc-backref" href="#id4" role="doc-backlink">Administration</a><a class="headerlink" href="#administration" title="Lien vers cette rubrique"></a></h2>
+<nav class="contents local" id="sommaire">
+<ul class="simple">
+<li><p><a class="reference internal" href="#metadonnees-et-modeles" id="id5">Métadonnées et modèles</a></p></li>
+<li><p><a class="reference internal" href="#utilisateur-et-groupe" id="id6">Utilisateur et groupe</a></p></li>
+<li><p><a class="reference internal" href="#moissonnage" id="id7">Moissonnage</a></p></li>
+<li><p><a class="reference internal" href="#statistique-et-statut" id="id8">Statistique et statut</a></p></li>
+<li><p><a class="reference internal" href="#rapports" id="id9">Rapports</a></p></li>
+<li><p><a class="reference internal" href="#thesaurus" id="id10">Thésaurus</a></p></li>
+<li><p><a class="reference internal" href="#parametres" id="id11">Paramètres</a></p></li>
+<li><p><a class="reference internal" href="#outils" id="id12">Outils</a></p></li>
+</ul>
+</nav>
+<p>Pour ce qui est de l’administration, elle est divisé en 8 catégories :</p>
+<a class="reference internal image-reference" href="../_images/cat_admin_parties.png"><img alt="Capture d'écran du catalogue" class="align-center" src="../_images/cat_admin_parties.png" style="width: 700px;" /></a>
+<section id="metadonnees-et-modeles">
+<h3><a class="toc-backref" href="#id5" role="doc-backlink">Métadonnées et modèles</a><a class="headerlink" href="#metadonnees-et-modeles" title="Lien vers cette rubrique"></a></h3>
+<blockquote>
+<div><p>La page « Métadonnées et modèle » sert à définir les modèles de fiches de métadonnées à utiliser :</p>
+<a class="reference internal image-reference" href="../_images/cat_modele.png"><img alt="Capture d'écran du catalogue" class="align-center" src="../_images/cat_modele.png" style="width: 700px;" /></a>
+</div></blockquote>
+<p>Les modèles de fiche de métadonnées sont gérées automatiquement par le module d’import de geOrchestra.</p>
 </section>
-<section id="section-4-conseils-et-astuces">
-<h2><a class="toc-backref" href="#id5" role="doc-backlink">Section 4 : Conseils et astuces</a><a class="headerlink" href="#section-4-conseils-et-astuces" title="Lien vers cette rubrique"></a></h2>
-<p>Des conseils pour tirer le meilleur parti du catalogue.</p>
+<section id="utilisateur-et-groupe">
+<h3><a class="toc-backref" href="#id6" role="doc-backlink">Utilisateur et groupe</a><a class="headerlink" href="#utilisateur-et-groupe" title="Lien vers cette rubrique"></a></h3>
+<blockquote>
+<div><a class="reference internal image-reference" href="../_images/cat_user.png"><img alt="Capture d'écran du catalogue" class="align-center" src="../_images/cat_user.png" style="width: 700px;" /></a>
+</div></blockquote>
+<p>Les utilisateurs et les organisation sont gérés dans la page <a class="reference internal" href="utilisateurs.html#utilisateur"><span class="std std-ref">Utilisateur</span></a></p>
+</section>
+<section id="moissonnage">
+<h3><a class="toc-backref" href="#id7" role="doc-backlink">Moissonnage</a><a class="headerlink" href="#moissonnage" title="Lien vers cette rubrique"></a></h3>
+<blockquote>
+<div><a class="reference internal image-reference" href="../_images/cat_moisson.png"><img alt="Capture d'écran du catalogue" class="align-center" src="../_images/cat_moisson.png" style="width: 700px;" /></a>
+</div></blockquote>
+<p>Le moissonnage est très utile car il permet de référencer les fiches de métadonnées d’un autre catalogue sur le GeoNetwork interne.
+Il faut connaître la technologie du catalogue que l’on veut référencer, renseigné l’url puis les différentes filtres que l’on veut appliquer.
+Il est aussi possible de plannifier le moissonnage.</p>
+<p>Les moissonnage sont différents en fonction de la technologie du catalogue cible.
+Voici la documentation officiel pour chaque technologie :</p>
+<p><a class="reference external" href="https://docs.geonetwork-opensource.org/4.2/user-guide/harvesting/">https://docs.geonetwork-opensource.org/4.2/user-guide/harvesting/</a></p>
+</section>
+<section id="statistique-et-statut">
+<h3><a class="toc-backref" href="#id8" role="doc-backlink">Statistique et statut</a><a class="headerlink" href="#statistique-et-statut" title="Lien vers cette rubrique"></a></h3>
+<blockquote>
+<div><a class="reference internal image-reference" href="../_images/cat_stats.png"><img alt="Capture d'écran du catalogue" class="align-center" src="../_images/cat_stats.png" style="width: 700px;" /></a>
+</div></blockquote>
+<p>Cette section permet de connaître l’état du système très rapidement. L’analyse des liens scanne tous les liens des métadonnées, le versionnement permet de connaître l’état
+d’une métadonnée précise.</p>
+</section>
+<section id="rapports">
+<h3><a class="toc-backref" href="#id9" role="doc-backlink">Rapports</a><a class="headerlink" href="#rapports" title="Lien vers cette rubrique"></a></h3>
+<blockquote>
+<div><a class="reference internal image-reference" href="../_images/cat_rapport.png"><img alt="Capture d'écran du catalogue" class="align-center" src="../_images/cat_rapport.png" style="width: 700px;" /></a>
+</div></blockquote>
+<p>La partie rapport permet de créer des rapports très rapidement :</p>
+<ul class="simple">
+<li><p>sur la mise à jour des fiches</p></li>
+<li><p>sur les fiches stockées en interne</p></li>
+<li><p>sur l’ajout de fichier dans les fiches</p></li>
+<li><p>sur l’historique des fiches</p></li>
+<li><p>sur les accès utilisateurs</p></li>
+</ul>
+</section>
+<section id="thesaurus">
+<h3><a class="toc-backref" href="#id10" role="doc-backlink">Thésaurus</a><a class="headerlink" href="#thesaurus" title="Lien vers cette rubrique"></a></h3>
+<blockquote>
+<div><a class="reference internal image-reference" href="../_images/cat_thes.png"><img alt="Capture d'écran du catalogue" class="align-center" src="../_images/cat_thes.png" style="width: 700px;" /></a>
+</div></blockquote>
+<p>Le thésaurus est le dictionnaire à mots clés, il définit les mots clés que vous pouvez utiliser pour vos métadonnées.</p>
+</section>
+<section id="parametres">
+<h3><a class="toc-backref" href="#id11" role="doc-backlink">Paramètres</a><a class="headerlink" href="#parametres" title="Lien vers cette rubrique"></a></h3>
+<blockquote>
+<div><a class="reference internal image-reference" href="../_images/cat_param.png"><img alt="Capture d'écran du catalogue" class="align-center" src="../_images/cat_param.png" style="width: 700px;" /></a>
+</div></blockquote>
+<p>Dans cet onglet se trouve les paramètres pour la configuration système dont voici la documentation en details :</p>
+<p><a class="reference external" href="https://docs.geonetwork-opensource.org/4.2/fr/administrator-guide/configuring-the-catalog/system-configuration/">https://docs.geonetwork-opensource.org/4.2/fr/administrator-guide/configuring-the-catalog/system-configuration/</a></p>
+<p>Sur cette partie se trouve aussi les paramètre pour changer l’interface utilisateur, changer le style, ajouter des logos, gérer les différents catalogues moissonnés,
+gérer les différentes langues, activer et tester le CSW, ajouter des serveurs cartographiques type GeoServer et ajouter des pages statiques.</p>
+</section>
+<section id="outils">
+<h3><a class="toc-backref" href="#id12" role="doc-backlink">Outils</a><a class="headerlink" href="#outils" title="Lien vers cette rubrique"></a></h3>
+<blockquote>
+<div><a class="reference internal image-reference" href="../_images/cat_outil.png"><img alt="Capture d'écran du catalogue" class="align-center" src="../_images/cat_outil.png" style="width: 700px;" /></a>
+</div></blockquote>
+<p>Cette partie permet d’inéragir avec les index d’elasticsearch qui est le moteur de recherche derrière GeoNetwork. Cela permet de relancer l’indexation des données si
+l’on pense que des problèmes ont été réglé. ll ne faut globalement pas cliquer sur ces boutons.</p>
+</section>
 </section>
 </section>
 
@@ -130,7 +242,7 @@
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Pied de page">
         <a href="../doc_admin.html" class="btn btn-neutral float-left" title="Documentation administrateur" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Précédent</a>
-        <a href="visualiseur.html" class="btn btn-neutral float-right" title="Application" accesskey="n" rel="next">Suivant <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="visualiseur.html" class="btn btn-neutral float-right" title="MapStore" accesskey="n" rel="next">Suivant <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>

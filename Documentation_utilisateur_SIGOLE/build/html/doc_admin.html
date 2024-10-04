@@ -7,6 +7,7 @@
   <title>Documentation administrateur &mdash; Documentation Plateforme cartographique OLE </title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
       <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
 
   
   <!--[if lt IE 9]>
@@ -18,12 +19,14 @@
         <script src="_static/documentation_options.js?v=d1a510d7"></script>
         <script src="_static/doctools.js?v=9a2dae69"></script>
         <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script src="_static/clipboard.min.js?v=a7894cd8"></script>
+        <script src="_static/copybutton.js?v=f281be69"></script>
         <script src="_static/translations.js?v=041d0952"></script>
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Recherche" href="search.html" />
-    <link rel="next" title="Application" href="doc_admin/catalogue.html" />
-    <link rel="prev" title="Import" href="doc_user/import.html" /> 
+    <link rel="next" title="Catalogue - GeoNetwork" href="doc_admin/catalogue.html" />
+    <link rel="prev" title="Erreurs fréquentes" href="doc_user/error.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -50,10 +53,10 @@
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="doc_user.html">Documentation utilisateur</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Documentation administrateur</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="doc_admin/catalogue.html">Catalogue</a></li>
-<li class="toctree-l2"><a class="reference internal" href="doc_admin/visualiseur.html">Visualiseur</a></li>
-<li class="toctree-l2"><a class="reference internal" href="doc_admin/services.html">Services</a></li>
-<li class="toctree-l2"><a class="reference internal" href="doc_admin/utilisateurs.html">Utilisateurs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc_admin/catalogue.html">Catalogue - GeoNetwork</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc_admin/visualiseur.html">Mapstore</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc_admin/services.html">Services - GeoServer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc_admin/utilisateurs.html">Utilisateur - console admin</a></li>
 <li class="toctree-l2"><a class="reference internal" href="doc_admin/analytics.html">Analytics</a></li>
 </ul>
 </li>
@@ -89,46 +92,34 @@
 <div class="toctree-wrapper compound">
 <p class="caption" role="heading"><span class="caption-text">Sections administrateur:</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="doc_admin/catalogue.html">Catalogue</a><ul>
+<li class="toctree-l1"><a class="reference internal" href="doc_admin/catalogue.html">Catalogue - GeoNetwork</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="doc_admin/catalogue.html#introduction">Introduction</a></li>
-<li class="toctree-l2"><a class="reference internal" href="doc_admin/catalogue.html#section-1-description">Section 1 : Description</a></li>
-<li class="toctree-l2"><a class="reference internal" href="doc_admin/catalogue.html#section-2-fonctionnalites">Section 2 : Fonctionnalités</a></li>
-<li class="toctree-l2"><a class="reference internal" href="doc_admin/catalogue.html#section-3-utilisation">Section 3 : Utilisation</a></li>
-<li class="toctree-l2"><a class="reference internal" href="doc_admin/catalogue.html#section-4-conseils-et-astuces">Section 4 : Conseils et astuces</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc_admin/catalogue.html#gestion-des-fiches-de-metadonnees">Gestion des fiches de métadonnées</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc_admin/catalogue.html#gerer-les-droits-d-acces-aux-fiches-de-metadonnees">Gérer les droits d’accès aux fiches de métadonnées</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc_admin/catalogue.html#administration">Administration</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="doc_admin/visualiseur.html">Visualiseur</a><ul>
+<li class="toctree-l1"><a class="reference internal" href="doc_admin/visualiseur.html">Mapstore</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="doc_admin/visualiseur.html#introduction">Introduction</a></li>
-<li class="toctree-l2"><a class="reference internal" href="doc_admin/visualiseur.html#section-1-description">Section 1 : Description</a></li>
-<li class="toctree-l2"><a class="reference internal" href="doc_admin/visualiseur.html#section-2-fonctionnalites">Section 2 : Fonctionnalités</a></li>
-<li class="toctree-l2"><a class="reference internal" href="doc_admin/visualiseur.html#section-3-utilisation">Section 3 : Utilisation</a></li>
-<li class="toctree-l2"><a class="reference internal" href="doc_admin/visualiseur.html#section-4-conseils-et-astuces">Section 4 : Conseils et astuces</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc_admin/visualiseur.html#les-contextes">Les contextes</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="doc_admin/services.html">Services</a><ul>
+<li class="toctree-l1"><a class="reference internal" href="doc_admin/services.html">Services - GeoServer</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="doc_admin/services.html#introduction">Introduction</a></li>
-<li class="toctree-l2"><a class="reference internal" href="doc_admin/services.html#section-1-description">Section 1 : Description</a></li>
-<li class="toctree-l2"><a class="reference internal" href="doc_admin/services.html#section-2-fonctionnalites">Section 2 : Fonctionnalités</a></li>
-<li class="toctree-l2"><a class="reference internal" href="doc_admin/services.html#section-3-utilisation">Section 3 : Utilisation</a></li>
-<li class="toctree-l2"><a class="reference internal" href="doc_admin/services.html#section-4-conseils-et-astuces">Section 4 : Conseils et astuces</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc_admin/services.html#les-donnees-stockees-en-interne">Les données stockées en interne</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc_admin/services.html#la-diffusion-des-donnees-avec-les-flux-ogc">La diffusion des données avec les flux OGC</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc_admin/services.html#la-restriction-d-acces-aux-donnees">La restriction d’accès aux données</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="doc_admin/utilisateurs.html">Utilisateurs</a><ul>
+<li class="toctree-l1"><a class="reference internal" href="doc_admin/utilisateurs.html">Utilisateur - console admin</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="doc_admin/utilisateurs.html#introduction">Introduction</a></li>
-<li class="toctree-l2"><a class="reference internal" href="doc_admin/utilisateurs.html#section-1-description">Section 1 : Description</a></li>
-<li class="toctree-l2"><a class="reference internal" href="doc_admin/utilisateurs.html#section-2-fonctionnalites">Section 2 : Fonctionnalités</a></li>
-<li class="toctree-l2"><a class="reference internal" href="doc_admin/utilisateurs.html#section-3-utilisation">Section 3 : Utilisation</a></li>
-<li class="toctree-l2"><a class="reference internal" href="doc_admin/utilisateurs.html#section-4-conseils-et-astuces">Section 4 : Conseils et astuces</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc_admin/utilisateurs.html#utilisateurs">Utilisateurs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc_admin/utilisateurs.html#organismes">Organismes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc_admin/utilisateurs.html#roles">Rôles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="doc_admin/utilisateurs.html#autres">Autres :</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="doc_admin/analytics.html">Analytics</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="doc_admin/analytics.html#introduction">Introduction</a></li>
-<li class="toctree-l2"><a class="reference internal" href="doc_admin/analytics.html#section-1-description">Section 1 : Description</a></li>
-<li class="toctree-l2"><a class="reference internal" href="doc_admin/analytics.html#section-2-fonctionnalites">Section 2 : Fonctionnalités</a></li>
-<li class="toctree-l2"><a class="reference internal" href="doc_admin/analytics.html#section-3-utilisation">Section 3 : Utilisation</a></li>
-<li class="toctree-l2"><a class="reference internal" href="doc_admin/analytics.html#section-4-conseils-et-astuces">Section 4 : Conseils et astuces</a></li>
-</ul>
-</li>
+<li class="toctree-l1"><a class="reference internal" href="doc_admin/analytics.html">Analytics</a></li>
 </ul>
 </div>
 </section>
@@ -137,8 +128,8 @@
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Pied de page">
-        <a href="doc_user/import.html" class="btn btn-neutral float-left" title="Import" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Précédent</a>
-        <a href="doc_admin/catalogue.html" class="btn btn-neutral float-right" title="Application" accesskey="n" rel="next">Suivant <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="doc_user/error.html" class="btn btn-neutral float-left" title="Erreurs fréquentes" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Précédent</a>
+        <a href="doc_admin/catalogue.html" class="btn btn-neutral float-right" title="Catalogue - GeoNetwork" accesskey="n" rel="next">Suivant <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>

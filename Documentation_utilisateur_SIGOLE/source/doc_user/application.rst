@@ -1,5 +1,7 @@
-Application
-=================
+Application - Cartothèque
+====================================
+
+.. _application:
 
 .. contents:: Table des matières
    :local:
@@ -8,24 +10,42 @@ Application
 Introduction
 ------------
 
-Ceci est l'introduction de la partie "Catalogue".
+La page Application sert de cartotèque en lien avec le :ref:`visualiseur <visualiseur>`. Dans cette cartothèque, 4 types de representation sont possibles :
+la carte simple avec le visualiseur, le tableau de bord, la GeoStory et le contexte réservé aux administrateurs. 
 
-Section 1 : Description
+.. image:: ../images/user_app/app_global.png
+   :align: center
+   :width: 600px
+
+Dashboard
 -----------------------
 
-Cette section fournit une description détaillée du catalogue.
+.. image:: ../images/user_app/app_dashboard.png
+   :align: center
+   :width: 600px
 
-Section 2 : Fonctionnalités
+Vous pouvez ajouter différents widget en fonctions des données du catalogue, un tutoriel vous guide directement lorsque vous créer un dashboard.
+
+.. note::
+   Les widgets sont dépéndant de la configuration de la donnée, ils peuvent ne pas être disponible. 
+
+Voici le lien de la documentation officiel pour aller dans le détail : 
+
+`Documentation Mapstore Dashboard <https://docs.mapstore.geosolutionsgroup.com/en/v2024.01.02/user-guide/exploring-dashboards/>`_
+
+GeoStory
 ---------------------------
 
-Cette section détaille les fonctionnalités disponibles pour le catalogue.
+.. image:: ../images/user_app/app_geostory.png
+   :align: center
+   :width: 600px
 
-Section 3 : Utilisation
------------------------
+Avec les GeoStories, vous pouvez créer des documents textes en y intégrant des cartes intéractives. La gestions des composant se fait sur la gauche
+de l'interface qui sont : les titres, les bannières, les paragraphes, les sections immersives, les geocarrousel, les sections multimedia et les pages web.
+Un tutoriel vous guide directement lorsque vous créez une GeoStory.
 
-Cette section explique comment utiliser le catalogue.
+Voici le lien de la documentation officiel pour aller dans le détail : 
 
-Section 4 : Conseils et astuces
--------------------------------
+`Documentation Mapstore GeoStory <https://docs.mapstore.geosolutionsgroup.com/en/v2024.01.02/user-guide/exploring-stories/>`_
 
-Des conseils pour tirer le meilleur parti du catalogue.
+

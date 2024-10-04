@@ -13,12 +13,16 @@ author = 'Vittorio Toffolutti'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = []
+extensions = [
+    'sphinx_copybutton',
+    # autres extensions...
+]
 
 templates_path = ['_templates']
 exclude_patterns = []
 html_show_sourcelink = False
 language = 'fr'
+
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output

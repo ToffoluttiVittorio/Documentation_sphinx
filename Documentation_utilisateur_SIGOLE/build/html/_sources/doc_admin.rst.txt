@@ -7,8 +7,8 @@ Documentation administrateur
    :maxdepth: 2
    :caption: Sections administrateur:
 
-   Catalogue <doc_admin/catalogue>
-   Visualiseur <doc_admin/visualiseur>
-   Services <doc_admin/services>
-   Utilisateurs <doc_admin/utilisateurs>
+   Catalogue - GeoNetwork<doc_admin/catalogue>
+   Mapstore <doc_admin/visualiseur>
+   Services - GeoServer<doc_admin/services>
+   Utilisateur - console admin <doc_admin/utilisateurs>
    Analytics <doc_admin/analytics>
