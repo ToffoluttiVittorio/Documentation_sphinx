@@ -1,7 +1,7 @@
 Documentation d'installation 
 =================================
 
-`Documentation au format PDF <_static/doc.pdf>`_.
+`Documentation au format PDF <../latex/plateformecartographiqueole.pdf>`_.
 
 .. toctree::
    :maxdepth: 2

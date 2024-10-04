@@ -8,7 +8,7 @@
 Plateforme cartographique de l'Office de l'eau Réunion
 =========================================================
 
-`Documentation au format PDF <_static/doc.pdf>`_.
+`Documentation au format PDF <../latex/plateformecartographiqueole.pdf>`_.
 
 
 .. toctree::
