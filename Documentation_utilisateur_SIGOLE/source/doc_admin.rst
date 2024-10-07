@@ -1,7 +1,7 @@
 Documentation administrateur
 ================================
 
-`Documentation au format PDF <../latex/plateformecartographiqueole.pdf>`_.
+`Documentation au format PDF <plateformecartographiqueole.pdf>`_.
 
 .. toctree::
    :maxdepth: 2
