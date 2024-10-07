@@ -12,12 +12,12 @@ Les données de ce catalogue proviennent de différents catalogue nationaux mais
 Chaque donnée est reliée à une organisation et possède une description détaillée. 
 
 
-La recherche des données dans le catalogue 
+La recherche de donnée dans le catalogue 
 ---------------------------------------------
 
 Il y a 3 onglets dans ce catalogue :
 
-- **ACCUEIL** pour afficher les dernières données postées.
+- **ACCUEIL** pour afficher les dernières données postées
 
 .. image:: ../images/user_catalogue/catalogue_accueil.png
    :alt: Capture d'écran du catalogue
@@ -25,7 +25,7 @@ Il y a 3 onglets dans ce catalogue :
    :width: 600px
 
 
-- **DONNEES** pour afficher toutes les données.
+- **DONNEES** pour afficher toutes les données
 
 .. image:: ../images/user_catalogue/catalogue_donnees.png
    :alt: Capture d'écran du catalogue
@@ -33,7 +33,7 @@ Il y a 3 onglets dans ce catalogue :
    :width: 600px
 
 
-- **ORGANISATION** pour afficher toutes les organisations qui possèdent des données.
+- **ORGANISATION** pour afficher toutes les organisations qui possèdent des données
 
 .. image:: ../images/user_catalogue/catalogue_orga.png
    :alt: Capture d'écran du catalogue
@@ -73,7 +73,7 @@ Il y'a :
 - la dernière date de la mise à jour,
 - son point de contact
 - le catalogue dont elle provient
-- les mots clés associées
+- les mots clés associés
 - un pourcentage à titre indicatif de la qualité de cette donnée
 - et d'autre informations plus technique
 
@@ -125,7 +125,7 @@ Vous pouvez aussi télécharger la donnée sous différents formats :
    :align: center
    :width: 600px
 
-Mais aussi avoir accées à d'autre liens et URL, ainsi qu'aux flux OGC disponibles : 
+Mais aussi avoir accées à d'autres liens et URL, ainsi qu'aux flux OGC disponibles : 
 
 .. image:: ../images/user_catalogue/fiche_liens.png
    :alt: Options de filtrage
@@ -133,7 +133,7 @@ Mais aussi avoir accées à d'autre liens et URL, ainsi qu'aux flux OGC disponib
    :width: 600px
 
 .. note::
-   Ces liens sont dépéndant de la qualité de la donnée et de son intégration, ils peuvent ne pas fonctionner. 
+   Ces liens sont dépendants de la qualité de la donnée et de son intégration, ils peuvent ne pas fonctionner. 
 
 
 

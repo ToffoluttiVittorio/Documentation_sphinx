@@ -23,3 +23,5 @@ Voici la liste des paquets debians installé par georchestra :
    :alt: Capture d'écran du catalogue
    :align: center
    :width: 700px
+
+Lancer la mise à jour des paquets debians si des patchs mineurs ont été apportés. 

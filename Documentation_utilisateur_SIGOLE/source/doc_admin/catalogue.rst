@@ -8,7 +8,7 @@ Catalogue - GeoNetwork
 Introduction
 --------------
 
-La technologie utilisé par le catalogue est GeoNetwork, cette documentation à pour but de se repérer rapidement dans l'interface mais n'a pas 
+La technologie utilisée par le catalogue est GeoNetwork, cette documentation à pour but résumer rapidement les différentes options de l'interface mais n'a pas 
 pour vocation de remplacer la documentation officiel :
 https://docs.geonetwork-opensource.org/4.2/user-guide/
 
@@ -51,9 +51,9 @@ Gérer les droits d'accès aux fiches de métadonnées
 
 .. _privileges:
 
-Vous pouvez restraindre l'accès aux fiches de métadonnée, les fiches sont automatiquement visible pour toutes les organisation de l'infrastructure.
-Mais si vous aller dans la fiche de métadonnée que vous voulez modifier, allez dans"Gérer la fiche" puis "Privilèges" et vous pourrez modifier les 
-différents droit en fonction des organisations :
+Vous pouvez restraindre l'accès aux fiches de métadonnée, les fiches sont automatiquement visible pour toutes les organisations de l'infrastructure.
+Si vou voulez modifier les différents droits en fonction des organisations, il faut aller dans la fiche de métadonnée que vous voulez modifier, 
+allez dans "Gérer la fiche" puis "Privilèges" et vous pourrez modifier les accès : 
 
 .. image:: ../images/admin_cat/cat_gerer.png
    :alt: Capture d'écran du catalogue
@@ -91,7 +91,7 @@ Métadonnées et modèles
    :align: center
    :width: 700px
 
-Les modèles de fiche de métadonnées sont gérées automatiquement par le module d'import de geOrchestra. 
+Les modèles de fiches de métadonnées sont gérées automatiquement par le module d'import de geOrchestra. 
 
 Utilisateur et groupe
 ~~~~~~~~~~~~~~~~~~~~~~~~
@@ -101,7 +101,7 @@ Utilisateur et groupe
    :align: center
    :width: 700px
 
-Les utilisateurs et les organisation sont gérés dans la page :ref:`Utilisateur <utilisateur>`
+Les utilisateurs et les organisations sont gérés dans la page :ref:`Utilisateur <utilisateur>`
 
 Moissonnage
 ~~~~~~~~~~~~~~~~~~~~~~~~
@@ -112,10 +112,10 @@ Moissonnage
    :width: 700px
 
 Le moissonnage est très utile car il permet de référencer les fiches de métadonnées d'un autre catalogue sur le GeoNetwork interne. 
-Il faut connaître la technologie du catalogue que l'on veut référencer, renseigné l'url puis les différentes filtres que l'on veut appliquer.
+Il faut connaître la technologie du catalogue que l'on veut référencer, renseigner l'url puis les différents filtres que l'on veut appliquer.
 Il est aussi possible de plannifier le moissonnage. 
 
-Les moissonnage sont différents en fonction de la technologie du catalogue cible. 
+Les moissonnages sont différents en fonction de la technologie du catalogue cible. 
 Voici la documentation officiel pour chaque technologie : 
 
 https://docs.geonetwork-opensource.org/4.2/user-guide/harvesting/
@@ -129,8 +129,8 @@ Statistique et statut
    :align: center
    :width: 700px
 
-Cette section permet de connaître l'état du système très rapidement. L'analyse des liens scanne tous les liens des métadonnées, le versionnement permet de connaître l'état 
-d'une métadonnée précise. 
+Cette section permet de connaître l'état du système très rapidement. L'analyse des liens scanne tous les liens des métadonnées, 
+le versionnement permet de connaître l'état d'une métadonnée précise. 
 
 Rapports
 ~~~~~~~~~~~~~~~~~~~~~~~~
@@ -182,7 +182,7 @@ Outils
    :align: center
    :width: 700px
 
-Cette partie permet d'inéragir avec les index d'elasticsearch qui est le moteur de recherche derrière GeoNetwork. Cela permet de relancer l'indexation des données si
-l'on pense que des problèmes ont été réglé. ll ne faut globalement pas cliquer sur ces boutons. 
+Cette partie permet d'inéragir avec les indexs d'elasticsearch qui est le moteur de recherche derrière GeoNetwork. Cela permet de relancer l'indexation 
+des données. ll ne faut globalement pas cliquer sur ces boutons. 
 
 

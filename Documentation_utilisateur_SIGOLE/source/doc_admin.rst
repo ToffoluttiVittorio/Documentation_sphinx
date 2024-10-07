@@ -5,7 +5,7 @@ Documentation administrateur
 
 .. toctree::
    :maxdepth: 2
-   :caption: Sections administrateur:
+   :caption: Section administrateur:
 
    Catalogue - GeoNetwork<doc_admin/catalogue>
    Mapstore <doc_admin/visualiseur>

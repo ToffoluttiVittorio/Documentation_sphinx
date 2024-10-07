@@ -10,7 +10,7 @@ Application - Cartothèque
 Introduction
 ------------
 
-La page Application sert de cartotèque en lien avec le :ref:`visualiseur <visualiseur>`. Dans cette cartothèque, 4 types de representation sont possibles :
+La page Application sert de cartotèque en lien avec le :ref:`visualiseur <visualiseur>`. Dans cette cartothèque, 4 types de representations sont possibles :
 la carte simple avec le visualiseur, le tableau de bord, la GeoStory et le contexte réservé aux administrateurs. 
 
 .. image:: ../images/user_app/app_global.png
@@ -27,7 +27,7 @@ Dashboard
 Vous pouvez ajouter différents widget en fonctions des données du catalogue, un tutoriel vous guide directement lorsque vous créer un dashboard.
 
 .. note::
-   Les widgets sont dépéndant de la configuration de la donnée, ils peuvent ne pas être disponible. 
+   Les widgets sont dépéndants de la configuration de la donnée, ils peuvent ne pas être disponible. 
 
 Voici le lien de la documentation officiel pour aller dans le détail : 
 
@@ -40,8 +40,8 @@ GeoStory
    :align: center
    :width: 600px
 
-Avec les GeoStories, vous pouvez créer des documents textes en y intégrant des cartes intéractives. La gestions des composant se fait sur la gauche
-de l'interface qui sont : les titres, les bannières, les paragraphes, les sections immersives, les geocarrousel, les sections multimedia et les pages web.
+Avec les GeoStories, vous pouvez créer des documents textes en y intégrant des cartes intéractives. La gestions des composants se fait sur la gauche
+de l'interface qui sont : les titres, les bannières, les paragraphes, les sections immersives, les geocarrousels, les sections multimedia et les pages web.
 Un tutoriel vous guide directement lorsque vous créez une GeoStory.
 
 Voici le lien de la documentation officiel pour aller dans le détail : 

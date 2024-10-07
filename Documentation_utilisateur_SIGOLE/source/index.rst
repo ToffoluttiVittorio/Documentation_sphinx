@@ -17,6 +17,6 @@ Plateforme cartographique de l'Office de l'eau Réunion
 
    Documentation utilisateur <doc_user>
    Documentation administrateur <doc_admin>
-   Documentation d'installation <doc_instal>
+   Documentation d'installation - Développeur<doc_instal>
 
    

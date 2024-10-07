@@ -11,8 +11,8 @@ Visualiseur
 Introduction
 ------------
 
-Le module cartographique de cette plateforme permet de présenter des couches de données géographique dans un environnement technique. 
-Cette interface permet de représenter plusieurs couches géographique mais ne peut pas se substituer à l'utilisation complète d'un outil SIG bureautique type QGIS.
+Le module cartographique de cette plateforme permet de présenter des couches de données géographiques dans un environnement technique. 
+Cette interface permet de représenter plusieurs couches géographiques mais ne peut pas se substituer à l'utilisation complète d'un outil SIG bureautique type QGIS.
 
 L'interface se présente comme ceci : 
 
@@ -63,7 +63,6 @@ Dans cet onglet, vous pouvez, à l'aide de ces 3 boutons :
 Dans cet onglet vous pouvez choisir le catalogue, chercher par mots clés puis ajouter la donnée
 
 - ajouter des groupes pour vos données
-
 - créer des annotations : 
 
 .. image:: ../images/user_visualiseur/visu_annotation.png
@@ -99,7 +98,7 @@ Dans ces réglages vous pouvez modifier, les informations, l'affichage, filtrer 
 .. note::
    Les options sont dépendantes de la donnée, elle peuvent ne pas être toutes disponible en fonction de la donnée. 
 
-Pour les fonds de plans, vous cliquez sur l'imagette en bas à gauche et vous pourrez en changer : 
+Pour les fonds de plans, vous pouvez en changer en cliquant sur l'imagette en bas à gauche; : 
 
 .. image:: ../images/user_visualiseur/visu_fonds.png
    :alt: Options de filtrage
@@ -135,16 +134,16 @@ Choisir le titre, le format et si la légende apparaît ou non
 - importer des données
 - exporter la carte au format WMC 
 - ajouter des données
-- charger des cartes déjà enrigstrer 
+- charger des cartes déjà enregistrées 
 - mesurer des distances 
-- enrigstrer la carte : 
+- enregistrer la carte : 
 
 .. image:: ../images/user_visualiseur/visu_download.png
    :alt: Capture d'écran du catalogue
    :align: center
    :width: 600px
 
-Vous pourrez choisir une imagette, le titre, vous pouvez aussi, en cliquant sur le crayon, définir un texte qui sera visible à l'ouverture de la carte.
+Vous pouvez choisir une imagette, le titre, vous pouvez aussi, en cliquant sur le crayon, définir un texte qui sera visible à l'ouverture de la carte.
 Pour définir des droits de lecture et d'édition, vous devez sélectionner un groupe et spécifier si il à les droits de lecture ou d'écriture.
 L'enregistrement ira dans la page :ref:`Application <application>`.
 

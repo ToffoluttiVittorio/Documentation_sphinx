@@ -1,11 +1,11 @@
-Documentation d'installation 
-=================================
+Documentation d'installation - Développeur
+================================================
 
 `Documentation au format PDF <../latex/plateformecartographiqueole.pdf>`_.
 
 .. toctree::
    :maxdepth: 2
-   :caption: Sections installation:
+   :caption: Section installation:
 
    Installation <doc_instal/installation>
    Configuration <doc_instal/configuration>

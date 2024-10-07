@@ -8,7 +8,7 @@ Configuration
 Introduction
 ------------
 
-Le code étant très dense et compilé, il faudra comprendre la structure et les fichiers de configuration plutôt que le code en profondeur.
+Le code étant très dense et compilé, il faudra comprendre la structure et les fichiers de configuration mis à dispostion plutôt que le code en profondeur.
 
 Localisation des différents répertoires
 ------------------------------------------------
@@ -26,7 +26,7 @@ Les pages web statiques sont dans : ``/var/www/georchestra/htdocs/``
 
 Le module nginx est lui dans : ``/etc/nginx/``
 
-Le dossier de configuration se trouve dans : ``/etc/georchestra/``
+Les dossiers de configuration se trouve dans : ``/etc/georchestra/``
 
 Fichiers de configuration du datadir 
 -----------------------------------------
@@ -49,10 +49,10 @@ de la documentation qui explique plus en détails : https://github.com/georchest
 Versionnement des modules 
 --------------------------------
 
-Le versionnement s'effectue dans le fichier ``../playbooks/georchestra.yml`` qui est le fichier qui va donner les versions et les modules à installer
+Le versionnement s'effectue dans le fichier ``../playbooks/georchestra.yml`` qui est le fichier qui va spécifier les versions et les modules à installer
 lors du lancement de l'installation.
 
-Ce fichier sert à tout configurer, les versions, les chemins, les ports, les modules ... 
+Ce fichier sert à configurer : les versions, les chemins, les ports, les modules ... 
 
 Il est très simple à lire et comprendre :
 

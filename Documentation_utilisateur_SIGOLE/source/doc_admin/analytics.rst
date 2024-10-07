@@ -5,7 +5,7 @@ Application
    :local:
    :depth: 1
 
-Le module analytics permet d'analyser les flux OGC donc les données issues des différents service web OGC de GeoServer : 
+Le module analytics permet d'analyser les flux OGC qui sont les données issues des différents services web OGC de GeoServer : 
 
 .. image:: ../images/admin_analytics/ana.png
    :alt: Capture d'écran du catalogue

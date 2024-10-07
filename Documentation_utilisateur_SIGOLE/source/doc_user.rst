@@ -5,7 +5,7 @@ Documentation utilisateur
 
 .. toctree::
    :maxdepth: 2
-   :caption: Sections Utilisateur:
+   :caption: Section Utilisateur:
 
    Catalogue <doc_user/catalogue>
    Visualiseur <doc_user/visualiseur>

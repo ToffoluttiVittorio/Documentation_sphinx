@@ -16,7 +16,7 @@ Georchestra est une IDG qui intègre plusieurs modules et donc plusieurs technol
 
 Le choix pour l'Office de l'eau Réunion à été Ansible qui permet d'installer des paquets Debians rapidement et automatiquement.
 
-Le lien pour le github de georchestra est le suivant : https://github.com/georchestra
+Le lien pour le github et la documentation dans son ensemble de georchestra est le suivant : https://github.com/georchestra
 
 
 Ansible
@@ -64,14 +64,14 @@ Prérequis :
 
    sudo ansible-playbook playbooks/georchestra.yml
 
-L'installation de l'infrastructure de geOrchestra et faite, il reste à installer un serveur de mail et les scripts de personnalisation pour avoir
+L'installation de l'infrastructure de geOrchestra est faite, il reste à installer un serveur de mail et les scripts de personnalisation pour avoir
 l'application fonctionnel et complète pour l'Office de l'eau Réunion.
 
 
 Serveur web
 ---------------
 
-Pour le serveur web, pour l'instant un postfix est installé : 
+Pour le serveur web, pour l'instant un serveur postfix est installé : 
 
 .. code-block:: bash
 

@@ -9,7 +9,7 @@ Introduction
 ----------------
 
 
-Cette page est l'interface de GeoServer, le GeoServer est la technologie qui permet de diffuser les données stockées en interne.
+Cette page est l'interface de GeoServer, le GeoServer est la technologie qui permet de diffuser les données stockées en interne via des webs services.
 Voici la documentation officiel : 
 https://docs.geoserver.org/
 
@@ -50,11 +50,11 @@ transformation du système de coordonnées de référence (CRS). Cela vous perme
 La restriction d'accès aux données
 -----------------------------------------------
 
-La manipulation des droits se fait normalement dans l'onglet :ref:`Utilisateur <utilisateur>`. La seule chose qui ne peut pas se faire dans la page :ref:`Utilisateur <utilisateur>`
+La manipulation des droits se fait normalement dans l'onglet :ref:`Utilisateur <utilisateur>`. La seule chose qui ne peut pas se faire dans cette page
 est la restriction d'accès aux données, qui se fait, pour les métadonnées dans l'onglet :ref:`privilèges <privileges>`
  
 Par défaut, toutes les données et les ressources dans GeoServer sont accessibles à tous les utilisateurs. 
-Pour gérer l'accès, des restrictions spécifiques peuvent être appliquées par la suite.
+Pour gérer l'accès, des restrictions spécifiques peuvent être appliquées par la suite : 
 
 .. image:: ../images/admin_geos/geos_secu.png
    :alt: Capture d'écran du catalogue

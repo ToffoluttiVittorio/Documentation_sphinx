@@ -8,15 +8,15 @@ Import de données
 Introduction
 ----------------
 
-La page Import permet d'intégrer des données de manière simplifié dans le catalogue.
+La page Import permet d'intégrer des données de manière simplifiée dans le catalogue.
 
 .. image:: ../images/user_import/import.png
    :alt: Capture d'écran du catalogue
    :align: center
    :width: 600px
 
-Deux format sont acceptés, le shapefile en zip et le CSV, à une limite de 500 Mo. Vous pouvez ajouter votre donnée, cliquer sur le bouton "J'ai le droit de publier cette donnée"
-puis passer à l'étape suivante.
+Deux format sont acceptés, le shapefile en zip et le CSV, à une limite de 500 Mo. Vous pouvez ajouter votre donnée, cliquer sur 
+le bouton "J'ai le droit de publier cette donnée" puis passer à l'étape suivante.
 
 Intégration de shapefile
 ---------------------------
@@ -28,8 +28,8 @@ La particularité d'un shapefile est la projection :
    :align: center
    :width: 700px
 
-Pour bien renseigner la donnée, assurez vous que le carré orange qui represente l'emprise de votre donnée est au bon endroit et qu'une projection est renseigné.
-De même pour l'encodage, si votre exemple d'objet possède des carractère illisible, vous pouvez changer l'encodage. 
+Pour bien renseigner la donnée, assurez vous que le carré orange qui represente l'emprise de votre donnée est au bon endroit et qu'une projection est renseignée.
+De même pour l'encodage, si votre exemple d'objet possède des carractères illisibles, vous pouvez changer l'encodage. 
 
 .. note::
    Si pour une donnée, aucune projection n'est valide, veuillez le faire remonter au service informatique.

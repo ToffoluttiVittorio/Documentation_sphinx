@@ -11,11 +11,11 @@ Introduction
 ------------
 
 La console d'admin sert à gérer les utilisateurs, les droits, et voir les activités des utilisateurs. 
-Chaque utilisateur est reliée à une organisation, et les accès sont gérés par des rôles qui sont prédéfinis. 
+Chaque utilisateur est reliée à une organisation, et les accès sont organisés par des rôles qui sont prédéfinis. 
 Vous pouvez ajouter, modifier ou supprimer des rôles en fonction des utilisateurs.
 
 La première page est le "Tableau de bord" avec le récapitulatif des actions passées, les utilisateurs en attente de validation, 
-et qui s'est connecté sur la journée. 
+et permet de voir qui s'est connecté sur la journée. 
 
 .. image:: ../images/admin_user/user_dashboard.png
    :alt: Capture d'écran du catalogue
