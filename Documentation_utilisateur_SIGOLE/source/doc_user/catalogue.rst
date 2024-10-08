@@ -1,5 +1,5 @@
 Catalogue
-=========
+==============================
 
 .. contents:: Table des matières
    :local:
@@ -59,6 +59,10 @@ Vous pouvez filtrer vos recherches en fonction :
 
 Les fonctionnalités des fiches de données
 -----------------------------------------
+
+.. contents:: Table des matières
+   :local:
+   :depth: 1
 
 Lorsque vous cliquez sur une donnée, la page de description de cette donnée s'affiche. 
 

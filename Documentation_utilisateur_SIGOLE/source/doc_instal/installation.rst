@@ -125,7 +125,7 @@ Il y'a trois script bash qui modifient les logos, couleurs et référentiel de c
    ./other.sh
    ./last.sh
 
-Voici les scripts commenté :
+Voici les scripts commentés :
 
 .. code-block:: bash
 
