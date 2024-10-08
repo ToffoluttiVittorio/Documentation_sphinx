@@ -1,4 +1,4 @@
-Application
+Analytics
 =================
 
 .. contents:: Table des matières

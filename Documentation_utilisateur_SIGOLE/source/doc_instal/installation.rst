@@ -41,7 +41,15 @@ Prérequis :
 
 .. code-block:: bash
 
+   sudo apt install git
    sudo git clone https://github.com/ToffoluttiVittorio/ansible.git
+   
+
+- Aller dans le répertoire du repo git, toutes les commandes de cette partie se lance à partir de ce repertoire si non spécifié :
+
+.. code-block:: bash
+   
+   cd ansible
 
 - Installer les rôles de GeoNetwork :
 
@@ -50,7 +58,7 @@ Prérequis :
    sudo ansible-galaxy install -r requirements.yaml
    sudo chmod -777 chemin/vers/ansible/roles/
 
-- Ajouter les clés manquantes : 
+- Ajouter les clés manquantes (clés pour les applications): 
 
 .. code-block:: bash
 
@@ -68,10 +76,10 @@ L'installation de l'infrastructure de geOrchestra est faite, il reste à install
 l'application fonctionnel et complète pour l'Office de l'eau Réunion.
 
 
-Serveur web
+Serveur mail 
 ---------------
 
-Pour le serveur web, pour l'instant un serveur postfix est installé : 
+Pour le serveur mail, pour l'instant un serveur postfix est installé : 
 
 .. code-block:: bash
 
@@ -80,6 +88,10 @@ Pour le serveur web, pour l'instant un serveur postfix est installé :
 
 
 avec cette configuration dans le fichier /etc/postfix/main.cf : 
+
+.. code-block:: bash
+
+   nano /etc/postfix/main.cf
 
 .. code-block:: bash
 
@@ -102,6 +114,18 @@ Script de personnalisation
 Les scripts de personnalisation servent à ajouter les spécifications pour l'Office de l'eau Réunion sans directement changer le code d'installation.
 
 Il y'a trois script bash qui modifient les logos, couleurs et référentiel de coordonée dans le dossier "Configuration" : 
+
+.. code-block:: bash
+
+   cd Configuration
+   chmod 777 script remplacement.sh
+   chmod 777 other.sh
+   chmod 777 last.sh
+   ./script_remplacement.sh
+   ./other.sh
+   ./last.sh
+
+Voici les scripts commenté :
 
 .. code-block:: bash
 

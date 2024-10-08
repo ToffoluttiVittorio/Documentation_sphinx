@@ -33,9 +33,9 @@ Fichiers de configuration du datadir
 
 GeOrchestra possèdent un "datadir" qui est un repertoire de fichiers de configuration qui sert à modifier rapidement certaines configurations.
 Il se situe dans : ``/etc/georchestra``
-Il faut ensuite naviguer dans les différents répertoies pour modifier la configuration de rchaque module.
+Il faut ensuite naviguer dans les différents répertoies pour modifier la configuration de chaque module.
 
-Les paramètres généraux peuvent être modfiée dans le fichier ``default.properties`` où il est possible de modifier : 
+Les paramètres généraux peuvent être modfiées dans le fichier ``/etc/georchestra/default.properties`` où il est possible de modifier : 
 - le logo
 - le style du header
 - les paramètre de postgresql
@@ -44,12 +44,12 @@ Les paramètres généraux peuvent être modfiée dans le fichier ``default.prop
 - les paramètres SMTP
 
 Ensuite il faut naviguer dans les différents sous-répertoire pour modifier spécifiquement les configs, voici le lien
-de la documentation qui explique plus en détails : https://github.com/georchestra/datadir
+de la documentation qui explique cela plus en détails : https://github.com/georchestra/datadir
 
 Versionnement des modules 
 --------------------------------
 
-Le versionnement s'effectue dans le fichier ``../playbooks/georchestra.yml`` qui est le fichier qui va spécifier les versions et les modules à installer
+Le versionnement s'effectue dans le fichier issue du clone du repo git ``ansible/playbooks/georchestra.yml`` qui est le fichier qui va spécifier les versions et les modules à installer
 lors du lancement de l'installation.
 
 Ce fichier sert à configurer : les versions, les chemins, les ports, les modules ... 
@@ -324,6 +324,11 @@ Il est très simple à lire et comprendre :
       - name: restart kibana
          service: name=kibana state=restarted
 
+Si vous voulez que les modifications dans ce fichiers s'execute il faut relancer cette commande à partie du clone du repo git: 
+
+.. code-block:: bash
+
+   sudo ansible-playbook playbooks/georchestra.yml
 
 Base de donnée 
 ------------------------------
