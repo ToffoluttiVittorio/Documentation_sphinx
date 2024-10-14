@@ -13,7 +13,7 @@ Plateforme cartographique de l'Office de l'eau Réunion
 
 .. toctree::
    :maxdepth: 2
-   :caption: Documentations:
+   :caption: Documentation:
 
    Documentation utilisateur <doc_user>
    Documentation administrateur <doc_admin>

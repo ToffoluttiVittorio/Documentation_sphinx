@@ -1,5 +1,5 @@
-Import de données
-===========================
+L'intégration de données - page Import
+=============================================
 
 .. contents:: Table des matières
    :local:

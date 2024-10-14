@@ -324,7 +324,7 @@ Il est très simple à lire et comprendre :
       - name: restart kibana
          service: name=kibana state=restarted
 
-Si vous voulez que les modifications dans ce fichiers s'execute il faut relancer cette commande dans le dossier du clone du repo git: 
+Si vous voulez que les modifications dans ce fichiers s'execute il faut relancer l'installation dans le repo du git cloné: 
 
 .. code-block:: bash
 

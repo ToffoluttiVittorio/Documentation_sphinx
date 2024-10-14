@@ -1,4 +1,4 @@
-Application - Cartothèque
+La cartothèque - page Application
 ====================================
 
 .. _application:

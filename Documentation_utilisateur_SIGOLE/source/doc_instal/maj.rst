@@ -25,3 +25,11 @@ Voici la liste des paquets debians installé par georchestra :
    :width: 700px
 
 Lancer la mise à jour des paquets debians si des patchs mineurs ont été apportés. 
+
+D'autres paquets sont aussi installé sur la machine : 
+
+- tomcat9
+- nginx
+- postgresql
+- elasticsearch
+- kibana

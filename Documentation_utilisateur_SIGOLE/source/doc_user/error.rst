@@ -1,4 +1,4 @@
-Erreurs fréquentes
+Les erreurs fréquentes
 ==========================
 
 .. _application:

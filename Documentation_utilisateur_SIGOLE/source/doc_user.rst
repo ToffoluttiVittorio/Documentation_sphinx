@@ -7,9 +7,9 @@ Documentation utilisateur
    :maxdepth: 2
    :caption: Section Utilisateur:
 
-   Catalogue <doc_user/catalogue>
-   Visualiseur <doc_user/visualiseur>
-   Application - Cartothèque<doc_user/application>
-   Import de données<doc_user/import>
-   Erreurs fréquentes <doc_user/error>
+   Le catalogue <doc_user/catalogue>
+   Le visualiseur <doc_user/visualiseur>
+   La cartothèque - page Application<doc_user/application>
+   L'intégration de données - page Import<doc_user/import>
+   Les erreurs fréquentes <doc_user/error>
 

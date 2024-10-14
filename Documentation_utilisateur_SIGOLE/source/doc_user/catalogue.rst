@@ -1,4 +1,4 @@
-Catalogue
+Le catalogue
 ==============================
 
 .. contents:: Table des matières
