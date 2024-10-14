@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="fr" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Installation &mdash; Documentation Plateforme cartographique OLE </title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../_static/documentation_options.js?v=d1a510d7"></script>
+        <script src="../_static/doctools.js?v=9a2dae69"></script>
+        <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+        <script src="../_static/copybutton.js?v=f281be69"></script>
+        <script src="../_static/translations.js?v=041d0952"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Recherche" href="../search.html" />
+    <link rel="next" title="Configuration" href="configuration.html" />
+    <link rel="prev" title="Documentation d’installation - Développeur" href="../doc_instal.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            Plateforme cartographique OLE
+              <img src="../_static/logo.png" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Rechercher docs" aria-label="Rechercher docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Documentation:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../doc_user.html">Documentation utilisateur</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../doc_admin.html">Documentation administrateur</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../doc_instal.html">Documentation d'installation - Développeur</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Installation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#introduction">Introduction</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#ansible">Ansible</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#erreurs-frequentes">Erreurs fréquentes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#serveur-mail">Serveur mail</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#script-de-personnalisation">Script de personnalisation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#personnalisation-du-geoserver">Personnalisation du GeoServer</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#relancer-l-infrastructure">Relancer l’infrastructure</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#se-rendre-sur-l-application">Se rendre sur l’application</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="configuration.html">Configuration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="maj.html">Mise à jour</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Plateforme cartographique OLE</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../doc_instal.html">Documentation d’installation - Développeur</a></li>
+      <li class="breadcrumb-item active">Installation</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="installation">
+<h1>Installation<a class="headerlink" href="#installation" title="Lien vers cette rubrique"></a></h1>
+<nav class="contents local" id="table-des-matieres">
+<p class="topic-title">Table des matières</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#introduction" id="id1">Introduction</a></p></li>
+<li><p><a class="reference internal" href="#ansible" id="id2">Ansible</a></p></li>
+<li><p><a class="reference internal" href="#erreurs-frequentes" id="id3">Erreurs fréquentes</a></p></li>
+<li><p><a class="reference internal" href="#serveur-mail" id="id4">Serveur mail</a></p></li>
+<li><p><a class="reference internal" href="#script-de-personnalisation" id="id5">Script de personnalisation</a></p></li>
+<li><p><a class="reference internal" href="#personnalisation-du-geoserver" id="id6">Personnalisation du GeoServer</a></p></li>
+<li><p><a class="reference internal" href="#relancer-l-infrastructure" id="id7">Relancer l’infrastructure</a></p></li>
+<li><p><a class="reference internal" href="#se-rendre-sur-l-application" id="id8">Se rendre sur l’application</a></p></li>
+</ul>
+</nav>
+<section id="introduction">
+<h2><a class="toc-backref" href="#id1" role="doc-backlink">Introduction</a><a class="headerlink" href="#introduction" title="Lien vers cette rubrique"></a></h2>
+<p>Georchestra est une IDG qui intègre plusieurs modules et donc plusieurs technologies, il y’a plusieurs façon d’installer cette infrastructure</p>
+<ul class="simple">
+<li><p>par docker</p></li>
+<li><p>par Ansible</p></li>
+<li><p>à la main</p></li>
+</ul>
+<p>Le choix pour l’Office de l’eau Réunion à été Ansible qui permet d’installer des paquets Debians rapidement et automatiquement.</p>
+<p>Le lien pour le github et la documentation dans son ensemble de georchestra est le suivant : <a class="reference external" href="https://github.com/georchestra">https://github.com/georchestra</a></p>
+</section>
+<section id="ansible">
+<h2><a class="toc-backref" href="#id2" role="doc-backlink">Ansible</a><a class="headerlink" href="#ansible" title="Lien vers cette rubrique"></a></h2>
+<p>Prérequis :</p>
+<ul class="simple">
+<li><p>Debian Bookworm (12.x) VM</p></li>
+<li><p>Mettre à jour les paquets :</p></li>
+</ul>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>apt<span class="w"> </span>update
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>Ansible : sudo apt install ansible</p></li>
+</ul>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>apt<span class="w"> </span>install<span class="w"> </span>ansible
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>Java 17 :</p></li>
+</ul>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>apt<span class="w"> </span>install<span class="w"> </span>openjdk-17-jdk
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>Si votre VM est nouvelle ou si vous avez apache qui tourne sur le port 80, veuillez l’enlever :</p></li>
+</ul>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>apt<span class="w"> </span>remove<span class="w"> </span>apache2
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>Clone the source, le code est issue du repo « ansible » de georchestra :</p></li>
+</ul>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>apt<span class="w"> </span>install<span class="w"> </span>git
+git<span class="w"> </span>clone<span class="w"> </span>https://github.com/ToffoluttiVittorio/ansible.git
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>Aller dans le répertoire du repo git, toutes les commandes de cette partie se lance à partir de ce repertoire si non spécifié :</p></li>
+</ul>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">cd</span><span class="w"> </span>ansible
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>Changer le fqdn dans le fichier <code class="docutils literal notranslate"><span class="pre">playbooks/georchestra</span></code> ligne 88 avec la variable <code class="docutils literal notranslate"><span class="pre">fqdn</span></code> et modifier <code class="docutils literal notranslate"><span class="pre">georchestra.ole.re</span></code> :</p></li>
+</ul>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>nano<span class="w"> </span>playbooks/georchestra.yml
+</pre></div>
+</div>
+<p>dans la ligne :</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>fqdn:<span class="w"> </span>georchestra.ole.re
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>et dans le fichier de personnalisation <code class="docutils literal notranslate"><span class="pre">Configuration/last.sh</span></code>, remplacer <code class="docutils literal notranslate"><span class="pre">georchestra.ole.re</span></code> par votre fqdn :</p></li>
+</ul>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>nano<span class="w"> </span>Configuration/last.sh
+</pre></div>
+</div>
+<p>dans la ligne :</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">echo</span><span class="w"> </span><span class="s1">&#39;127.0.0.1 georchestra.ole.re&#39;</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>sudo<span class="w"> </span>tee<span class="w"> </span>-a<span class="w"> </span>/etc/hosts<span class="w"> </span>&gt;<span class="w"> </span>/dev/null
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>Installer les rôles de GeoNetwork :</p></li>
+</ul>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>ansible-galaxy<span class="w"> </span>install<span class="w"> </span>-r<span class="w"> </span>requirements.yaml
+chmod<span class="w"> </span>-777<span class="w"> </span>roles/
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>Il faut run le playbooks qui est l’installation de tous les modules :</p></li>
+</ul>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>ansible-playbook<span class="w"> </span>playbooks/georchestra.yml
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Des erreurs peuvent apparaître lors de cette étape, veuillez consulter le chapitre juste en dessous « Erreurs fréquentes » si cela arrive.</p>
+</div>
+<p>L’installation de l’infrastructure de geOrchestra est faite, il reste à installer un serveur de mail et les scripts de personnalisation pour avoir
+l’application fonctionnel et complète pour l’Office de l’eau Réunion.</p>
+</section>
+<section id="erreurs-frequentes">
+<h2><a class="toc-backref" href="#id3" role="doc-backlink">Erreurs fréquentes</a><a class="headerlink" href="#erreurs-frequentes" title="Lien vers cette rubrique"></a></h2>
+<p>Une erreur lors de la première installation mais n’est asbsolument pas blocante :</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>TASK<span class="w"> </span><span class="o">[</span>openldap<span class="w"> </span>:<span class="w"> </span>check<span class="w"> </span><span class="k">if</span><span class="w"> </span>the<span class="w"> </span>root<span class="w"> </span>already<span class="w"> </span>exists<span class="o">]</span><span class="w"> </span>******************************************************************
+fatal:<span class="w"> </span><span class="o">[</span>localhost<span class="o">]</span>:<span class="w"> </span>FAILED!<span class="w"> </span><span class="o">=</span>&gt;<span class="w"> </span><span class="o">{</span><span class="s2">&quot;changed&quot;</span>:<span class="w"> </span>true,<span class="w"> </span><span class="s2">&quot;cmd&quot;</span>:<span class="w"> </span><span class="o">[</span><span class="s2">&quot;ldapsearch&quot;</span>,<span class="w"> </span><span class="s2">&quot;-x&quot;</span>,<span class="w"> </span><span class="s2">&quot;-b&quot;</span>,<span class="w"> </span><span class="s2">&quot;dc=georchestra,dc=org&quot;</span>,<span class="w"> </span><span class="s2">&quot;dc=georchestra&quot;</span><span class="o">]</span>,<span class="w"> </span><span class="s2">&quot;delta&quot;</span>:<span class="w"> </span><span class="s2">&quot;0:00:00.009190&quot;</span>,<span class="w"> </span><span class="s2">&quot;end&quot;</span>:<span class="w"> </span><span class="s2">&quot;2024-10-09 09:19:33.368546&quot;</span>,<span class="w"> </span><span class="s2">&quot;msg&quot;</span>:<span class="w"> </span><span class="s2">&quot;non-zero return code&quot;</span>,<span class="w"> </span><span class="s2">&quot;rc&quot;</span>:<span class="w"> </span><span class="m">32</span>,<span class="w"> </span><span class="s2">&quot;start&quot;</span>:<span class="w"> </span><span class="s2">&quot;2024-10-09 09:19:33.359356&quot;</span>,<span class="w"> </span><span class="s2">&quot;stderr&quot;</span>:<span class="w"> </span><span class="s2">&quot;&quot;</span>,<span class="w"> </span><span class="s2">&quot;stderr_lines&quot;</span>:<span class="w"> </span><span class="o">[]</span>,<span class="w"> </span><span class="s2">&quot;stdout&quot;</span>:<span class="w"> </span><span class="s2">&quot;# extended LDIF\n#\n# LDAPv3\n# base &lt;dc=georchestra,dc=org&gt; with scope subtree\n# filter: dc=georchestra\n# requesting: ALL\n#\n\n# search result\nsearch: 2\nresult: 32 No such object\n\n# numResponses: 1&quot;</span>,<span class="w"> </span><span class="s2">&quot;stdout_lines&quot;</span>:<span class="w"> </span><span class="o">[</span><span class="s2">&quot;# extended LDIF&quot;</span>,<span class="w"> </span><span class="s2">&quot;#&quot;</span>,<span class="w"> </span><span class="s2">&quot;# LDAPv3&quot;</span>,<span class="w"> </span><span class="s2">&quot;# base &lt;dc=georchestra,dc=org&gt; with scope subtree&quot;</span>,<span class="w"> </span><span class="s2">&quot;# filter: dc=georchestra&quot;</span>,<span class="w"> </span><span class="s2">&quot;# requesting: ALL&quot;</span>,<span class="w"> </span><span class="s2">&quot;#&quot;</span>,<span class="w"> </span><span class="s2">&quot;&quot;</span>,<span class="w"> </span><span class="s2">&quot;# search result&quot;</span>,<span class="w"> </span><span class="s2">&quot;search: 2&quot;</span>,<span class="w"> </span><span class="s2">&quot;result: 32 No such object&quot;</span>,<span class="w"> </span><span class="s2">&quot;&quot;</span>,<span class="w"> </span><span class="s2">&quot;# numResponses: 1&quot;</span><span class="o">]}</span>
+...ignoring
+</pre></div>
+</div>
+<p>Si vous avez des erreurs sur <code class="docutils literal notranslate"><span class="pre">sviewer</span></code> ou <code class="docutils literal notranslate"><span class="pre">htodcs</span></code> de ce type :</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>TASK<span class="w"> </span><span class="o">[</span>georchestra<span class="w"> </span>:<span class="w"> </span>checkout<span class="w"> </span>sviewer<span class="o">]</span><span class="w"> </span>*******************************************************************************************************************************************************************************************************
+fatal:<span class="w"> </span><span class="o">[</span>localhost<span class="o">]</span>:<span class="w"> </span>FAILED!<span class="w"> </span><span class="o">=</span>&gt;<span class="w"> </span><span class="o">{</span><span class="s2">&quot;changed&quot;</span>:<span class="w"> </span>false,<span class="w"> </span><span class="s2">&quot;msg&quot;</span>:<span class="w"> </span><span class="s2">&quot;Unable to parse submodule hash line: Entrée dans &#39;lib/ol3&#39;&quot;</span><span class="o">}</span>
+</pre></div>
+</div>
+<p>Il faut supprimer le repertoire htdocs, et relancer le run du playbook :</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>rm<span class="w"> </span>-r<span class="w"> </span>/var/www/georchestra/htdocs
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Si vous avez encore une erreur lors de l’installation après avoir supprimer le repertoire htdocs, il faut souvent relancer encore le playbook sans rien toucher</p>
+</div>
+<p>Si vous avez des erreurs de versions de paquets, il faut mettre les bonnes versions, conforme au fichier <code class="docutils literal notranslate"><span class="pre">playbooks/georchestra.yml</span></code>.</p>
+</section>
+<section id="serveur-mail">
+<h2><a class="toc-backref" href="#id4" role="doc-backlink">Serveur mail</a><a class="headerlink" href="#serveur-mail" title="Lien vers cette rubrique"></a></h2>
+<p>Pour le serveur mail, pour l’instant un serveur postfix est installé :</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>apt<span class="w"> </span>install<span class="w"> </span>postfix
+</pre></div>
+</div>
+<p>avec cette configuration dans le fichier /etc/postfix/main.cf :</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>nano<span class="w"> </span>/etc/postfix/main.cf
+</pre></div>
+</div>
+<p>puis lancer le service :</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>systemctl<span class="w"> </span>start<span class="w"> </span>postfix.service
+</pre></div>
+</div>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># See /usr/share/postfix/main.cf.dist for a commented, more complete version</span>
+
+
+<span class="c1"># Debian specific:  Specifying a file name will cause the first</span>
+<span class="c1"># line of that file to be used as the name.  The Debian default</span>
+<span class="c1"># is /etc/mailname.</span>
+<span class="c1">#myorigin = /etc/mailname</span>
+
+<span class="nv">smtpd_banner</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">$myhostname</span><span class="w"> </span>ESMTP<span class="w"> </span><span class="nv">$mail_name</span><span class="w"> </span><span class="o">(</span>Debian/GNU<span class="o">)</span>
+<span class="nv">biff</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>no
+
+<span class="c1"># appending .domain is the MUA&#39;s job.</span>
+<span class="nv">append_dot_mydomain</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>no
+
+<span class="c1"># Uncomment the next line to generate &quot;delayed mail&quot; warnings</span>
+<span class="c1">#delay_warning_time = 4h</span>
+
+<span class="nv">readme_directory</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>no
+
+<span class="c1"># See http://www.postfix.org/COMPATIBILITY_README.html -- default to 3.6 on</span>
+<span class="c1"># fresh installs.</span>
+<span class="nv">compatibility_level</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">3</span>.6
+
+
+
+<span class="c1"># TLS parameters</span>
+<span class="nv">smtpd_tls_cert_file</span><span class="o">=</span>/etc/ssl/certs/ssl-cert-snakeoil.pem
+<span class="nv">smtpd_tls_key_file</span><span class="o">=</span>/etc/ssl/private/ssl-cert-snakeoil.key
+<span class="nv">smtpd_tls_security_level</span><span class="o">=</span>may
+
+<span class="nv">smtp_tls_CApath</span><span class="o">=</span>/etc/ssl/certs
+<span class="nv">smtp_tls_security_level</span><span class="o">=</span>may
+<span class="nv">smtp_tls_session_cache_database</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>btree:<span class="si">${</span><span class="nv">data_directory</span><span class="si">}</span>/smtp_scache
+
+
+
+<span class="nv">smtpd_relay_restrictions</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>permit_mynetworks<span class="w"> </span>permit_sasl_authenticated<span class="w"> </span>defer_unauth_destination
+<span class="nv">myhostname</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>Ansible-42.myguest.virtualbox.org
+<span class="nv">alias_maps</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>hash:/etc/aliases
+<span class="nv">alias_database</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>hash:/etc/aliases
+<span class="nv">mydestination</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">$myhostname</span>,<span class="w"> </span>localhost,<span class="w"> </span>localhost.<span class="nv">$mydomain</span>,<span class="w"> </span>mail.<span class="nv">$mydomain</span>,<span class="w"> </span>www.<span class="nv">$mydomain</span>,<span class="w"> </span>localho<span class="w">                                                                                                                                          </span>st,<span class="w"> </span><span class="nv">$mydomain</span>
+<span class="nv">relayhost</span><span class="w"> </span><span class="o">=</span>
+<span class="nv">mynetworks</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">127</span>.0.0.0/8<span class="w"> </span><span class="o">[</span>::ffff:127.0.0.0<span class="o">]</span>/104<span class="w"> </span><span class="o">[</span>::1<span class="o">]</span>/128
+<span class="nv">mailbox_size_limit</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0</span>
+<span class="nv">recipient_delimiter</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>+
+<span class="nv">inet_interfaces</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>all
+<span class="nv">inet_protocols</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>all
+</pre></div>
+</div>
+</section>
+<section id="script-de-personnalisation">
+<h2><a class="toc-backref" href="#id5" role="doc-backlink">Script de personnalisation</a><a class="headerlink" href="#script-de-personnalisation" title="Lien vers cette rubrique"></a></h2>
+<p>Les scripts de personnalisation servent à ajouter les spécifications pour l’Office de l’eau Réunion sans directement changer le code d’installation.</p>
+<p>Il y’a trois script bash qui modifient les logos, couleurs et référentiel de coordonée dans le dossier « Configuration », voici la commande pour les rendre executable
+et les lancer :</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">cd</span><span class="w"> </span>Configuration
+</pre></div>
+</div>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>chmod<span class="w"> </span><span class="m">777</span><span class="w"> </span>script_remplacement.sh
+chmod<span class="w"> </span><span class="m">777</span><span class="w"> </span>other.sh
+chmod<span class="w"> </span><span class="m">777</span><span class="w"> </span>last.sh
+</pre></div>
+</div>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>./script_remplacement.sh
+./other.sh
+./last.sh
+</pre></div>
+</div>
+</section>
+<section id="personnalisation-du-geoserver">
+<h2><a class="toc-backref" href="#id6" role="doc-backlink">Personnalisation du GeoServer</a><a class="headerlink" href="#personnalisation-du-geoserver" title="Lien vers cette rubrique"></a></h2>
+<p>Il faut changer à la main certaines configuration du GeoServer :</p>
+<ul class="simple">
+<li><p>modifier l’url du proxy en y rajoutant votre fqdn et décocher « Utiliser les entêtes pour l’url proxy », aller dans la page « Services » puis dans « Global » :</p></li>
+</ul>
+<blockquote>
+<div><a class="reference internal image-reference" href="../_images/geoserver_global.png"><img alt="Capture d'écran du catalogue" class="align-center" src="../_images/geoserver_global.png" style="width: 700px;" /></a>
+</div></blockquote>
+<ul class="simple">
+<li><p>modifier les services pour faire des graphiques, enlever les 2 règels wfs.Transaction et wps.* :</p></li>
+</ul>
+<blockquote>
+<div><a class="reference internal image-reference" href="../_images/geoserver_services.png"><img alt="Capture d'écran du catalogue" class="align-center" src="../_images/geoserver_services.png" style="width: 700px;" /></a>
+</div></blockquote>
+<p>Une fois l’installation terminé, il faudra relancer le datafeeder et le reste de l’infrastructure:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>systemctl<span class="w"> </span>restart<span class="w"> </span>datafeeder.service
+</pre></div>
+</div>
+</section>
+<section id="relancer-l-infrastructure">
+<h2><a class="toc-backref" href="#id7" role="doc-backlink">Relancer l’infrastructure</a><a class="headerlink" href="#relancer-l-infrastructure" title="Lien vers cette rubrique"></a></h2>
+<p>Pour relancer l’infrastructure, il faut relancer les 3 tomcats et potentiellement nginx :</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo<span class="w"> </span>systemctl<span class="w"> </span>restart<span class="w"> </span>tomcat@georchestra.service
+</pre></div>
+</div>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo<span class="w"> </span>systemctl<span class="w"> </span>restart<span class="w"> </span>tomcat@geoserver.service
+</pre></div>
+</div>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo<span class="w"> </span>systemctl<span class="w"> </span>restart<span class="w"> </span>tomcat@proxycas.service
+</pre></div>
+</div>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo<span class="w"> </span>systemctl<span class="w"> </span>restart<span class="w"> </span>nginx
+</pre></div>
+</div>
+</section>
+<section id="se-rendre-sur-l-application">
+<h2><a class="toc-backref" href="#id8" role="doc-backlink">Se rendre sur l’application</a><a class="headerlink" href="#se-rendre-sur-l-application" title="Lien vers cette rubrique"></a></h2>
+<p>Pour se rendre sur l’application, aller à l’addresse :</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>https://le_fqdn_renseigné/
+</pre></div>
+</div>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Pied de page">
+        <a href="../doc_instal.html" class="btn btn-neutral float-left" title="Documentation d’installation - Développeur" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Précédent</a>
+        <a href="configuration.html" class="btn btn-neutral float-right" title="Configuration" accesskey="n" rel="next">Suivant <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Droits d'auteur 2024, Vittorio Toffolutti.</p>
+  </div>
+
+  Compilé avec <a href="https://www.sphinx-doc.org/">Sphinx</a> en utilisant un
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">thème</a>
+    fourni par <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
