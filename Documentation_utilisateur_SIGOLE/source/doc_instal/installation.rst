@@ -258,12 +258,6 @@ Il faut changer à la main certaines configuration du GeoServer :
    :width: 700px
 
 
- .. image:: ../images/install/menu.png
-   :alt: Capture d'écran du catalogue  
-   :align: center
-   :width: 700px
-
-
 
 Une fois l'installation terminé, il faudra relancer le datafeeder et le reste de l'infrastructure: 
 
