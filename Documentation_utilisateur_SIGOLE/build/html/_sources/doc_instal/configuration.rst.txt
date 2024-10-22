@@ -595,3 +595,5 @@ Voici les scripts commentés qui sont facile à comprendre et modifier selon les
    fi
    echo "Mise à jour des redirections terminée."
 
+
+

@@ -250,12 +250,16 @@ Il faut changer à la main certaines configuration du GeoServer :
    :align: center
    :width: 700px
 
+|espace|
+
 - modifier les services pour faire des graphiques, enlever les 2 règels wfs.Transaction et wps.* en allant dans "Sécurité des services" : 
 
  .. image:: ../images/install/geoserver_services.png
    :alt: Capture d'écran du catalogue  
    :align: center
    :width: 700px
+
+|espace|
 
 
 
@@ -296,3 +300,6 @@ Pour se rendre sur l'application, aller à l'addresse :
 .. code-block:: bash
 
    https://le_fqdn_renseigné/
+
+
+.. |espace| unicode:: 0xA0 

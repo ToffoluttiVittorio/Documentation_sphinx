@@ -12,8 +12,15 @@ Le module analytics permet d'analyser les flux OGC qui sont les données issues 
    :align: center
    :width: 700px
 
+|espace|
+
 L'interface permet de connaître :
 
 - le service web, le titre de la couche et la requête
 - l'utilisateur et le nombre de requêtes 
 - l'organisation et le nombre de requêtes
+
+
+
+
+.. |espace| unicode:: 0xA0 

@@ -22,6 +22,8 @@ et permet de voir qui s'est connecté sur la journée.
    :align: center
    :width: 700px
 
+|espace|
+
 Utilisateurs
 -----------------------
 
@@ -32,12 +34,16 @@ Cette section permet de voir la liste des utilisateurs et leurs informations :
    :align: center
    :width: 700px
 
+|espace|
+
 En cliquant sur un utilisateur vous pourrez modifier ses caractéristiques : 
 
 .. image:: ../images/admin_user/user_user_user.png
    :alt: Capture d'écran du catalogue 
    :align: center
    :width: 700px
+
+|espace|
 
 
 Organismes
@@ -50,12 +56,16 @@ Les utilisateurs sont obligatoirement rattachés à une organisation :
    :align: center
    :width: 700px
 
+|espace|
+
 Si vous cliquez sur une organisation, vous pouvez modifier ses informations ainsi que ses membres : 
 
 .. image:: ../images/admin_user/user_orga_orga.png
    :alt: Capture d'écran du catalogue 
    :align: center
    :width: 700px
+
+|espace|
 
 Rôles 
 -----------------------
@@ -67,6 +77,8 @@ Les rôles permettent de regrouper les utilisateurs et de leur donner des accès
    :align: center
    :width: 700px
 
+|espace|
+
 Certain rôles définissent des accès particulier et il est possible de créer des groupes en plus pour regrouper des utilisateurs entre eux. 
 
 Les rôles principaux sont : 
@@ -76,7 +88,7 @@ Les rôles principaux sont :
 - **GN_ADMIN** : permet d'accéder au GeoNetwork qui est le module admin du catalogue
 - **GN_EDITOR** : permet d'éditer les fiches dans GeoNetwork
 - **GN_REVIEWER** : permet de publier des données à la main dans GeoNetwork
-- **MAPSTORE_ADMIN** : permet d'accéder au module admin de Mapstore, donc à la création de contextes
+- **MAPSTORE_ADMIN** : permet d'accéder au module admin de Mapstore et permet aussi de modifier le style d'un WMS
 - **USER** : permet de se log dans geOrchestra et d'enregister des cartes, dashboards et GeoStories dans Mapstore
 - **REFERENT** : permet de modifier les informations de son organisme
 - **IMPORT** : donne accès au module d'import de données dans geOrchestra
@@ -93,3 +105,8 @@ Autres :
 - **Délégation** : sert à donner, à un utilisateur, le droit de promouvoir un autre utilisateur avec des rôles spécifiques
 - **Statistique** : permet de voir le nombre de requêtes par jour, et les couches les plus consultées
 - **Journaux** : permet d'accèder à l'historique des actions de la console d'admin
+
+
+
+
+.. |espace| unicode:: 0xA0 

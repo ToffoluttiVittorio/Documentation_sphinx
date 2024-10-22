@@ -24,6 +24,8 @@ Il y a 3 onglets dans ce catalogue :
    :align: center
    :width: 600px
 
+|espace|
+
 
 - **DONNEES** pour afficher toutes les données
 
@@ -32,6 +34,8 @@ Il y a 3 onglets dans ce catalogue :
    :align: center
    :width: 600px
 
+|espace|
+
 
 - **ORGANISATION** pour afficher toutes les organisations qui possèdent des données
 
@@ -39,6 +43,8 @@ Il y a 3 onglets dans ce catalogue :
    :alt: Capture d'écran du catalogue
    :align: center
    :width: 600px
+
+|espace|
 
 
 Vous pouvez filtrer vos recherches en fonction :
@@ -54,6 +60,8 @@ Vous pouvez filtrer vos recherches en fonction :
    :alt: Options de filtrage
    :align: center
    :width: 600px
+
+|espace|
 
 
 
@@ -86,6 +94,8 @@ Il y'a :
    :align: center
    :width: 600px
 
+|espace|
+
 Prévisualisation de la donnée
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -99,6 +109,8 @@ Cette interface permet de :
    :align: center
    :width: 600px
 
+|espace|
+
 
 - visualiser le tableau attributaire
 
@@ -107,6 +119,8 @@ Cette interface permet de :
    :align: center
    :width: 600px
 
+|espace|
+
 
 - faire différents graphiques en fonction des attributs 
 
@@ -114,6 +128,8 @@ Cette interface permet de :
    :alt: Options de filtrage
    :align: center
    :width: 600px
+
+|espace|
 
 .. note::
    La couche de donnée, le tableau ou encore le graphique peuvent ne pas s'afficher car la donnée est mal configurée coté serveur. 
@@ -129,12 +145,16 @@ Vous pouvez aussi télécharger la donnée sous différents formats :
    :align: center
    :width: 600px
 
+|espace|
+
 Mais aussi avoir accées à d'autres liens et URL, ainsi qu'aux flux OGC disponibles : 
 
 .. image:: ../images/user_catalogue/fiche_liens.png
    :alt: Options de filtrage
    :align: center
    :width: 600px
+
+|espace|
 
 .. note::
    Ces liens sont dépendants de la qualité de la donnée et de son intégration, ils peuvent ne pas fonctionner. 
@@ -148,4 +168,5 @@ Vous pouvez aussi visualiser la donnée dans une interface cartographique en cli
    :align: center
    :width: 600px
 
+.. |espace| unicode:: 0xA0 
 

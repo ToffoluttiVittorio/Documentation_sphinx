@@ -312,17 +312,19 @@ chmod<span class="w"> </span><span class="m">777</span><span class="w"> </span>l
 <h2><a class="toc-backref" href="#id6" role="doc-backlink">Personnalisation du GeoServer</a><a class="headerlink" href="#personnalisation-du-geoserver" title="Lien vers cette rubrique"></a></h2>
 <p>Il faut changer à la main certaines configuration du GeoServer :</p>
 <ul class="simple">
-<li><p>modifier l’url du proxy en y rajoutant votre fqdn et décocher « Utiliser les entêtes pour l’url proxy », aller dans la page « Services » puis dans « Global » :</p></li>
+<li><p>modifier l’url du proxy en y rajoutant votre fqdn et décocher « Utiliser les entêtes pour l’url proxy » en allant dans la page « Services » puis dans « Global » :</p></li>
 </ul>
 <blockquote>
 <div><a class="reference internal image-reference" href="../_images/geoserver_global.png"><img alt="Capture d'écran du catalogue" class="align-center" src="../_images/geoserver_global.png" style="width: 700px;" /></a>
 </div></blockquote>
+<p> </p>
 <ul class="simple">
-<li><p>modifier les services pour faire des graphiques, enlever les 2 règels wfs.Transaction et wps.* :</p></li>
+<li><p>modifier les services pour faire des graphiques, enlever les 2 règels wfs.Transaction et wps.* en allant dans « Sécurité des services » :</p></li>
 </ul>
 <blockquote>
 <div><a class="reference internal image-reference" href="../_images/geoserver_services.png"><img alt="Capture d'écran du catalogue" class="align-center" src="../_images/geoserver_services.png" style="width: 700px;" /></a>
 </div></blockquote>
+<p> </p>
 <p>Une fois l’installation terminé, il faudra relancer le datafeeder et le reste de l’infrastructure:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>systemctl<span class="w"> </span>restart<span class="w"> </span>datafeeder.service
 </pre></div>

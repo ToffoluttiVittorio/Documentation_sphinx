@@ -24,6 +24,8 @@ Voici la liste des paquets debians installé par georchestra :
    :align: center
    :width: 700px
 
+|espace|
+
 Lancer la mise à jour des paquets debians si des patchs mineurs ont été apportés. 
 
 D'autres paquets sont aussi installé sur la machine : 
@@ -33,3 +35,6 @@ D'autres paquets sont aussi installé sur la machine :
 - postgresql
 - elasticsearch
 - kibana
+
+
+.. |espace| unicode:: 0xA0 

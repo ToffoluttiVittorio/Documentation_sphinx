@@ -17,6 +17,8 @@ la carte simple avec le visualiseur, le tableau de bord, la GeoStory et le conte
    :align: center
    :width: 600px
 
+|espace|
+
 Dashboard
 -----------------------
 
@@ -24,7 +26,10 @@ Dashboard
    :align: center
    :width: 600px
 
-Vous pouvez ajouter différents widget en fonctions des données du catalogue, un tutoriel vous guide directement lorsque vous créer un dashboard.
+|espace|
+
+Vous pouvez ajouter différents widget en fonctions des données du catalogue, un tutoriel vous guide directement lorsque vous créer un dashboard, les graphiques
+réalisables sont les mêmes que pour les cartes.
 
 .. note::
    Les widgets sont dépéndants de la configuration de la donnée, ils peuvent ne pas être disponible. 
@@ -40,6 +45,8 @@ GeoStory
    :align: center
    :width: 600px
 
+|espace|
+
 Avec les GeoStories, vous pouvez créer des documents textes en y intégrant des cartes intéractives. La gestions des composants se fait sur la gauche
 de l'interface qui sont : les titres, les bannières, les paragraphes, les sections immersives, les geocarrousels, les sections multimedia et les pages web.
 Un tutoriel vous guide directement lorsque vous créez une GeoStory.
@@ -49,3 +56,4 @@ Voici le lien de la documentation officiel pour aller dans le détail :
 `Documentation Mapstore GeoStory <https://docs.mapstore.geosolutionsgroup.com/en/v2024.01.02/user-guide/exploring-stories/>`_
 
 
+.. |espace| unicode:: 0xA0 

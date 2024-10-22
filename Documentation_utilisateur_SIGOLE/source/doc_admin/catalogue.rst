@@ -21,6 +21,8 @@ La page principale se compose de 4 composants : la recherche de données, la vis
    :align: center
    :width: 700px
 
+|espace|
+
 La recherche de données est la même que dans le catalogue mais avec l'interface basique de GeoNetwork.
 La visualisation renvoie sur le visualisateur qui est MapStore.
 
@@ -35,6 +37,8 @@ Dans l'onglet "Contribuer" puis "Accueil édition" :
    :align: center
    :width: 700px
 
+|espace|
+
 Cette section fournit une liste des fiches avec les fonctionnalités associées, vous pouvez éditer les fiches, les supprimer, 
 gérer les annuaires (inutile pour geOrchestra), faire de l'édition en série et gérer les droits d'accès.
 
@@ -42,6 +46,8 @@ gérer les annuaires (inutile pour geOrchestra), faire de l'édition en série e
    :alt: Capture d'écran du catalogue
    :align: center
    :width: 700px
+
+|espace|
 
 Dans l'interface d'édition d'une fiche, vous pouvez changez toutes les informations à gauche de l'écran, et ajouter des éléments à droite.
 Les ajouts peuvent être des images, des liens ou des ressources qui correspondent à des liens de parentés, des flux OGC ou d'autre. 
@@ -60,12 +66,48 @@ allez dans "Gérer la fiche" puis "Privilèges" et vous pourrez modifier les acc
    :align: center
    :width: 700px
 
+|espace|
+
 Vous pouvez modifier l'accès à la consultation simple ou encore, la visualisation, le téléchargement, l'édition ou la notification en fonction des organismes.
 
 .. image:: ../images/admin_cat/cat_privileges.png
    :alt: Capture d'écran du catalogue
    :align: center
    :width: 700px
+
+|espace|
+
+Créer une fiche à la main 
+-------------------------------------
+
+Pour créer une fiche à la main, vous pouvez cliquer sur "Contribuer" puis "Ajouter une fiche", choisir "Template for Vector data ISO19139" :
+
+.. image:: ../images/admin_cat/ajout_fiche.png
+   :alt: Capture d'écran du catalogue
+   :align: center
+   :width: 700px
+
+|espace|
+
+Il faut modifier l'intitulé de la ressource et ajouter les flux WMS et WMTS en cliquant sur "Ajouter" et "Créer un lien vers une ressource ": 
+
+.. image:: ../images/admin_cat/ajout_lien.png
+   :alt: Capture d'écran du catalogue
+   :align: center
+   :width: 700px
+
+|espace|
+
+Puis renseigner "OGC-WMS Web Map Service" et "OGC-WFS Web Features Service" dans "Protocol" pour avoir un flux WMS et WFS par donnée et le lien vers le geoserver.
+Le lien se construit par le fqdn suivis de "geoserver" puis de l'organisation abrégé qui à intégré la donnée avec le datafeeder, par exemple "ole" et enfin "ows".
+Ce qui peux donner : ``https://dev-carto.ole.re/geoserver/psc/ows`` et choisir la donnée. 
+
+.. image:: ../images/admin_cat/create_link.png
+   :alt: Capture d'écran du catalogue
+   :align: center
+   :width: 700px
+
+|espace|
 
 Administration
 ---------------------------
@@ -81,6 +123,8 @@ Pour ce qui est de l'administration, elle est divisé en 8 catégories :
    :align: center
    :width: 700px
 
+|espace|
+
 Métadonnées et modèles 
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -90,6 +134,8 @@ Métadonnées et modèles
    :alt: Capture d'écran du catalogue  
    :align: center
    :width: 700px
+
+|espace|
 
 Les modèles de fiches de métadonnées sont gérées automatiquement par le module d'import de geOrchestra. 
 
@@ -101,6 +147,8 @@ Utilisateur et groupe
    :align: center
    :width: 700px
 
+|espace|
+
 Les utilisateurs et les organisations sont gérés dans la page :ref:`Utilisateur <utilisateur>`
 
 Moissonnage
@@ -110,6 +158,8 @@ Moissonnage
    :alt: Capture d'écran du catalogue  
    :align: center
    :width: 700px
+
+|espace|
 
 Le moissonnage est très utile car il permet de référencer les fiches de métadonnées d'un autre catalogue sur le GeoNetwork interne. 
 Il faut connaître la technologie du catalogue que l'on veut référencer, renseigner l'url puis les différents filtres que l'on veut appliquer.
@@ -129,6 +179,8 @@ Statistique et statut
    :align: center
    :width: 700px
 
+|espace|
+
 Cette section permet de connaître l'état du système très rapidement. L'analyse des liens scanne tous les liens des métadonnées, 
 le versionnement permet de connaître l'état d'une métadonnée précise. 
 
@@ -139,6 +191,8 @@ Rapports
    :alt: Capture d'écran du catalogue
    :align: center
    :width: 700px
+
+|espace|
 
 La partie rapport permet de créer des rapports très rapidement : 
 
@@ -156,6 +210,8 @@ Thésaurus
    :align: center
    :width: 700px
 
+|espace|
+
 Le thésaurus est le dictionnaire à mots clés, il définit les mots clés que vous pouvez utiliser pour vos métadonnées.
 
 Paramètres
@@ -165,6 +221,8 @@ Paramètres
    :alt: Capture d'écran du catalogue
    :align: center
    :width: 700px
+
+|espace|
 
 Dans cet onglet se trouve les paramètres pour la configuration système dont voici la documentation en details : 
 
@@ -182,7 +240,10 @@ Outils
    :align: center
    :width: 700px
 
+|espace|
+
 Cette partie permet d'inéragir avec les indexs d'elasticsearch qui est le moteur de recherche derrière GeoNetwork. Cela permet de relancer l'indexation 
 des données. ll ne faut globalement pas cliquer sur ces boutons. 
 
 
+.. |espace| unicode:: 0xA0 

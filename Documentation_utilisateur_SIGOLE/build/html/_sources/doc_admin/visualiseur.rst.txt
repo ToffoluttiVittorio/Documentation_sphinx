@@ -20,6 +20,8 @@ Par exemple avec ce contexte qui ne presente que le bouton accueil, télécharge
    :align: center
    :width: 600px
 
+|espace|
+
 Un tutoriel est automatiquement lancé lorsque vous créer un contexte et vous guide pas à pas dans la création
 Il faut commencer par choisir un titre, une description, ajouter les données que l'on veut afficher,
 et choisir les fonctions : 
@@ -28,5 +30,10 @@ et choisir les fonctions :
    :align: center
    :width: 600px
 
+|espace|
+
 Les fonctions à choisir sont explicite et facile à comprendre.
 Enfin il reste à enregister le contexte pour le rendre disponible aux groupes que l'on veut. 
+
+
+.. |espace| unicode:: 0xA0 

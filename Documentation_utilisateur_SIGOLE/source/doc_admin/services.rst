@@ -25,6 +25,8 @@ GeoServer est directement connecté à une base de données PostGIS et diffuse l
    :align: center
    :width: 700px
 
+|espace|
+
 Les données sont organisées en "espaces de travail" qui prend le nom de l'organisation à qui appartient la donnée, puis est reliée à un entrepot, qui est l'emplacement
 dans la base de données de là où est stocké la donnée. Cette organisation et ce stockage se fait automatiquement avec le module d'importation de geOrchestra. 
 
@@ -61,6 +63,8 @@ Pour gérer l'accès, des restrictions spécifiques peuvent être appliquées pa
    :align: center
    :width: 700px
 
+|espace|
+
 **Définir l'espace de travail** : Spécifiez l'espace de travail concerné. Dans cet exemple, nous utilisons l'espace de travail "ole", 
 qui contient les données intégrées par l'Office de l'eau.
 
@@ -82,3 +86,6 @@ Ce qui en resulte par cette interface et les règles suivantes :
    :alt: Capture d'écran du catalogue
    :align: center
    :width: 700px
+
+
+.. |espace| unicode:: 0xA0 

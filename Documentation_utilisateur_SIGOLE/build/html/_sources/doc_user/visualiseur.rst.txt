@@ -21,6 +21,8 @@ L'interface se présente comme ceci :
    :align: center
    :width: 600px
 
+|espace|
+
 - 1 : l'arborescence des couches 
 - 2 : recherche d'un lieu 
 - 3 : les fonctionnalités 
@@ -45,22 +47,37 @@ Si vous cliquez sur 1, l'arborescence des couches va apparaître et vous pourrez
    :align: center
    :width: 600px
 
-Dans cet onglet, vous pouvez, à l'aide de ces 3 boutons : 
+|espace|
+
+
+Ajouter des données dans l'interface
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Si vous n'avez pas séléctionné de données, dans l'arborescence des couches, vous pouvez, à l'aide de ces 3 boutons : 
 
 .. image:: ../images/user_visualiseur/visu_couches_button.png
    :alt: Options de filtrage
    :align: center
-   :width: 300px
+   :width: 200px
+
+|espace|
 
 
-- ajouter des données, ce qui ouvrira cette onglet : 
+- ajouter des données directement dans le visualiseur, du catalogue interne et d'autre catalogue enregistré : 
 
 .. image:: ../images/user_visualiseur/visu_cat.png
    :alt: Options de filtrage
    :align: center
    :width: 600px
 
-Dans cet onglet vous pouvez choisir le catalogue, chercher par mots clés puis ajouter la donnée
+|espace|
+
+Dans cet onglet vous pouvez choisir le catalogue, par défaut, le catalogue est celui de l'office de l'eau mais vous pouvez faire dérouler
+la liste pour choisir un autre catalogue. Puis vous pouvez chercher par mots clés des données et les ajouter à l'interface. 
+
+.. note:: 
+
+   Vous pouvez demander au service informatique de rajouter un catalogue de données géographiques dans cet onglet. 
 
 - ajouter des groupes pour vos données
 - créer des annotations : 
@@ -70,6 +87,12 @@ Dans cet onglet vous pouvez choisir le catalogue, chercher par mots clés puis a
    :align: center
    :width: 600px
 
+|espace|
+
+
+Changer les paramètre de la couches - Style - Informations - Légende 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 Lorsque vous cliquez sur une couche, plusieurs fonctions apparaissent : 
 
@@ -78,22 +101,104 @@ Lorsque vous cliquez sur une couche, plusieurs fonctions apparaissent :
    :align: center
    :width: 500px
 
-- zoomer sur la couche 
-- gérer les réglages de la couche : 
+|espace|
+
+**Zoomer sur la couche** |logo-zoom|
+
+**Modifier les réglages de la couche** |logo-reglage|
 
 .. image:: ../images/user_visualiseur/visu_couches_reglages.png
    :alt: Options de filtrage
    :align: center
+   :width: 500px
+
+|espace|
+
+Dans ces réglages vous pouvez modifier, les informations, l'affichage, et surtout modifier le style des couches en cliquant sur la pipette |pinceau-blanco| : 
+
+.. image:: ../images/user_visualiseur/visu_style_1.png
+   :alt: Options de filtrage
+   :align: center
    :width: 600px
 
-Dans ces réglages vous pouvez modifier, les informations, l'affichage, filtrer les champs, le style et les informations attributaires. 
+|espace|
 
-- filtrer les couches
-- ouvrir la table attributaire 
-- supprimer la couche
-- créer un widget
-- exporter la couche
-- voir les métadonnées
+Si vous ne pouvez pas modifier le style directement il faudra en définir un nouveau et le modifier, cliquez sur le pinceau |logo-pinceau| pour définir
+un nouveau style puis modifier le en cliquant sur ce boutton |logo-modif|.
+
+.. image:: ../images/user_visualiseur/visu_styyle.png
+   :alt: Options de filtrage
+   :align: center
+   :width: 600px
+
+|espace|
+
+Une fois dans l'interface de mofication du style, vous pouvez modifier le style actuel et ajouter d'autres règles. Les styles fonctionnent
+avec des règles superposées les unes aux autres, cliquez sur cet icone pour ajouter une règle |logo-rond| et sur cet icone |logo-entonnoir|
+pour filtrer le style en fonction des attributs: 
+
+.. image:: ../images/user_visualiseur/regles_sup.png
+   :alt: Options de filtrage
+   :align: center
+   :width: 600px
+
+|espace|
+
+Par exemple vous pouvez ajouter une règle qui colore les stations de Saint-Denis en vert : 
+
+.. image:: ../images/user_visualiseur/visu_couche_sup.png
+   :alt: Options de filtrage
+   :align: center
+   :width: 600px
+
+|espace|
+
+**Filtrer les éléments de la couche** |logo-filtre|
+
+.. image:: ../images/user_visualiseur/visu_filtre.png
+   :alt: Options de filtrage
+   :align: center
+   :width: 600px
+
+|espace|
+
+Vous pouvez filtrer sur un attribut, filtrer en dessinant une zone géographique, ou encore filtrer en fonction d'un attribut d'une autre couche.
+
+**Ouvrir la table attributaire** |logo-table|
+
+.. image:: ../images/user_visualiseur/visuu_table.png
+   :alt: Capture d'écran du catalogue
+   :align: center
+   :width: 600px
+
+Vous pouvez filtrer, télécharger le tableau, le modifier et rajouter des éléments, mais ces modifications ne seront pas reportées sur le catalogue.
+
+|espace|
+
+**Supprimer la couche** |logo-bin|
+
+**Créer des graphiques** |logo-graph|
+
+.. image:: ../images/user_visualiseur/widgets.png
+   :alt: Capture d'écran du catalogue
+   :align: center
+   :width: 600px
+
+|espace|
+
+Vous pouvez créer 4 types de gaphiques différents, et ensuite les ajouter sur la carte :
+
+.. image:: ../images/user_visualiseur/graphiques.png
+   :alt: Capture d'écran du catalogue
+   :align: center
+   :width: 600px
+
+|espace|
+
+**Exporter les données de la couche** |logo-down|
+
+**Afficher les informations de la couche** |logo-i|
+
 
 .. note::
    Les options sont dépendantes de la donnée, elle peuvent ne pas être toutes disponible en fonction de la donnée. 
@@ -104,6 +209,8 @@ Pour les fonds de plans, vous pouvez en changer en cliquant sur l'imagette en ba
    :alt: Options de filtrage
    :align: center
    :width: 600px
+
+|espace|
 
 
 
@@ -117,38 +224,105 @@ Pour ce qui est des différentes fonctionnalités :
    :align: center
    :width: 50px
 
+|espace|
+
 Dans l'ordre, vous pouvez : 
 
-- imprimer une réalisation : 
+**Imprimer** une réalisation : 
 
 .. image:: ../images/user_visualiseur/visu_print.png
    :alt: Capture d'écran du catalogue
    :align: center
    :width: 600px
 
+|espace|
+
 Choisir le titre, le format et si la légende apparaît ou non 
 
-.. note::
-   Ne marche pas pour l'instant. 
 
-- importer des données
-- exporter la carte au format WMC 
-- ajouter des données
-- charger des cartes déjà enregistrées 
-- mesurer des distances 
-- enregistrer la carte : 
+**Importer** des données
+
+**Exporter** la carte au format WMC, ne peut pas être exporté puis ajouté à QGIS. 
+
+**Ajouter** des données à la carte
+
+**Charger** des cartes déjà enregistrées 
+
+**Mesurer** des distances 
+
+**Enregistrer** la carte : 
+
 
 .. image:: ../images/user_visualiseur/visu_download.png
    :alt: Capture d'écran du catalogue
    :align: center
    :width: 600px
 
+|espace|
+
 Vous pouvez choisir une imagette, le titre, vous pouvez aussi, en cliquant sur le crayon, définir un texte qui sera visible à l'ouverture de la carte.
 Pour définir des droits de lecture et d'édition, vous devez sélectionner un groupe et spécifier si il à les droits de lecture ou d'écriture.
 L'enregistrement ira dans la page :ref:`Application <application>`.
 
-- voir les réglages
-- partager la réalisation
-- voir la documentation
-- faire le tutoriel 
-- effacer la session
+**Afficher** les réglages
+**Partager** la réalisation
+**Afficher la documentation** la documentation
+**Faire** le tutoriel 
+**Effacer** la session
+
+
+
+
+.. |logo-zoom| image:: ../images/user_visualiseur/button_zoom.png
+   :alt: Options de réglage
+   :width: 30px
+
+.. |logo-reglage| image:: ../images/user_visualiseur/button_reglage.png
+   :alt: Options de réglage
+   :width: 30px
+
+.. |logo-filtre| image:: ../images/user_visualiseur/button_filtre.png
+   :alt: Options de réglage
+   :width: 30px
+
+.. |logo-table| image:: ../images/user_visualiseur/button_table.png
+   :alt: Options de réglage
+   :width: 30px
+
+.. |logo-bin| image:: ../images/user_visualiseur/button_bin.png
+   :alt: Options de réglage
+   :width: 30px
+
+.. |logo-graph| image:: ../images/user_visualiseur/button_graph.png
+   :alt: Options de réglage
+   :width: 30px
+
+.. |logo-down| image:: ../images/user_visualiseur/button_down.png
+   :alt: Options de réglage
+   :width: 30px
+
+.. |logo-i| image:: ../images/user_visualiseur/button_i.png
+   :alt: Options de réglage
+   :width: 30px
+
+.. |espace| unicode:: 0xA0 
+
+.. |logo-pinceau| image:: ../images/user_visualiseur/button_pinceau.png
+   :alt: Options de réglage
+   :width: 30px
+
+.. |logo-modif| image:: ../images/user_visualiseur/button_modif.png
+   :alt: Options de réglage
+   :width: 30px
+
+.. |pinceau-blanco| image:: ../images/user_visualiseur/visu_pinceau_blanco.png
+   :alt: Options de réglage
+   :width: 30px
+
+.. |logo-rond| image:: ../images/user_visualiseur/logo_rond.png
+   :alt: Options de réglage
+   :width: 30px
+
+.. |logo-entonnoir| image:: ../images/user_visualiseur/logo_ento.png
+   :alt: Options de réglage
+   :width: 30px

@@ -243,19 +243,24 @@ Personnalisation du GeoServer
 
 Il faut changer à la main certaines configuration du GeoServer : 
 
-- modifier l'url du proxy en y rajoutant votre fqdn et décocher "Utiliser les entêtes pour l'url proxy", aller dans la page "Services" puis dans "Global" : 
+- modifier l'url du proxy en y rajoutant votre fqdn et décocher "Utiliser les entêtes pour l'url proxy" en allant dans la page "Services" puis dans "Global" : 
 
  .. image:: ../images/install/geoserver_global.png
    :alt: Capture d'écran du catalogue  
    :align: center
    :width: 700px
 
-- modifier les services pour faire des graphiques, enlever les 2 règels wfs.Transaction et wps.* : 
+|espace|
+
+- modifier les services pour faire des graphiques, enlever les 2 règels wfs.Transaction et wps.* en allant dans "Sécurité des services" : 
 
  .. image:: ../images/install/geoserver_services.png
    :alt: Capture d'écran du catalogue  
    :align: center
    :width: 700px
+
+|espace|
+
 
 
 Une fois l'installation terminé, il faudra relancer le datafeeder et le reste de l'infrastructure: 
@@ -295,3 +300,6 @@ Pour se rendre sur l'application, aller à l'addresse :
 .. code-block:: bash
 
    https://le_fqdn_renseigné/
+
+
+.. |espace| unicode:: 0xA0 
