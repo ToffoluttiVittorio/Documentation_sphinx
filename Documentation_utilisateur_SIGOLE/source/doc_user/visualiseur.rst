@@ -153,6 +153,8 @@ Par exemple vous pouvez ajouter une règle qui colore les stations de Saint-Deni
 
 |espace|
 
+Pour enregistrer le style il faudra le valider en cliquant sur |button_valid|. 
+
 **Filtrer les éléments de la couche** |logo-filtre|
 
 .. image:: ../images/user_visualiseur/visu_filtre.png
@@ -324,5 +326,9 @@ L'enregistrement ira dans la page :ref:`Application <application>`.
    :width: 30px
 
 .. |logo-entonnoir| image:: ../images/user_visualiseur/logo_ento.png
+   :alt: Options de réglage
+   :width: 30px
+
+.. |button_valid| image:: ../images/user_visualiseur/button_valid.png
    :alt: Options de réglage
    :width: 30px

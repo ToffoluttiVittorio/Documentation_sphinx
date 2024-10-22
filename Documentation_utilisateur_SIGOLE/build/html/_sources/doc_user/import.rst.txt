@@ -67,7 +67,9 @@ Vous pouvez ensuite ajouter un titre et une description :
 
 |espace|
 
-Puis ajouter des mots clés en cliquant une fois sur le carré blanc, ce qui fera apparaître les différents mots clés.
+Pour l'ajout de mots clés, ils sont prédéfinis dans un catalogue de mots clés, le catalogue de mots clés utilisé ici est le glossaire de 
+l'Office internationale de l'eau. Pour faire apparaître la liste déroulante il faut cliquer sur le carré blanc, ou alors commencer à écrire un mot 
+puis cliquer à la suite pour voir l'autocomplétion. 
 
 .. image:: ../images/user_import/import_shape_keyword.png
    :alt: Capture d'écran du catalogue
