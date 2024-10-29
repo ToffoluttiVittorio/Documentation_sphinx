@@ -60,6 +60,7 @@
 <li class="toctree-l3"><a class="reference internal" href="#erreurs-frequentes">Erreurs fréquentes</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#serveur-mail">Serveur mail</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#script-de-personnalisation">Script de personnalisation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#thesaurus">Thesaurus</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#personnalisation-du-geoserver">Personnalisation du GeoServer</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#relancer-l-infrastructure">Relancer l’infrastructure</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#se-rendre-sur-l-application">Se rendre sur l’application</a></li>
@@ -105,9 +106,10 @@
 <li><p><a class="reference internal" href="#erreurs-frequentes" id="id3">Erreurs fréquentes</a></p></li>
 <li><p><a class="reference internal" href="#serveur-mail" id="id4">Serveur mail</a></p></li>
 <li><p><a class="reference internal" href="#script-de-personnalisation" id="id5">Script de personnalisation</a></p></li>
-<li><p><a class="reference internal" href="#personnalisation-du-geoserver" id="id6">Personnalisation du GeoServer</a></p></li>
-<li><p><a class="reference internal" href="#relancer-l-infrastructure" id="id7">Relancer l’infrastructure</a></p></li>
-<li><p><a class="reference internal" href="#se-rendre-sur-l-application" id="id8">Se rendre sur l’application</a></p></li>
+<li><p><a class="reference internal" href="#thesaurus" id="id6">Thesaurus</a></p></li>
+<li><p><a class="reference internal" href="#personnalisation-du-geoserver" id="id7">Personnalisation du GeoServer</a></p></li>
+<li><p><a class="reference internal" href="#relancer-l-infrastructure" id="id8">Relancer l’infrastructure</a></p></li>
+<li><p><a class="reference internal" href="#se-rendre-sur-l-application" id="id9">Se rendre sur l’application</a></p></li>
 </ul>
 </nav>
 <section id="introduction">
@@ -308,8 +310,13 @@ chmod<span class="w"> </span><span class="m">777</span><span class="w"> </span>l
 </pre></div>
 </div>
 </section>
+<section id="thesaurus">
+<h2><a class="toc-backref" href="#id6" role="doc-backlink">Thesaurus</a><a class="headerlink" href="#thesaurus" title="Lien vers cette rubrique"></a></h2>
+<p>Le thesaurus est le catalogue de mots clés utilisé lors de l’intégration de données par les agents.
+Par defaut, georchestra utilise le catalogue INSPIRE, vous pouvez le modifier en allant sur <a class="reference internal" href="../doc_admin/catalogue.html#id1"><span class="std std-ref">thesaurus</span></a>.</p>
+</section>
 <section id="personnalisation-du-geoserver">
-<h2><a class="toc-backref" href="#id6" role="doc-backlink">Personnalisation du GeoServer</a><a class="headerlink" href="#personnalisation-du-geoserver" title="Lien vers cette rubrique"></a></h2>
+<h2><a class="toc-backref" href="#id7" role="doc-backlink">Personnalisation du GeoServer</a><a class="headerlink" href="#personnalisation-du-geoserver" title="Lien vers cette rubrique"></a></h2>
 <p>Il faut changer à la main certaines configuration du GeoServer :</p>
 <ul class="simple">
 <li><p>modifier l’url du proxy en y rajoutant votre fqdn et décocher « Utiliser les entêtes pour l’url proxy » en allant dans la page « Services » puis dans « Global » :</p></li>
@@ -331,7 +338,7 @@ chmod<span class="w"> </span><span class="m">777</span><span class="w"> </span>l
 </div>
 </section>
 <section id="relancer-l-infrastructure">
-<h2><a class="toc-backref" href="#id7" role="doc-backlink">Relancer l’infrastructure</a><a class="headerlink" href="#relancer-l-infrastructure" title="Lien vers cette rubrique"></a></h2>
+<h2><a class="toc-backref" href="#id8" role="doc-backlink">Relancer l’infrastructure</a><a class="headerlink" href="#relancer-l-infrastructure" title="Lien vers cette rubrique"></a></h2>
 <p>Pour relancer l’infrastructure, il faut relancer les 3 tomcats et potentiellement nginx :</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo<span class="w"> </span>systemctl<span class="w"> </span>restart<span class="w"> </span>tomcat@georchestra.service
 </pre></div>
@@ -347,7 +354,7 @@ chmod<span class="w"> </span><span class="m">777</span><span class="w"> </span>l
 </div>
 </section>
 <section id="se-rendre-sur-l-application">
-<h2><a class="toc-backref" href="#id8" role="doc-backlink">Se rendre sur l’application</a><a class="headerlink" href="#se-rendre-sur-l-application" title="Lien vers cette rubrique"></a></h2>
+<h2><a class="toc-backref" href="#id9" role="doc-backlink">Se rendre sur l’application</a><a class="headerlink" href="#se-rendre-sur-l-application" title="Lien vers cette rubrique"></a></h2>
 <p>Pour se rendre sur l’application, aller à l’addresse :</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>https://le_fqdn_renseigné/
 </pre></div>

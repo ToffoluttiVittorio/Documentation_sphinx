@@ -12,3 +12,4 @@ Documentation administrateur
    Services - GeoServer<doc_admin/services>
    Utilisateur - console admin <doc_admin/utilisateurs>
    Analytics <doc_admin/analytics>
+   Le plugin QGIS <doc_admin/qgis>

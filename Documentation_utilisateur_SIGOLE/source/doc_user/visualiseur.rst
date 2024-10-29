@@ -63,7 +63,7 @@ Si vous n'avez pas séléctionné de données, dans l'arborescence des couches, 
 |espace|
 
 
-- ajouter des données directement dans le visualiseur, du catalogue interne et d'autre catalogue enregistré : 
+- ajouter des données directement dans le visualiseur, du catalogue interne et d'autre catalogue enregistré |ajout_couche|: 
 
 .. image:: ../images/user_visualiseur/visu_cat.png
    :alt: Options de filtrage
@@ -79,8 +79,8 @@ la liste pour choisir un autre catalogue. Puis vous pouvez chercher par mots cl�
 
    Vous pouvez demander au service informatique de rajouter un catalogue de données géographiques dans cet onglet. 
 
-- ajouter des groupes pour vos données
-- créer des annotations : 
+- ajouter des groupes pour vos données avec ce boutton |ajout_group|
+- créer des annotations |annotations|: 
 
 .. image:: ../images/user_visualiseur/visu_annotation.png
    :alt: Options de filtrage
@@ -230,7 +230,7 @@ Pour ce qui est des différentes fonctionnalités :
 
 Dans l'ordre, vous pouvez : 
 
-**Imprimer** une réalisation : 
+**Imprimer** une réalisation |print|: 
 
 .. image:: ../images/user_visualiseur/visu_print.png
    :alt: Capture d'écran du catalogue
@@ -242,17 +242,17 @@ Dans l'ordre, vous pouvez :
 Choisir le titre, le format et si la légende apparaît ou non 
 
 
-**Importer** des données
+**Importer** des données |import|
 
-**Exporter** la carte au format WMC, ne peut pas être exporté puis ajouté à QGIS. 
+**Exporter** la carte au format WMC, ne peut pas être exporté puis ajouté à QGIS |export|
 
-**Ajouter** des données à la carte
+**Ajouter** des données à la carte |ajout|
 
-**Charger** des cartes déjà enregistrées 
+**Charger** des cartes déjà enregistrées |app|
 
-**Mesurer** des distances 
+**Mesurer** des distances |mesure|
 
-**Enregistrer** la carte : 
+**Enregistrer** la carte |enreg| : 
 
 
 .. image:: ../images/user_visualiseur/visu_download.png
@@ -332,3 +332,65 @@ L'enregistrement ira dans la page :ref:`Application <application>`.
 .. |button_valid| image:: ../images/user_visualiseur/button_valid.png
    :alt: Options de réglage
    :width: 30px
+
+.. |ajout_couche| image:: ../images/user_visualiseur/button/ajout_couche.png
+   :alt: Options de réglage
+   :width: 30px
+
+.. |ajout_group| image:: ../images/user_visualiseur/button/ajout_group.png
+   :alt: Options de réglage
+   :width: 30px
+
+.. |annotations| image:: ../images/user_visualiseur/button/annotation.png
+   :alt: Options de réglage
+   :width: 30px
+
+.. |ajout| image:: ../images/user_visualiseur/button/ajout.png
+   :alt: Options de réglage
+   :width: 30px
+
+.. |app| image:: ../images/user_visualiseur/button/app.png
+   :alt: Options de réglage
+   :width: 30px
+
+.. |bin_session| image:: ../images/user_visualiseur/button/bin_session.png
+   :alt: Options de réglage
+   :width: 30px
+
+.. |doc| image:: ../images/user_visualiseur/button/doc.png
+   :alt: Options de réglage
+   :width: 30px
+
+.. |enreg| image:: ../images/user_visualiseur/button/enreg.png
+   :alt: Options de réglage
+   :width: 30px
+
+.. |export| image:: ../images/user_visualiseur/button/export.png
+   :alt: Options de réglage
+   :width: 30px
+
+.. |import| image:: ../images/user_visualiseur/button/import.png
+   :alt: Options de réglage
+   :width: 30px
+
+.. |mesure| image:: ../images/user_visualiseur/button/mesure.png
+   :alt: Options de réglage
+   :width: 30px
+
+.. |partage| image:: ../images/user_visualiseur/button/partage.png
+   :alt: Options de réglage
+   :width: 30px
+
+.. |print| image:: ../images/user_visualiseur/button/print.png
+   :alt: Options de réglage
+   :width: 30px
+
+.. |reglages| image:: ../images/user_visualiseur/button/reglages.png
+   :alt: Options de réglage
+   :width: 30px
+
+.. |tuto| image:: ../images/user_visualiseur/button/tuto.png
+   :alt: Options de réglage
+   :width: 30px
+
+

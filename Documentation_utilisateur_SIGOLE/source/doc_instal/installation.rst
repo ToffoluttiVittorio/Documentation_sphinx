@@ -238,6 +238,15 @@ et les lancer :
    ./other.sh
    ./last.sh
 
+
+Thesaurus
+---------------
+
+Le thesaurus est le catalogue de mots clés utilisé lors de l'intégration de données par les agents.
+Par defaut, georchestra utilise le catalogue INSPIRE, vous pouvez le modifier en allant sur :ref:`thesaurus <thesaurus>`.
+
+
+
 Personnalisation du GeoServer
 --------------------------------------
 

@@ -19,6 +19,14 @@ la carte simple avec le visualiseur, le tableau de bord, la GeoStory et le conte
 
 |espace|
 
+Dans cette cartothèque, 4 types de representations sont possibles :
+la carte simple avec le visualiseur, le tableau de bord, la GeoStory et le contexte réservé aux administrateurs. 
+
+.. image:: ../images/user_app/buttons.png
+   :align: center
+   :width: 200px
+
+
 Dashboard
 -----------------------
 
@@ -57,3 +65,14 @@ Voici le lien de la documentation officiel pour aller dans le détail :
 
 
 .. |espace| unicode:: 0xA0 
+
+
+
+
+.. |enreg| image:: ../images/user_app/dash.png
+   :alt: Options de réglage
+   :width: 30px
+
+.. |enreg| image:: ../images/user_app/geostory.png
+   :alt: Options de réglage
+   :width: 30px

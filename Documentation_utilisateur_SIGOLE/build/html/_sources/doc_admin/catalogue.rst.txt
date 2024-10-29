@@ -202,8 +202,10 @@ La partie rapport permet de créer des rapports très rapidement :
 - sur l'historique des fiches 
 - sur les accès utilisateurs
 
-Thésaurus
+Thesaurus
 ~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. _thesaurus:
 
  .. image:: ../images/admin_cat/cat_thes.png
    :alt: Capture d'écran du catalogue
@@ -212,7 +214,37 @@ Thésaurus
 
 |espace|
 
-Le thésaurus est le dictionnaire à mots clés, il définit les mots clés que vous pouvez utiliser pour vos métadonnées.
+Le thesaurus est le dictionnaire à mots clés, il définit les mots clés que vous pouvez utiliser pour vos métadonnées. Il est utilisé dans le datafeeder
+lors du choix des mots clés. Par defaut dans geOrchestra, le thesaurus est définis sur les thèmes INSPIRE, vous pouvez le modifier en ajoutant un thesaurus à la main 
+dans cette interface puis modifier le code qui relie le thesurus au datafeeder. 
+
+Par exemple, pour ajouter le glossaire de l'Office internationale de l'eau, il faut télécharger le glossaire au format RDF-XML et cliquer sur "Ajouter un thesaurus" :
+
+ .. image:: ../images/admin_cat/thesaurus.png
+   :alt: Capture d'écran du catalogue
+   :align: center
+   :width: 700px
+
+|espace|
+
+Puis s'assurer que le thesaurus à bien chargé, il peut contenir des valeurs manquantes, le déplier au maximum pour voir les lignes. Pour le glossaire de l'Office
+internationale de l'eau, lorsque l'on charge au maximum le thesaurus, on le voit en entier même si des "valeurs manquantes" apparaît. 
+
+Ensuite, pour l'utiliser dans le datafeeder il faut modifier la ligne dans le fichier ``/etc/georchestra/datafeeder/frontend-config.json``: 
+
+.. code-block:: bash
+
+   "thesaurusUrl": "https://dev-carto.ole.re/geonetwork/srv/api/registries/vocabularies/search?type=CONTAINS&thesaurus=local.theme.glossaire_eau_biodiv_20241021&rows=20000&q=${q}&uri=**&lang=${lang}"
+
+En modifiant l'url en fonction du domaine, l'origine de thesaurus, "local" ou "externe", le type qui est ici "theme", le nom, ici 
+"glossaire_eau_biodiv_20241021" et ne pas hésiter à rajouter des lignes si le thesaurus est long comme celui de L'oieau : "rows=20000". 
+
+Puis relancer le datafeeder :
+
+.. code-block:: bash 
+
+   systemctl restart datafeeder.service
+
 
 Paramètres
 ~~~~~~~~~~~~~~~~~~~~~~~~
