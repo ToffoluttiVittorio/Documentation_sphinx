@@ -45,6 +45,9 @@ En cliquant sur un utilisateur vous pourrez modifier ses caractéristiques :
 
 |espace|
 
+C'est aussi dans cet onglet que vous pouvez accepter des nouveaux utilisateurs, changer les noms des utilisateurs et aussi renvoyer la modification de mot de passe
+par mail. 
+
 
 Organismes
 ---------------------------

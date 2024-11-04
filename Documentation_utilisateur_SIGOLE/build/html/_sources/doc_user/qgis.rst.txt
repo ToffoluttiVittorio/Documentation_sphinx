@@ -4,6 +4,7 @@ Le plugin QGIS
 
 Le module QGIS vous permet d'intéragir avec certaines données de la plateforme directement dans QGIS.
 Le but est de mettre à disposition des données de référence stable et sans pouvoir les modifier.
+Il suffit de double cliquer sur une couche pour l'afficher sur QGIS.
 
 .. image:: ../images/user_qgis/plugin_base.png
    :alt: Options de filtrage
@@ -35,5 +36,9 @@ Puis, dans les paramètres de l'extension (menu Extensions  Office de l'eau > Pa
    :width: 600px
 
 |espace|
+
+.. note::
+   Les données afficher dans qgis sont séléctionnées par le service informatique, si vous voulez ajouter des données,
+   veillez demander au service informatique.
 
 .. |espace| unicode:: 0xA0 

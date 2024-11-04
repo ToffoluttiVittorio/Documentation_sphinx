@@ -88,4 +88,17 @@ Ce qui en resulte par cette interface et les règles suivantes :
    :width: 700px
 
 
+
+La restriction d'accès aux services
+-----------------------------------------------
+
+Pour restreindre les accès aux différents services, par exemple modifier les données directement via mapstore se fait via le service WFS et la fonction "Transaction".
+
+.. image:: ../images/admin_geos/services.png
+   :alt: Capture d'écran du catalogue
+   :align: center
+   :width: 700px
+
+L'accès à la création de compteur via mapstore se fait via le service wps qui permet de réaliser des traitements géospatiaux directement via des requêtes HTTP. 
+
 .. |espace| unicode:: 0xA0 

@@ -153,6 +153,24 @@ Par exemple vous pouvez ajouter une règle qui colore les stations de Saint-Deni
 
 |espace|
 
+Vous pouvez aussi styliser les éléments en fonction d'un attribut, il faut cliquer sur |trois| : 
+
+.. image:: ../images/user_visualiseur/filtre/classif.png
+   :alt: Options de filtrage
+   :align: center
+   :width: 500px
+
+|espace|
+
+Puis vous pourrez attribuer un style qui classifie les éléments en fonction d'un attribut : 
+
+.. image:: ../images/user_visualiseur/filtre/classif_2.png
+   :alt: Options de filtrage
+   :align: center
+   :width: 500px
+
+|espace|
+
 Pour enregistrer le style il faudra le valider en cliquant sur |button_valid|. 
 
 **Filtrer les éléments de la couche** |logo-filtre|
@@ -173,7 +191,7 @@ Vous pouvez filtrer sur un attribut, filtrer en dessinant une zone géographique
    :align: center
    :width: 600px
 
-Vous pouvez filtrer, télécharger le tableau, le modifier et rajouter des éléments, mais ces modifications ne seront pas reportées sur le catalogue.
+Vous pouvez filtrer et télécharger le tableau. Il faut ensuite avoir des droits pour modifier et rajouter des éléments, ces modifications se repportent directement dans le catalogue. 
 
 |espace|
 
@@ -390,6 +408,10 @@ L'enregistrement ira dans la page :ref:`Application <application>`.
    :width: 30px
 
 .. |tuto| image:: ../images/user_visualiseur/button/tuto.png
+   :alt: Options de réglage
+   :width: 30px
+
+.. |trois| image:: ../images/user_visualiseur/filtre/trois.png
    :alt: Options de réglage
    :width: 30px
 

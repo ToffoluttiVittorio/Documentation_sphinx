@@ -60,10 +60,12 @@
 <li class="toctree-l3"><a class="reference internal" href="#les-donnees-stockees-en-interne">Les données stockées en interne</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#la-diffusion-des-donnees-avec-les-flux-ogc">La diffusion des données avec les flux OGC</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#la-restriction-d-acces-aux-donnees">La restriction d’accès aux données</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#la-restriction-d-acces-aux-services">La restriction d’accès aux services</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="utilisateurs.html">Utilisateur - console admin</a></li>
 <li class="toctree-l2"><a class="reference internal" href="analytics.html">Analytics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qgis.html">Le plugin QGIS</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../doc_instal.html">Documentation d'installation - Développeur</a></li>
@@ -102,6 +104,7 @@
 <li><p><a class="reference internal" href="#les-donnees-stockees-en-interne" id="id2">Les données stockées en interne</a></p></li>
 <li><p><a class="reference internal" href="#la-diffusion-des-donnees-avec-les-flux-ogc" id="id3">La diffusion des données avec les flux OGC</a></p></li>
 <li><p><a class="reference internal" href="#la-restriction-d-acces-aux-donnees" id="id4">La restriction d’accès aux données</a></p></li>
+<li><p><a class="reference internal" href="#la-restriction-d-acces-aux-services" id="id5">La restriction d’accès aux services</a></p></li>
 </ul>
 </nav>
 <section id="introduction">
@@ -155,6 +158,12 @@ qui correspond aux données de l’Office de l’eau Réunion.</p>
 <li><p>les données de l’Office de l’eau Réunion ne sont lisible que par les utilisateurs qui sont dans les groupes OREBA et/ou SASPE</p></li>
 </ul>
 <a class="reference internal image-reference" href="../_images/geos_result.png"><img alt="Capture d'écran du catalogue" class="align-center" src="../_images/geos_result.png" style="width: 700px;" /></a>
+</section>
+<section id="la-restriction-d-acces-aux-services">
+<h2><a class="toc-backref" href="#id5" role="doc-backlink">La restriction d’accès aux services</a><a class="headerlink" href="#la-restriction-d-acces-aux-services" title="Lien vers cette rubrique"></a></h2>
+<p>Pour restreindre les accès aux différents services, par exemple modifier les données directement via mapstore se fait via le service WFS et la fonction « Transaction ».</p>
+<a class="reference internal image-reference" href="../_images/services.png"><img alt="Capture d'écran du catalogue" class="align-center" src="../_images/services.png" style="width: 700px;" /></a>
+<p>L’accès à la création de compteur via mapstore se fait via le service wps qui permet de réaliser des traitements géospatiaux directement via des requêtes HTTP.</p>
 </section>
 </section>
 

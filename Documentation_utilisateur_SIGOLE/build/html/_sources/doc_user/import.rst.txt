@@ -18,7 +18,8 @@ La page Import permet d'intégrer des données de manière simplifiée dans le c
 |espace|
 
 Deux format sont acceptés, le shapefile en zip et le CSV, à une limite de 500 Mo. Vous pouvez ajouter votre donnée, cliquer sur 
-le bouton "J'ai le droit de publier cette donnée" puis passer à l'étape suivante.
+le bouton "J'ai le droit de publier cette donnée" puis passer à l'étape suivante. Une bonne pratique est de ne pas mettre de caractères spéciaux
+dans le nom des champs des couches shapefile, cela peut causer des problèmes par la suite.
 
 Intégration de shapefile
 ---------------------------
