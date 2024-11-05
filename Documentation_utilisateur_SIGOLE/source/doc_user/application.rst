@@ -11,8 +11,7 @@ Introduction
 ------------
 
 La page Application sert de cartotèque en lien avec le :ref:`visualiseur <visualiseur>`. Dans cette cartothèque, 4 types de representations sont possibles :
-la carte simple avec le visualiseur, le tableau de bord, la GeoStory et le contexte réservé aux administrateurs. Voici les 3 boutton pour ajouter dans l'ordre,
-une carte, un Dashboard et une GeoStory : 
+la carte simple avec le visualiseur, le tableau de bord, la GeoStory et le contexte réservé aux administrateurs. 
 
 .. image:: ../images/user_app/app_global.png
    :align: center
@@ -31,14 +30,17 @@ la carte simple avec le visualiseur, le tableau de bord, la GeoStory et le conte
 Dashboard
 -----------------------
 
+Pour créer un dashboard, cliquez sur ce bouton |dash| 
+
 .. image:: ../images/user_app/app_dashboard.png
    :align: center
    :width: 600px
 
 |espace|
 
-Vous pouvez ajouter différents widget en fonctions des données du catalogue, un tutoriel vous guide directement lorsque vous créer un dashboard, les graphiques
-réalisables sont les mêmes que pour les cartes.
+Vous pouvez ajouter différents widget en fonctions des données du catalogue, un tutoriel vous guide directement 
+lorsque vous créer un dashboard, les graphiques réalisables sont les mêmes que pour les cartes. Les widgets se connectent*
+aux données du serveur interne et non directement aux cartes réalisées. 
 
 .. note::
    Les widgets sont dépéndants de la configuration de la donnée, ils peuvent ne pas être disponible. 
@@ -50,14 +52,17 @@ Voici le lien de la documentation officiel pour aller dans le détail :
 GeoStory
 ---------------------------
 
+Pour créer un dashboard, cliquez sur ce bouton |geo| 
+
 .. image:: ../images/user_app/app_geostory.png
    :align: center
    :width: 600px
 
 |espace|
 
-Avec les GeoStories, vous pouvez créer des documents textes en y intégrant des cartes intéractives. La gestions des composants se fait sur la gauche
-de l'interface qui sont : les titres, les bannières, les paragraphes, les sections immersives, les geocarrousels, les sections multimedia et les pages web.
+Avec les GeoStories, vous pouvez créer des documents textes en y intégrant des cartes intéractives. 
+La gestions des composants se fait sur la gauche de l'interface qui sont : les titres, les bannières, 
+les paragraphes, les sections immersives, les geocarrousels, les sections multimedia et les pages web.
 Un tutoriel vous guide directement lorsque vous créez une GeoStory.
 
 Voici le lien de la documentation officiel pour aller dans le détail : 
@@ -67,3 +72,13 @@ Voici le lien de la documentation officiel pour aller dans le détail :
 
 .. |espace| unicode:: 0xA0 
 
+
+
+
+.. |dash| image:: ../images/user_app/dash.png
+   :alt: Options de réglage
+   :width: 30px
+
+.. |geo| image:: ../images/user_app/geostory.png
+   :alt: Options de réglage
+   :width: 30px
