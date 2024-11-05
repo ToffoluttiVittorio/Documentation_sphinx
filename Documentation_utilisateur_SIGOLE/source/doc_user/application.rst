@@ -38,8 +38,8 @@ Pour créer un dashboard, cliquez sur ce bouton |dash|
 
 |espace|
 
-Vous pouvez ajouter différents widget en fonctions des données du catalogue, un tutoriel vous guide directement 
-lorsque vous créer un dashboard, les graphiques réalisables sont les mêmes que pour les cartes. Les widgets se connectent*
+Vous pouvez ajouter différents widgets en fonctions des données du catalogue, un tutoriel vous guide directement 
+lorsque vous créer un dashboard, les graphiques réalisables sont les mêmes que pour les cartes. Les widgets se connectent
 aux données du serveur interne et non directement aux cartes réalisées. 
 
 .. note::
