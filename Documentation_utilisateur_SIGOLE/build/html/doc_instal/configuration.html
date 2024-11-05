@@ -108,10 +108,15 @@
 </nav>
 <section id="introduction">
 <h2><a class="toc-backref" href="#id1" role="doc-backlink">Introduction</a><a class="headerlink" href="#introduction" title="Lien vers cette rubrique"></a></h2>
-<p>Le code étant très dense et compilé, il faudra comprendre la structure et les fichiers de configuration mis à dispostion plutôt que le code en profondeur.</p>
+<p>Le code étant très dense et compilé, il faudra comprendre la structure et les fichiers de configuration mis à dispostion plutôt que le code en profondeur.
+La première définition des version, modules, port … se fait dans <code class="docutils literal notranslate"><span class="pre">ansible/playbooks/georchestra.yml</span></code> et la modification des modules installés se fait dans
+<code class="docutils literal notranslate"><span class="pre">/etc/georchestra/</span></code>.</p>
 </section>
 <section id="localisation-des-differents-repertoires">
 <h2><a class="toc-backref" href="#id2" role="doc-backlink">Localisation des différents répertoires</a><a class="headerlink" href="#localisation-des-differents-repertoires" title="Lien vers cette rubrique"></a></h2>
+<p>Les dossiers de configuration se trouve dans : <code class="docutils literal notranslate"><span class="pre">/etc/georchestra/</span></code>, ils sont documentés, facile à parcourir et modifier.</p>
+<p>Le document d’installation se trouve dans <code class="docutils literal notranslate"><span class="pre">ansible/playbooks/georchestra.yml</span></code>, c’est à partir de ce fichier que se fait l’installation
+et spécifie les versions, les variables …</p>
 <p>Les logs des différents modules sont dans : <code class="docutils literal notranslate"><span class="pre">/srv/log/</span></code></p>
 <p>Les binaires et le code source sont divisée en trois :</p>
 <ul class="simple">
@@ -122,7 +127,6 @@
 <p>Les données de geonetwork et geoserver sont dans le repertoire : <code class="docutils literal notranslate"><span class="pre">/srv/data/</span></code></p>
 <p>Les pages web statiques sont dans : <code class="docutils literal notranslate"><span class="pre">/var/www/georchestra/htdocs/</span></code></p>
 <p>Le module nginx est lui dans : <code class="docutils literal notranslate"><span class="pre">/etc/nginx/</span></code></p>
-<p>Les dossiers de configuration se trouve dans : <code class="docutils literal notranslate"><span class="pre">/etc/georchestra/</span></code>, ils sont documentés, facile à parcourir et modifier.</p>
 </section>
 <section id="fichiers-de-configuration-du-datadir">
 <h2><a class="toc-backref" href="#id3" role="doc-backlink">Fichiers de configuration du datadir</a><a class="headerlink" href="#fichiers-de-configuration-du-datadir" title="Lien vers cette rubrique"></a></h2>
@@ -158,7 +162,7 @@ lors du lancement de l’installation.</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>psql<span class="w"> </span>-U<span class="w"> </span>georchestra<span class="w"> </span>-h<span class="w"> </span>localhost
 </pre></div>
 </div>
-<p>Elle stocke les données dans différents schémas. Il n’est pas nécéssaire de l’utiliser.</p>
+<p>Elle stocke les données dans différents schémas.</p>
 </section>
 <section id="scripts-de-personnalisation">
 <h2><a class="toc-backref" href="#id6" role="doc-backlink">Scripts de personnalisation</a><a class="headerlink" href="#scripts-de-personnalisation" title="Lien vers cette rubrique"></a></h2>

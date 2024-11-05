@@ -61,6 +61,8 @@
 <li class="toctree-l3"><a class="reference internal" href="#serveur-mail">Serveur mail</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#script-de-personnalisation">Script de personnalisation</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#thesaurus">Thesaurus</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#activer-le-module-analytics">Activer le module analytics</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#certificat-ssl">Certificat ssl</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#personnalisation-du-geoserver">Personnalisation du GeoServer</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#relancer-l-infrastructure">Relancer l’infrastructure</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#se-rendre-sur-l-application">Se rendre sur l’application</a></li>
@@ -107,9 +109,11 @@
 <li><p><a class="reference internal" href="#serveur-mail" id="id4">Serveur mail</a></p></li>
 <li><p><a class="reference internal" href="#script-de-personnalisation" id="id5">Script de personnalisation</a></p></li>
 <li><p><a class="reference internal" href="#thesaurus" id="id6">Thesaurus</a></p></li>
-<li><p><a class="reference internal" href="#personnalisation-du-geoserver" id="id7">Personnalisation du GeoServer</a></p></li>
-<li><p><a class="reference internal" href="#relancer-l-infrastructure" id="id8">Relancer l’infrastructure</a></p></li>
-<li><p><a class="reference internal" href="#se-rendre-sur-l-application" id="id9">Se rendre sur l’application</a></p></li>
+<li><p><a class="reference internal" href="#activer-le-module-analytics" id="id7">Activer le module analytics</a></p></li>
+<li><p><a class="reference internal" href="#certificat-ssl" id="id8">Certificat ssl</a></p></li>
+<li><p><a class="reference internal" href="#personnalisation-du-geoserver" id="id9">Personnalisation du GeoServer</a></p></li>
+<li><p><a class="reference internal" href="#relancer-l-infrastructure" id="id10">Relancer l’infrastructure</a></p></li>
+<li><p><a class="reference internal" href="#se-rendre-sur-l-application" id="id11">Se rendre sur l’application</a></p></li>
 </ul>
 </nav>
 <section id="introduction">
@@ -225,77 +229,19 @@ fatal:<span class="w"> </span><span class="o">[</span>localhost<span class="o">]
 <p class="admonition-title">Note</p>
 <p>Si vous avez encore une erreur lors de l’installation après avoir supprimer le repertoire htdocs, il faut souvent relancer encore le playbook sans rien toucher</p>
 </div>
-<p>Si vous avez des erreurs de versions de paquets, il faut mettre les bonnes versions, conforme au fichier <code class="docutils literal notranslate"><span class="pre">playbooks/georchestra.yml</span></code>.</p>
+<p>Si vous avez des erreurs de versions de paquets, il faut mettre les bonnes versions, conforme au fichier <code class="docutils literal notranslate"><span class="pre">ansible/playbooks/georchestra.yml</span></code>.</p>
 </section>
 <section id="serveur-mail">
 <h2><a class="toc-backref" href="#id4" role="doc-backlink">Serveur mail</a><a class="headerlink" href="#serveur-mail" title="Lien vers cette rubrique"></a></h2>
-<p>Pour le serveur mail, pour l’instant un serveur postfix est installé :</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>apt<span class="w"> </span>install<span class="w"> </span>postfix
-</pre></div>
-</div>
-<p>avec cette configuration dans le fichier /etc/postfix/main.cf :</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>nano<span class="w"> </span>/etc/postfix/main.cf
-</pre></div>
-</div>
-<p>puis lancer le service :</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>systemctl<span class="w"> </span>start<span class="w"> </span>postfix.service
-</pre></div>
-</div>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># See /usr/share/postfix/main.cf.dist for a commented, more complete version</span>
-
-
-<span class="c1"># Debian specific:  Specifying a file name will cause the first</span>
-<span class="c1"># line of that file to be used as the name.  The Debian default</span>
-<span class="c1"># is /etc/mailname.</span>
-<span class="c1">#myorigin = /etc/mailname</span>
-
-<span class="nv">smtpd_banner</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">$myhostname</span><span class="w"> </span>ESMTP<span class="w"> </span><span class="nv">$mail_name</span><span class="w"> </span><span class="o">(</span>Debian/GNU<span class="o">)</span>
-<span class="nv">biff</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>no
-
-<span class="c1"># appending .domain is the MUA&#39;s job.</span>
-<span class="nv">append_dot_mydomain</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>no
-
-<span class="c1"># Uncomment the next line to generate &quot;delayed mail&quot; warnings</span>
-<span class="c1">#delay_warning_time = 4h</span>
-
-<span class="nv">readme_directory</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>no
-
-<span class="c1"># See http://www.postfix.org/COMPATIBILITY_README.html -- default to 3.6 on</span>
-<span class="c1"># fresh installs.</span>
-<span class="nv">compatibility_level</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">3</span>.6
-
-
-
-<span class="c1"># TLS parameters</span>
-<span class="nv">smtpd_tls_cert_file</span><span class="o">=</span>/etc/ssl/certs/ssl-cert-snakeoil.pem
-<span class="nv">smtpd_tls_key_file</span><span class="o">=</span>/etc/ssl/private/ssl-cert-snakeoil.key
-<span class="nv">smtpd_tls_security_level</span><span class="o">=</span>may
-
-<span class="nv">smtp_tls_CApath</span><span class="o">=</span>/etc/ssl/certs
-<span class="nv">smtp_tls_security_level</span><span class="o">=</span>may
-<span class="nv">smtp_tls_session_cache_database</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>btree:<span class="si">${</span><span class="nv">data_directory</span><span class="si">}</span>/smtp_scache
-
-
-
-<span class="nv">smtpd_relay_restrictions</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>permit_mynetworks<span class="w"> </span>permit_sasl_authenticated<span class="w"> </span>defer_unauth_destination
-<span class="nv">myhostname</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>Ansible-42.myguest.virtualbox.org
-<span class="nv">alias_maps</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>hash:/etc/aliases
-<span class="nv">alias_database</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>hash:/etc/aliases
-<span class="nv">mydestination</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">$myhostname</span>,<span class="w"> </span>localhost,<span class="w"> </span>localhost.<span class="nv">$mydomain</span>,<span class="w"> </span>mail.<span class="nv">$mydomain</span>,<span class="w"> </span>www.<span class="nv">$mydomain</span>,<span class="w"> </span>localho<span class="w">                                                                                                                                          </span>st,<span class="w"> </span><span class="nv">$mydomain</span>
-<span class="nv">relayhost</span><span class="w"> </span><span class="o">=</span>
-<span class="nv">mynetworks</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">127</span>.0.0.0/8<span class="w"> </span><span class="o">[</span>::ffff:127.0.0.0<span class="o">]</span>/104<span class="w"> </span><span class="o">[</span>::1<span class="o">]</span>/128
-<span class="nv">mailbox_size_limit</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0</span>
-<span class="nv">recipient_delimiter</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>+
-<span class="nv">inet_interfaces</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>all
-<span class="nv">inet_protocols</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>all
-</pre></div>
-</div>
+<p>Pour le serveur mail, un postfix est installé sur la vm et est réliée à carbonio, copier la configuration faite dans la vm dev-carto.ole.re,
+le mail de l’administrateur se définit dans <code class="docutils literal notranslate"><span class="pre">ansible/playbooks/georchestra.yml</span></code> et les templates des mails sont dans <code class="docutils literal notranslate"><span class="pre">/etc/georchestra/datafeeder</span></code>
+et <code class="docutils literal notranslate"><span class="pre">/etc/georchestra/</span></code></p>
 </section>
 <section id="script-de-personnalisation">
 <h2><a class="toc-backref" href="#id5" role="doc-backlink">Script de personnalisation</a><a class="headerlink" href="#script-de-personnalisation" title="Lien vers cette rubrique"></a></h2>
 <p>Les scripts de personnalisation servent à ajouter les spécifications pour l’Office de l’eau Réunion sans directement changer le code d’installation.</p>
-<p>Il y’a trois script bash qui modifient les logos, couleurs et référentiel de coordonée dans le dossier « Configuration », voici la commande pour les rendre executable
-et les lancer :</p>
+<p>Il y’a trois script bash qui modifient les logos, couleurs, référentiel de coordonée … dans le dossier « Configuration », les lancer depuis <code class="docutils literal notranslate"><span class="pre">ansible/Configuration</span></code>
+voici la commande pour les rendre executable et les lancer :</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">cd</span><span class="w"> </span>Configuration
 </pre></div>
 </div>
@@ -315,8 +261,31 @@ chmod<span class="w"> </span><span class="m">777</span><span class="w"> </span>l
 <p>Le thesaurus est le catalogue de mots clés utilisé lors de l’intégration de données par les agents.
 Par defaut, georchestra utilise le catalogue INSPIRE, vous pouvez le modifier en allant sur <a class="reference internal" href="../doc_admin/catalogue.html#id1"><span class="std std-ref">thesaurus</span></a>.</p>
 </section>
+<section id="activer-le-module-analytics">
+<h2><a class="toc-backref" href="#id7" role="doc-backlink">Activer le module analytics</a><a class="headerlink" href="#activer-le-module-analytics" title="Lien vers cette rubrique"></a></h2>
+<p>Pour activer le module analytics, il faut changer les droits du schéma « ogcstatistics » de postgres à georchestra.
+La base de donnée est accessible avec psql :</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>psql<span class="w"> </span>-U<span class="w"> </span>postgres<span class="w"> </span>-h<span class="w"> </span>localhost<span class="w"> </span>-d<span class="w"> </span>georchestra
+</pre></div>
+</div>
+<p>Puis il faut lancer :</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>ALTER<span class="w"> </span>SCHEMA<span class="w"> </span>ogcstatistics<span class="w"> </span>OWNER<span class="w"> </span>TO<span class="w"> </span>georchestra<span class="p">;</span>
+</pre></div>
+</div>
+</section>
+<section id="certificat-ssl">
+<h2><a class="toc-backref" href="#id8" role="doc-backlink">Certificat ssl</a><a class="headerlink" href="#certificat-ssl" title="Lien vers cette rubrique"></a></h2>
+<p>Pour autoriser le geoserver et mapstore à communiquer entre eux pour la fonction print de mapstore, il est nécéssaire d’ajouter le certificat ssl à java,
+cette documentation fonctionne parfaitement : <a class="reference external" href="https://stackoverflow.com/questions/14947517/pkix-path-building-failed-sun-security-provider-certpath-suncertpathbuilderexce">https://stackoverflow.com/questions/14947517/pkix-path-building-failed-sun-security-provider-certpath-suncertpathbuilderexce</a>.</p>
+<p>IL faut copier la valeur du certificat qui apparaît dans votre navigateur et l’enregistrer avec « .der », puis localiser votre $JAVA_HOME, et dans lib puis security se trouve
+un fichier « cacerts », il faudra lancer :</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo<span class="w"> </span>keytool<span class="w"> </span>-import<span class="w"> </span>-alias<span class="w"> </span>mysitedev<span class="w"> </span>-keystore<span class="w">  </span><span class="nv">$JAVA_HOME</span>/jre/lib/security/cacerts<span class="w"> </span>-file<span class="w"> </span>dev.der
+</pre></div>
+</div>
+<p>où « mysitedev » est votre fqdn et dev.der le certificat, le mot de passer par défaut est : « changeit ».</p>
+</section>
 <section id="personnalisation-du-geoserver">
-<h2><a class="toc-backref" href="#id7" role="doc-backlink">Personnalisation du GeoServer</a><a class="headerlink" href="#personnalisation-du-geoserver" title="Lien vers cette rubrique"></a></h2>
+<h2><a class="toc-backref" href="#id9" role="doc-backlink">Personnalisation du GeoServer</a><a class="headerlink" href="#personnalisation-du-geoserver" title="Lien vers cette rubrique"></a></h2>
 <p>Il faut changer à la main certaines configuration du GeoServer :</p>
 <ul class="simple">
 <li><p>modifier l’url du proxy en y rajoutant votre fqdn et décocher « Utiliser les entêtes pour l’url proxy » en allant dans la page « Services » puis dans « Global » :</p></li>
@@ -326,7 +295,11 @@ Par defaut, georchestra utilise le catalogue INSPIRE, vous pouvez le modifier en
 </div></blockquote>
 <p> </p>
 <ul class="simple">
-<li><p>modifier les services pour faire des graphiques, enlever les 2 règels wfs.Transaction et wps.* en allant dans « Sécurité des services » :</p></li>
+<li><dl class="simple">
+<dt>modifier les services pour modifier les données depuis mapstore et faire des graphiques, enlever les 2 règels wfs.Transaction et wps.* en allant dans « Sécurité des services »</dt><dd><p>si vous le souhaitez :</p>
+</dd>
+</dl>
+</li>
 </ul>
 <blockquote>
 <div><a class="reference internal image-reference" href="../_images/geoserver_services.png"><img alt="Capture d'écran du catalogue" class="align-center" src="../_images/geoserver_services.png" style="width: 700px;" /></a>
@@ -338,7 +311,7 @@ Par defaut, georchestra utilise le catalogue INSPIRE, vous pouvez le modifier en
 </div>
 </section>
 <section id="relancer-l-infrastructure">
-<h2><a class="toc-backref" href="#id8" role="doc-backlink">Relancer l’infrastructure</a><a class="headerlink" href="#relancer-l-infrastructure" title="Lien vers cette rubrique"></a></h2>
+<h2><a class="toc-backref" href="#id10" role="doc-backlink">Relancer l’infrastructure</a><a class="headerlink" href="#relancer-l-infrastructure" title="Lien vers cette rubrique"></a></h2>
 <p>Pour relancer l’infrastructure, il faut relancer les 3 tomcats et potentiellement nginx :</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo<span class="w"> </span>systemctl<span class="w"> </span>restart<span class="w"> </span>tomcat@georchestra.service
 </pre></div>
@@ -354,7 +327,7 @@ Par defaut, georchestra utilise le catalogue INSPIRE, vous pouvez le modifier en
 </div>
 </section>
 <section id="se-rendre-sur-l-application">
-<h2><a class="toc-backref" href="#id9" role="doc-backlink">Se rendre sur l’application</a><a class="headerlink" href="#se-rendre-sur-l-application" title="Lien vers cette rubrique"></a></h2>
+<h2><a class="toc-backref" href="#id11" role="doc-backlink">Se rendre sur l’application</a><a class="headerlink" href="#se-rendre-sur-l-application" title="Lien vers cette rubrique"></a></h2>
 <p>Pour se rendre sur l’application, aller à l’addresse :</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>https://le_fqdn_renseigné/
 </pre></div>

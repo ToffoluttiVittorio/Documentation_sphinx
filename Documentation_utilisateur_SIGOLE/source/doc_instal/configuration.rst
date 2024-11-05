@@ -8,10 +8,17 @@ Configuration
 Introduction
 ------------
 
-Le code étant très dense et compilé, il faudra comprendre la structure et les fichiers de configuration mis à dispostion plutôt que le code en profondeur.
+Le code étant très dense et compilé, il faudra comprendre la structure et les fichiers de configuration mis à dispostion plutôt que le code en profondeur. 
+La première définition des version, modules, port ... se fait dans ``ansible/playbooks/georchestra.yml`` et la modification des modules installés se fait dans 
+``/etc/georchestra/``. 
 
 Localisation des différents répertoires
 ------------------------------------------------
+
+Les dossiers de configuration se trouve dans : ``/etc/georchestra/``, ils sont documentés, facile à parcourir et modifier.
+
+Le document d'installation se trouve dans ``ansible/playbooks/georchestra.yml``, c'est à partir de ce fichier que se fait l'installation 
+et spécifie les versions, les variables ...
 
 Les logs des différents modules sont dans : ``/srv/log/``
 
@@ -26,8 +33,6 @@ Les données de geonetwork et geoserver sont dans le repertoire : ``/srv/data/``
 Les pages web statiques sont dans : ``/var/www/georchestra/htdocs/``
 
 Le module nginx est lui dans : ``/etc/nginx/``
-
-Les dossiers de configuration se trouve dans : ``/etc/georchestra/``, ils sont documentés, facile à parcourir et modifier.
 
 Fichiers de configuration du datadir 
 -----------------------------------------
@@ -73,7 +78,7 @@ La base de donnée est accessible avec psql :
 
    psql -U georchestra -h localhost
 
-Elle stocke les données dans différents schémas. Il n'est pas nécéssaire de l'utiliser.
+Elle stocke les données dans différents schémas.
 
 
 Scripts de personnalisation

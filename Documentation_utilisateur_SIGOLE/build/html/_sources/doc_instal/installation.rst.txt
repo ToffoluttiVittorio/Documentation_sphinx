@@ -139,88 +139,23 @@ Il faut supprimer le repertoire htdocs, et relancer le run du playbook :
    Si vous avez encore une erreur lors de l'installation après avoir supprimer le repertoire htdocs, il faut souvent relancer encore le playbook sans rien toucher
 
 
-Si vous avez des erreurs de versions de paquets, il faut mettre les bonnes versions, conforme au fichier ``playbooks/georchestra.yml``. 
+Si vous avez des erreurs de versions de paquets, il faut mettre les bonnes versions, conforme au fichier ``ansible/playbooks/georchestra.yml``. 
 
 
 Serveur mail 
 ---------------
 
-Pour le serveur mail, pour l'instant un serveur postfix est installé : 
-
-.. code-block:: bash
-
-   apt install postfix 
-
-avec cette configuration dans le fichier /etc/postfix/main.cf : 
-
-.. code-block:: bash
-
-   nano /etc/postfix/main.cf
-
-puis lancer le service : 
-
-.. code-block:: bash
-
-   systemctl start postfix.service
-
-.. code-block:: bash
-
-   # See /usr/share/postfix/main.cf.dist for a commented, more complete version
-
-
-   # Debian specific:  Specifying a file name will cause the first
-   # line of that file to be used as the name.  The Debian default
-   # is /etc/mailname.
-   #myorigin = /etc/mailname
-
-   smtpd_banner = $myhostname ESMTP $mail_name (Debian/GNU)
-   biff = no
-
-   # appending .domain is the MUA's job.
-   append_dot_mydomain = no
-
-   # Uncomment the next line to generate "delayed mail" warnings
-   #delay_warning_time = 4h
-
-   readme_directory = no
-
-   # See http://www.postfix.org/COMPATIBILITY_README.html -- default to 3.6 on
-   # fresh installs.
-   compatibility_level = 3.6
-
-
-
-   # TLS parameters
-   smtpd_tls_cert_file=/etc/ssl/certs/ssl-cert-snakeoil.pem
-   smtpd_tls_key_file=/etc/ssl/private/ssl-cert-snakeoil.key
-   smtpd_tls_security_level=may
-
-   smtp_tls_CApath=/etc/ssl/certs
-   smtp_tls_security_level=may
-   smtp_tls_session_cache_database = btree:${data_directory}/smtp_scache
-
-
-
-   smtpd_relay_restrictions = permit_mynetworks permit_sasl_authenticated defer_unauth_destination
-   myhostname = Ansible-42.myguest.virtualbox.org
-   alias_maps = hash:/etc/aliases
-   alias_database = hash:/etc/aliases
-   mydestination = $myhostname, localhost, localhost.$mydomain, mail.$mydomain, www.$mydomain, localho                                                                                                                                          st, $mydomain
-   relayhost =
-   mynetworks = 127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128
-   mailbox_size_limit = 0
-   recipient_delimiter = +
-   inet_interfaces = all
-   inet_protocols = all
-
+Pour le serveur mail, un postfix est installé sur la vm et est réliée à carbonio, copier la configuration faite dans la vm dev-carto.ole.re, 
+le mail de l'administrateur se définit dans ``ansible/playbooks/georchestra.yml`` et les templates des mails sont dans ``/etc/georchestra/datafeeder``
+et ``/etc/georchestra/``
 
 Script de personnalisation
 ---------------------------------
 
 Les scripts de personnalisation servent à ajouter les spécifications pour l'Office de l'eau Réunion sans directement changer le code d'installation.
 
-Il y'a trois script bash qui modifient les logos, couleurs et référentiel de coordonée dans le dossier "Configuration", voici la commande pour les rendre executable
-et les lancer : 
+Il y'a trois script bash qui modifient les logos, couleurs, référentiel de coordonée ... dans le dossier "Configuration", les lancer depuis ``ansible/Configuration``
+voici la commande pour les rendre executable et les lancer : 
 
 .. code-block:: bash
 
@@ -245,6 +180,37 @@ Thesaurus
 Le thesaurus est le catalogue de mots clés utilisé lors de l'intégration de données par les agents.
 Par defaut, georchestra utilise le catalogue INSPIRE, vous pouvez le modifier en allant sur :ref:`thesaurus <thesaurus>`.
 
+Activer le module analytics
+-------------------------------
+
+Pour activer le module analytics, il faut changer les droits du schéma "ogcstatistics" de postgres à georchestra. 
+La base de donnée est accessible avec psql : 
+
+.. code-block:: bash
+
+   psql -U postgres -h localhost -d georchestra
+
+Puis il faut lancer :
+
+.. code-block:: bash
+
+   ALTER SCHEMA ogcstatistics OWNER TO georchestra;
+
+
+Certificat ssl 
+--------------------
+
+Pour autoriser le geoserver et mapstore à communiquer entre eux pour la fonction print de mapstore, il est nécéssaire d'ajouter le certificat ssl à java,
+cette documentation fonctionne parfaitement : https://stackoverflow.com/questions/14947517/pkix-path-building-failed-sun-security-provider-certpath-suncertpathbuilderexce.
+
+IL faut copier la valeur du certificat qui apparaît dans votre navigateur et l'enregistrer avec ".der", puis localiser votre $JAVA_HOME, et dans lib puis security se trouve 
+un fichier "cacerts", il faudra lancer : 
+
+.. code-block:: bash
+
+   sudo keytool -import -alias mysitedev -keystore  $JAVA_HOME/jre/lib/security/cacerts -file dev.der
+
+où "mysitedev" est votre fqdn et dev.der le certificat, le mot de passer par défaut est : "changeit". 
 
 
 Personnalisation du GeoServer
@@ -261,7 +227,8 @@ Il faut changer à la main certaines configuration du GeoServer :
 
 |espace|
 
-- modifier les services pour faire des graphiques, enlever les 2 règels wfs.Transaction et wps.* en allant dans "Sécurité des services" : 
+- modifier les services pour modifier les données depuis mapstore et faire des graphiques, enlever les 2 règels wfs.Transaction et wps.* en allant dans "Sécurité des services" 
+   si vous le souhaitez : 
 
  .. image:: ../images/install/geoserver_services.png
    :alt: Capture d'écran du catalogue  
