@@ -8,7 +8,6 @@ Services - GeoServer
 Introduction
 ----------------
 
-
 Cette page est l'interface de GeoServer, le GeoServer est la technologie qui permet de diffuser les données stockées en interne via des webs services.
 Voici la documentation officiel : 
 https://docs.geoserver.org/
@@ -48,6 +47,19 @@ donnée apparaît sur le visualiseur, elle est généralement issue du flux WMS 
 rapides et moins gourmandes en ressources. Toutefois, le flux WFS est crucial pour permettre des interactions plus détaillées, telles que des requêtes sur les entités.
 Vous pouvez configurer ces flux dans GeoServer en accédant aux paramètres du service, par exemple pour définir les autorisations ou activer/désactiver la 
 transformation du système de coordonnées de référence (CRS). Cela vous permet de contrôler précisément comment les données sont diffusées et utilisées au sein de la plateforme.
+
+Définir des styles pour les flux WMS
+-----------------------------------------------
+
+Vous pouvez définir des styles dans l'onglet "Styles" de GeoServer puis les attribuer aux couches en allant dans "Couches", une fois une couche
+sélectionnée, allez dans "Publication" et vous avez "Style par défaut" : 
+
+.. image:: ../images/admin_geos/styles.png
+   :alt: Capture d'écran du catalogue
+   :align: center
+   :width: 700px
+
+|espace|
 
 La restriction d'accès aux données
 -----------------------------------------------

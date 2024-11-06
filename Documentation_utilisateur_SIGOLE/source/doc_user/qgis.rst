@@ -16,7 +16,7 @@ Il suffit de double cliquer sur une couche pour l'afficher sur QGIS.
 Les couches sont choisis par le service informatique, n'hésitez pas à faire des demandes pour que certaines couches se retrouve sur cette interface. 
 
 Pour installer le plugin, demandez au service informatique de vous fournir le document zip qui contient le code du plugin et le copier coller dans 
-le repertoire ``C:\Users\ztoffv\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins`` et dézipper le. Puis relancer QGIS, vous verrez l'interface 
+le repertoire ``C:\Users\votre_nom\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins`` et dézipper le. Puis relancer QGIS, vous verrez l'interface 
 à droite de l'écran, si il n'apparait pas directement ou si vous l'avez supprimé, vous pouvez l'afficher en cliquant sur "Extensions", "Office de l'eau" 
 puis "Afficher le panneau latéral" : 
 

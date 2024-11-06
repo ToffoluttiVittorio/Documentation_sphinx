@@ -14,6 +14,9 @@ configuration supplémentaire et peuvent être installées avec les paquets debi
 Pour ce qui est de l'installation de versions majeurs, elle se font en modifiant le fichier ``georchestra.yml``,
 il faudra relancer toute l'installation et potentiellement faire des ajustements.
 
+Ne pas lancer la mise à jour de tous les paquets de georchestra d'un coup, des versions peuvent ne pas être compatible entre elles,
+veuillez vous référer aux différentes releases et leurs compatibilités : https://github.com/georchestra/georchestra/releases 
+
 Paquets debians
 -----------------------
 

@@ -48,6 +48,8 @@ En cliquant sur un utilisateur vous pourrez modifier ses caractéristiques :
 C'est aussi dans cet onglet que vous pouvez accepter des nouveaux utilisateurs, changer les noms des utilisateurs et aussi renvoyer la modification de mot de passe
 par mail. 
 
+Ne jamais supprimer l'utilisateur par défaut : Import DATAFEEDER, ce rôle est nécéssaire au fonctionnement du module datafeeder.
+
 
 Organismes
 ---------------------------
@@ -87,11 +89,11 @@ Certain rôles définissent des accès particulier et il est possible de créer 
 Les rôles principaux sont : 
 
 - **SUPERUSER** : accès à la console d'admin
-- **ADMINISTRATOR** : permet d'accéder au module admin de GeoServer
+- **ADMINISTRATOR** : permet d'accéder au module admin de GeoServer et permet de créer des styles dans Mapstore avec le rôle MAPSTORE_ADMIN
 - **GN_ADMIN** : permet d'accéder au GeoNetwork qui est le module admin du catalogue
 - **GN_EDITOR** : permet d'éditer les fiches dans GeoNetwork
 - **GN_REVIEWER** : permet de publier des données à la main dans GeoNetwork
-- **MAPSTORE_ADMIN** : permet d'accéder au module admin de Mapstore et permet aussi de modifier le style d'un WMS
+- **MAPSTORE_ADMIN** : permet d'accéder au module admin de Mapstore, et permet aussi de modifier le style d'un WMS avec le rôle ADMINISTRATOR
 - **USER** : permet de se log dans geOrchestra et d'enregister des cartes, dashboards et GeoStories dans Mapstore
 - **REFERENT** : permet de modifier les informations de son organisme
 - **IMPORT** : donne accès au module d'import de données dans geOrchestra

@@ -14,7 +14,7 @@ https://docs.geonetwork-opensource.org/4.2/user-guide/
 
 Le GeoNetwork est utilisé comme catalogue CSW (Catalogue Service for the Web) ce qui permet de référencer les métadonnées couplées aux flux de données. 
 
-La page principale se compose de 4 composants : la recherche de données, la visualisation, les fiches de métadonnées et l'administration 
+La page principale se compose de 4 composants : la recherche de données, la visualisation, les fiches de métadonnées et l'administration :
 
 .. image:: ../images/admin_cat/cat_barre.png
    :alt: Capture d'écran du catalogue
@@ -49,8 +49,8 @@ gérer les annuaires (inutile pour geOrchestra), faire de l'édition en série e
 
 |espace|
 
-Dans l'interface d'édition d'une fiche, vous pouvez changez toutes les informations à gauche de l'écran, et ajouter des éléments à droite.
-Les ajouts peuvent être des images, des liens ou des ressources qui correspondent à des liens de parentés, des flux OGC ou d'autre. 
+Dans l'interface d'édition d'une fiche, vous pouvez changer toutes les informations à gauche de l'écran, et ajouter des éléments à droite.
+Les ajouts peuvent être des images, des liens ou des ressources qui correspondent à des liens de parentés, des flux OGC ou d'autres. 
 
 Gérer les droits d'accès aux fiches de métadonnées
 -----------------------------------------------------------
@@ -128,7 +128,7 @@ Pour ce qui est de l'administration, elle est divisé en 8 catégories :
 Métadonnées et modèles 
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
- La page "Métadonnées et modèle" sert à définir les modèles de fiches de métadonnées à utiliser : 
+ La page "Métadonnées et modèles" sert à définir les modèles de fiches de métadonnées à utiliser : 
 
  .. image:: ../images/admin_cat/cat_modele.png
    :alt: Capture d'écran du catalogue  
@@ -214,7 +214,7 @@ Thesaurus
 
 |espace|
 
-Le thesaurus est le dictionnaire à mots clés, il définit les mots clés que vous pouvez utiliser pour vos métadonnées. Il est utilisé dans le datafeeder
+Le thesaurus est le dictionnaire à mots clés, il définit les mots clés que vous pouvez utiliser pour vos métadonnées. Il est utilisé dans le (module d'import de données)
 lors du choix des mots clés. Par defaut dans geOrchestra, le thesaurus est définis sur les thèmes INSPIRE, vous pouvez le modifier en ajoutant un thesaurus à la main 
 dans cette interface puis modifier le code qui relie le thesurus au datafeeder. 
 

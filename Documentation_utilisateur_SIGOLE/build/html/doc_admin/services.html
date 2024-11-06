@@ -59,6 +59,7 @@
 <li class="toctree-l3"><a class="reference internal" href="#introduction">Introduction</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#les-donnees-stockees-en-interne">Les données stockées en interne</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#la-diffusion-des-donnees-avec-les-flux-ogc">La diffusion des données avec les flux OGC</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#definir-des-styles-pour-les-flux-wms">Définir des styles pour les flux WMS</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#la-restriction-d-acces-aux-donnees">La restriction d’accès aux données</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#la-restriction-d-acces-aux-services">La restriction d’accès aux services</a></li>
 </ul>
@@ -103,8 +104,9 @@
 <li><p><a class="reference internal" href="#introduction" id="id1">Introduction</a></p></li>
 <li><p><a class="reference internal" href="#les-donnees-stockees-en-interne" id="id2">Les données stockées en interne</a></p></li>
 <li><p><a class="reference internal" href="#la-diffusion-des-donnees-avec-les-flux-ogc" id="id3">La diffusion des données avec les flux OGC</a></p></li>
-<li><p><a class="reference internal" href="#la-restriction-d-acces-aux-donnees" id="id4">La restriction d’accès aux données</a></p></li>
-<li><p><a class="reference internal" href="#la-restriction-d-acces-aux-services" id="id5">La restriction d’accès aux services</a></p></li>
+<li><p><a class="reference internal" href="#definir-des-styles-pour-les-flux-wms" id="id4">Définir des styles pour les flux WMS</a></p></li>
+<li><p><a class="reference internal" href="#la-restriction-d-acces-aux-donnees" id="id5">La restriction d’accès aux données</a></p></li>
+<li><p><a class="reference internal" href="#la-restriction-d-acces-aux-services" id="id6">La restriction d’accès aux services</a></p></li>
 </ul>
 </nav>
 <section id="introduction">
@@ -137,8 +139,15 @@ rapides et moins gourmandes en ressources. Toutefois, le flux WFS est crucial po
 Vous pouvez configurer ces flux dans GeoServer en accédant aux paramètres du service, par exemple pour définir les autorisations ou activer/désactiver la
 transformation du système de coordonnées de référence (CRS). Cela vous permet de contrôler précisément comment les données sont diffusées et utilisées au sein de la plateforme.</p>
 </section>
+<section id="definir-des-styles-pour-les-flux-wms">
+<h2><a class="toc-backref" href="#id4" role="doc-backlink">Définir des styles pour les flux WMS</a><a class="headerlink" href="#definir-des-styles-pour-les-flux-wms" title="Lien vers cette rubrique"></a></h2>
+<p>Vous pouvez définir des styles dans l’onglet « Styles » de GeoServer puis les attribuer aux couches en allant dans « Couches », une fois une couche
+sélectionnée, allez dans « Publication » et vous avez « Style par défaut » :</p>
+<a class="reference internal image-reference" href="../_images/styles.png"><img alt="Capture d'écran du catalogue" class="align-center" src="../_images/styles.png" style="width: 700px;" /></a>
+<p> </p>
+</section>
 <section id="la-restriction-d-acces-aux-donnees">
-<h2><a class="toc-backref" href="#id4" role="doc-backlink">La restriction d’accès aux données</a><a class="headerlink" href="#la-restriction-d-acces-aux-donnees" title="Lien vers cette rubrique"></a></h2>
+<h2><a class="toc-backref" href="#id5" role="doc-backlink">La restriction d’accès aux données</a><a class="headerlink" href="#la-restriction-d-acces-aux-donnees" title="Lien vers cette rubrique"></a></h2>
 <p>La manipulation des droits se fait normalement dans l’onglet <a class="reference internal" href="utilisateurs.html#utilisateur"><span class="std std-ref">Utilisateur</span></a>. La seule chose qui ne peut pas se faire dans cette page
 est la restriction d’accès aux données, qui se fait, pour les métadonnées dans l’onglet <a class="reference internal" href="catalogue.html#privileges"><span class="std std-ref">privilèges</span></a></p>
 <p>Par défaut, toutes les données et les ressources dans GeoServer sont accessibles à tous les utilisateurs.
@@ -160,7 +169,7 @@ qui correspond aux données de l’Office de l’eau Réunion.</p>
 <a class="reference internal image-reference" href="../_images/geos_result.png"><img alt="Capture d'écran du catalogue" class="align-center" src="../_images/geos_result.png" style="width: 700px;" /></a>
 </section>
 <section id="la-restriction-d-acces-aux-services">
-<h2><a class="toc-backref" href="#id5" role="doc-backlink">La restriction d’accès aux services</a><a class="headerlink" href="#la-restriction-d-acces-aux-services" title="Lien vers cette rubrique"></a></h2>
+<h2><a class="toc-backref" href="#id6" role="doc-backlink">La restriction d’accès aux services</a><a class="headerlink" href="#la-restriction-d-acces-aux-services" title="Lien vers cette rubrique"></a></h2>
 <p>Pour restreindre les accès aux différents services, par exemple modifier les données directement via mapstore se fait via le service WFS et la fonction « Transaction ».</p>
 <a class="reference internal image-reference" href="../_images/services.png"><img alt="Capture d'écran du catalogue" class="align-center" src="../_images/services.png" style="width: 700px;" /></a>
 <p>L’accès à la création de compteur via mapstore se fait via le service wps qui permet de réaliser des traitements géospatiaux directement via des requêtes HTTP.</p>

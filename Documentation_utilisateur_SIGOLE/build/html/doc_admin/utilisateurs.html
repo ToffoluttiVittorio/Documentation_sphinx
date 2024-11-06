@@ -127,6 +127,7 @@ et permet de voir qui s’est connecté sur la journée.</p>
 <p> </p>
 <p>C’est aussi dans cet onglet que vous pouvez accepter des nouveaux utilisateurs, changer les noms des utilisateurs et aussi renvoyer la modification de mot de passe
 par mail.</p>
+<p>Ne jamais supprimer l’utilisateur par défaut : Import DATAFEEDER, ce rôle est nécéssaire au fonctionnement du module datafeeder.</p>
 </section>
 <section id="organismes">
 <h2><a class="toc-backref" href="#id3" role="doc-backlink">Organismes</a><a class="headerlink" href="#organismes" title="Lien vers cette rubrique"></a></h2>
@@ -146,11 +147,11 @@ par mail.</p>
 <p>Les rôles principaux sont :</p>
 <ul class="simple">
 <li><p><strong>SUPERUSER</strong> : accès à la console d’admin</p></li>
-<li><p><strong>ADMINISTRATOR</strong> : permet d’accéder au module admin de GeoServer</p></li>
+<li><p><strong>ADMINISTRATOR</strong> : permet d’accéder au module admin de GeoServer et permet de créer des styles dans Mapstore avec le rôle MAPSTORE_ADMIN</p></li>
 <li><p><strong>GN_ADMIN</strong> : permet d’accéder au GeoNetwork qui est le module admin du catalogue</p></li>
 <li><p><strong>GN_EDITOR</strong> : permet d’éditer les fiches dans GeoNetwork</p></li>
 <li><p><strong>GN_REVIEWER</strong> : permet de publier des données à la main dans GeoNetwork</p></li>
-<li><p><strong>MAPSTORE_ADMIN</strong> : permet d’accéder au module admin de Mapstore et permet aussi de modifier le style d’un WMS</p></li>
+<li><p><strong>MAPSTORE_ADMIN</strong> : permet d’accéder au module admin de Mapstore, et permet aussi de modifier le style d’un WMS avec le rôle ADMINISTRATOR</p></li>
 <li><p><strong>USER</strong> : permet de se log dans geOrchestra et d’enregister des cartes, dashboards et GeoStories dans Mapstore</p></li>
 <li><p><strong>REFERENT</strong> : permet de modifier les informations de son organisme</p></li>
 <li><p><strong>IMPORT</strong> : donne accès au module d’import de données dans geOrchestra</p></li>

@@ -8,7 +8,8 @@ MapStore
 Introduction
 ------------
 
-La partie administrateur du module Mapstore ajoute peu de fonctionnalités, la seule fonction en plus est la création de contextes.
+La partie administrateur du module Mapstore ajoute peu de fonctionnalités, la seule fonction en plus est la création de contextes, et l'accès à la création d'un style
+dans mapstore si l'on ajoute le rôle Administrateur de geoserver. 
 
 Les contextes
 -----------------------

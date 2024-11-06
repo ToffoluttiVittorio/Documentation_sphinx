@@ -61,7 +61,7 @@ Pour créer un dashboard, cliquez sur ce bouton |geo|
 |espace|
 
 Avec les GeoStories, vous pouvez créer des documents textes en y intégrant des cartes intéractives. 
-La gestions des composants se fait sur la gauche de l'interface qui sont : les titres, les bannières, 
+La gestion des composants se fait sur la gauche de l'interface qui sont : les titres, les bannières, 
 les paragraphes, les sections immersives, les geocarrousels, les sections multimedia et les pages web.
 Un tutoriel vous guide directement lorsque vous créez une GeoStory.
 

@@ -8,7 +8,7 @@ Le catalogue
 Introduction
 ------------
 
-Les données de ce catalogue proviennent de différents catalogue nationaux mais peuvent aussi être propre à l'Office de l'eau Réunion.
+Les données de ce catalogue proviennent de différents catalogues nationaux mais peuvent aussi être propre à l'Office de l'eau Réunion.
 Chaque donnée est reliée à une organisation et possède une description détaillée. 
 
 
@@ -75,7 +75,7 @@ Les fonctionnalités des fiches de données
 Lorsque vous cliquez sur une donnée, la page de description de cette donnée s'affiche. 
 
 Description de la donnée
-~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Le haut de la page est dédiée à la description de cette donnée.
 Il y'a :
