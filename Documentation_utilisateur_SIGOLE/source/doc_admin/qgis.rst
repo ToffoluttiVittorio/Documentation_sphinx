@@ -13,6 +13,8 @@ Le module QGIS est inspiré du plugin open source de GeoBretagne : https://githu
 
 Pour renseigner des données il faut aller dans le dossier "config" puis éditer "config.json".
 
+Pour configurer l'emplacement du ce fichier, il faut se rendre dans le code "Office_de_leau/utils/plugin_globals.py" et modifier la ligne 50 et 132 de ce fichier.
+
 Ce fichier de configuration permet de définir quelles données seront accessible via le plugin ou non. 
 Ce plugin ne permet que de manipuler des flux WFS et WMS. Il faudra bien spécifier pour chaque données : 
 

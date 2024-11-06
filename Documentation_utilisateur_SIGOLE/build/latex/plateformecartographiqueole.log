@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.25)  4 OCT 2024 13:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.25)  6 NOV 2024 09:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -931,7 +931,7 @@ ffv/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ec.enc}]
 
 ]
 Chapitre 1.
-<catalogue_accueil.png, id=334, 825.0825pt x 429.10312pt>
+<catalogue_accueil.png, id=384, 825.0825pt x 429.10312pt>
 LaTeX Font Info:    Trying to load font information for T1+txtt on input line 1
 43.
 (C:\Users\ztoffv\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\t1txtt.fd
@@ -944,561 +944,786 @@ Package pdftex.def Info: catalogue_accueil.png  used on input line 143.
 
 
 [3]
-<catalogue_donnees.png, id=345, 822.07124pt x 429.10312pt>
+<catalogue_donnees.png, id=395, 822.07124pt x 429.10312pt>
 File: catalogue_donnees.png Graphic file (type png)
 <use catalogue_donnees.png>
-Package pdftex.def Info: catalogue_donnees.png  used on input line 151.
+Package pdftex.def Info: catalogue_donnees.png  used on input line 154.
 (pdftex.def)             Requested size: 451.68457pt x 235.76518pt.
-<catalogue_orga.png, id=346, 822.07124pt x 429.10312pt>
+<catalogue_orga.png, id=396, 822.07124pt x 429.10312pt>
 File: catalogue_orga.png Graphic file (type png)
 <use catalogue_orga.png>
-Package pdftex.def Info: catalogue_orga.png  used on input line 159.
+Package pdftex.def Info: catalogue_orga.png  used on input line 165.
 (pdftex.def)             Requested size: 451.68457pt x 235.76518pt.
 
 
 [4 <./catalogue_accueil.png> <./catalogue_donnees.png>]
-<filter_options.png, id=353, 802.49812pt x 351.56343pt>
+<filter_options.png, id=403, 802.49812pt x 351.56343pt>
 File: filter_options.png Graphic file (type png)
 <use filter_options.png>
-Package pdftex.def Info: filter_options.png  used on input line 190.
+Package pdftex.def Info: filter_options.png  used on input line 199.
 (pdftex.def)             Requested size: 451.68457pt x 197.88268pt.
 
 
 [5 <./catalogue_orga.png> <./filter_options.png>]
-<fiche_info.png, id=360, 798.73407pt x 622.57594pt>
+<fiche_info.png, id=413, 798.73407pt x 622.57594pt>
 File: fiche_info.png Graphic file (type png)
 <use fiche_info.png>
-Package pdftex.def Info: fiche_info.png  used on input line 239.
+Package pdftex.def Info: fiche_info.png  used on input line 269.
 (pdftex.def)             Requested size: 451.68457pt x 352.06955pt.
 
 
 [6 <./fiche_info.png>]
-<fiche_previsu.png, id=366, 788.19469pt x 532.23843pt>
+<fiche_previsu.png, id=422, 788.19469pt x 532.23843pt>
 File: fiche_previsu.png Graphic file (type png)
 <use fiche_previsu.png>
-Package pdftex.def Info: fiche_previsu.png  used on input line 254.
+Package pdftex.def Info: fiche_previsu.png  used on input line 287.
 (pdftex.def)             Requested size: 451.68457pt x 305.00331pt.
-<fiche_table.png, id=367, 790.45313pt x 511.15968pt>
+<fiche_table.png, id=423, 790.45313pt x 511.15968pt>
 File: fiche_table.png Graphic file (type png)
 <use fiche_table.png>
-Package pdftex.def Info: fiche_table.png  used on input line 262.
+Package pdftex.def Info: fiche_table.png  used on input line 298.
 (pdftex.def)             Requested size: 451.68457pt x 292.0894pt.
 
 
 [7 <./fiche_previsu.png>]
-<fiche_graphe.png, id=373, 824.32968pt x 525.46312pt>
+<fiche_graphe.png, id=429, 824.32968pt x 525.46312pt>
 File: fiche_graphe.png Graphic file (type png)
 <use fiche_graphe.png>
-Package pdftex.def Info: fiche_graphe.png  used on input line 270.
+Package pdftex.def Info: fiche_graphe.png  used on input line 309.
 (pdftex.def)             Requested size: 451.68457pt x 287.92319pt.
+
+
+[8 <./fiche_table.png> <./fiche_graphe.png>]
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on i
-nput line 272.
+nput line 314.
 
 (C:\Users\ztoffv\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontawes
 omefree1.fd)
-Underfull \vbox (badness 2326) detected at line 275
- []
-
-
-
-[8{C:/Users/ztoffv/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/f
-a5free1.enc} <./fiche_table.png> <./fiche_graphe.png>]
-<fiche_tele.png, id=381, 797.22844pt x 295.85532pt>
+<fiche_tele.png, id=436, 797.22844pt x 295.85532pt>
 File: fiche_tele.png Graphic file (type png)
 <use fiche_tele.png>
-Package pdftex.def Info: fiche_tele.png  used on input line 283.
+Package pdftex.def Info: fiche_tele.png  used on input line 325.
 (pdftex.def)             Requested size: 451.68457pt x 167.62354pt.
-<fiche_liens.png, id=382, 773.89125pt x 437.38406pt>
+<fiche_liens.png, id=437, 773.89125pt x 437.38406pt>
 File: fiche_liens.png Graphic file (type png)
 <use fiche_liens.png>
-Package pdftex.def Info: fiche_liens.png  used on input line 288.
+Package pdftex.def Info: fiche_liens.png  used on input line 333.
 (pdftex.def)             Requested size: 451.68457pt x 255.28467pt.
-<fiche_carto.png, id=384, 801.74532pt x 523.9575pt>
+
+
+[9{C:/Users/ztoffv/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/f
+a5free1.enc} <./fiche_tele.png> <./fiche_liens.png>]
+<fiche_carto.png, id=447, 801.74532pt x 523.9575pt>
 File: fiche_carto.png Graphic file (type png)
 <use fiche_carto.png>
-Package pdftex.def Info: fiche_carto.png  used on input line 298.
+Package pdftex.def Info: fiche_carto.png  used on input line 346.
 (pdftex.def)             Requested size: 451.68457pt x 295.18907pt.
 
 
-[9 <./fiche_tele.png> <./fiche_liens.png>]
-<visu_nbr.png, id=396, 1158.729pt x 460.72125pt>
+[10 <./fiche_carto.png>]
+<visu_nbr.png, id=460, 1158.729pt x 460.72125pt>
 File: visu_nbr.png Graphic file (type png)
 <use visu_nbr.png>
-Package pdftex.def Info: visu_nbr.png  used on input line 333.
+Package pdftex.def Info: visu_nbr.png  used on input line 381.
 (pdftex.def)             Requested size: 451.68457pt x 179.58917pt.
-
-
-[10 <./fiche_carto.png>]
-<visu_couches_details.png, id=405, 522.753pt x 493.845pt>
+<visu_couches_details.png, id=461, 522.753pt x 493.845pt>
 File: visu_couches_details.png Graphic file (type png)
 <use visu_couches_details.png>
-Package pdftex.def Info: visu_couches_details.png  used on input line 382.
+Package pdftex.def Info: visu_couches_details.png  used on input line 433.
 (pdftex.def)             Requested size: 451.68457pt x 426.70284pt.
 
 
 [11 <./visu_nbr.png>]
-<visu_couches_button.png, id=411, 105.39375pt x 34.32825pt>
+<visu_couches_button.png, id=467, 105.39375pt x 34.32825pt>
 File: visu_couches_button.png Graphic file (type png)
 <use visu_couches_button.png>
-Package pdftex.def Info: visu_couches_button.png  used on input line 387.
-(pdftex.def)             Requested size: 225.84229pt x 73.56172pt.
-<visu_cat.png, id=412, 364.36125pt x 486.618pt>
+Package pdftex.def Info: visu_couches_button.png  used on input line 444.
+(pdftex.def)             Requested size: 150.56152pt x 49.04132pt.
+<ajout_couche.png, id=468, 54.2025pt x 54.2025pt>
+File: ajout_couche.png Graphic file (type png)
+<use ajout_couche.png>
+Package pdftex.def Info: ajout_couche.png  used on input line 451.
+(pdftex.def)             Requested size: 22.58423pt x 22.58458pt.
+<visu_cat.png, id=469, 364.36125pt x 486.618pt>
 File: visu_cat.png Graphic file (type png)
 <use visu_cat.png>
-Package pdftex.def Info: visu_cat.png  used on input line 395.
+Package pdftex.def Info: visu_cat.png  used on input line 455.
 (pdftex.def)             Requested size: 451.68457pt x 603.26643pt.
 
 
-[12 <./visu_couches_details.png> <./visu_couches_button.png>]
-<visu_annotation.png, id=419, 685.3605pt x 386.6445pt>
-File: visu_annotation.png Graphic file (type png)
-<use visu_annotation.png>
-Package pdftex.def Info: visu_annotation.png  used on input line 410.
-(pdftex.def)             Requested size: 451.68457pt x 254.82037pt.
-
+[12 <./visu_couches_details.png> <./visu_couches_button.png> <./ajout_couche.pn
+g>]
 
 [13 <./visu_cat.png>]
-<visu_couches_barre.png, id=425, 172.84575pt x 19.87425pt>
+<ajout_group.png, id=482, 44.41594pt x 50.43843pt>
+File: ajout_group.png Graphic file (type png)
+<use ajout_group.png>
+Package pdftex.def Info: ajout_group.png  used on input line 471.
+(pdftex.def)             Requested size: 22.58423pt x 25.64705pt.
+<annotation.png, id=483, 46.67438pt x 48.18pt>
+File: annotation.png Graphic file (type png)
+<use annotation.png>
+Package pdftex.def Info: annotation.png  used on input line 475.
+(pdftex.def)             Requested size: 22.58423pt x 23.31285pt.
+<visu_annotation.png, id=484, 685.3605pt x 386.6445pt>
+File: visu_annotation.png Graphic file (type png)
+<use visu_annotation.png>
+Package pdftex.def Info: visu_annotation.png  used on input line 479.
+(pdftex.def)             Requested size: 451.68457pt x 254.82037pt.
+<visu_couches_barre.png, id=485, 172.84575pt x 19.87425pt>
 File: visu_couches_barre.png Graphic file (type png)
 <use visu_couches_barre.png>
-Package pdftex.def Info: visu_couches_barre.png  used on input line 415.
+Package pdftex.def Info: visu_couches_barre.png  used on input line 490.
 (pdftex.def)             Requested size: 376.40381pt x 43.28009pt.
-<visu_couches_reglages.png, id=426, 381.22424pt x 35.53275pt>
+<button_zoom.png, id=486, 31.61812pt x 30.1125pt>
+File: button_zoom.png Graphic file (type png)
+<use button_zoom.png>
+Package pdftex.def Info: button_zoom.png  used on input line 496.
+(pdftex.def)             Requested size: 22.58423pt x 21.50912pt.
+<button_reglage.png, id=487, 30.1125pt x 30.86531pt>
+File: button_reglage.png Graphic file (type png)
+<use button_reglage.png>
+Package pdftex.def Info: button_reglage.png  used on input line 499.
+(pdftex.def)             Requested size: 22.58423pt x 23.14938pt.
+<visu_couches_reglages.png, id=488, 381.22424pt x 35.53275pt>
 File: visu_couches_reglages.png Graphic file (type png)
 <use visu_couches_reglages.png>
-Package pdftex.def Info: visu_couches_reglages.png  used on input line 427.
-(pdftex.def)             Requested size: 451.68457pt x 42.10011pt.
-<visu_fonds.png, id=427, 317.38576pt x 67.452pt>
+Package pdftex.def Info: visu_couches_reglages.png  used on input line 501.
+(pdftex.def)             Requested size: 376.40381pt x 35.0837pt.
+
+
+[14 <./ajout_group.png> <./annotation.png> <./visu_annotation.png> <./visu_couc
+hes_barre.png> <./button_zoom.png> <./button_reglage.png>]
+<visu_pinceau_blanco.png, id=499, 36.135pt x 34.62938pt>
+File: visu_pinceau_blanco.png Graphic file (type png)
+<use visu_pinceau_blanco.png>
+Package pdftex.def Info: visu_pinceau_blanco.png  used on input line 507.
+(pdftex.def)             Requested size: 22.58423pt x 21.6433pt.
+<visu_style_1.png, id=500, 408.77719pt x 212.29312pt>
+File: visu_style_1.png Graphic file (type png)
+<use visu_style_1.png>
+Package pdftex.def Info: visu_style_1.png  used on input line 509.
+(pdftex.def)             Requested size: 451.68457pt x 234.58888pt.
+<button_pinceau.png, id=501, 24.84282pt x 24.84282pt>
+File: button_pinceau.png Graphic file (type png)
+<use button_pinceau.png>
+Package pdftex.def Info: button_pinceau.png  used on input line 515.
+(pdftex.def)             Requested size: 22.58423pt x 22.58499pt.
+<button_modif.png, id=502, 24.84282pt x 24.84282pt>
+File: button_modif.png Graphic file (type png)
+<use button_modif.png>
+Package pdftex.def Info: button_modif.png  used on input line 516.
+(pdftex.def)             Requested size: 22.58423pt x 22.58499pt.
+<visu_styyle.png, id=503, 779.16093pt x 444.15938pt>
+File: visu_styyle.png Graphic file (type png)
+<use visu_styyle.png>
+Package pdftex.def Info: visu_styyle.png  used on input line 518.
+(pdftex.def)             Requested size: 451.68457pt x 257.47707pt.
+
+
+[15 <./visu_couches_reglages.png> <./visu_pinceau_blanco.png> <./visu_style_1.p
+ng> <./button_pinceau.png> <./button_modif.png>]
+<logo_rond.png, id=514, 42.91031pt x 39.14626pt>
+File: logo_rond.png Graphic file (type png)
+<use logo_rond.png>
+Package pdftex.def Info: logo_rond.png  used on input line 525.
+(pdftex.def)             Requested size: 22.58423pt x 20.60284pt.
+<logo_ento.png, id=515, 33.87656pt x 34.62938pt>
+File: logo_ento.png Graphic file (type png)
+<use logo_ento.png>
+Package pdftex.def Info: logo_ento.png  used on input line 525.
+(pdftex.def)             Requested size: 22.58423pt x 23.08688pt.
+<regles_sup.png, id=516, 392.21532pt x 171.64125pt>
+File: regles_sup.png Graphic file (type png)
+<use regles_sup.png>
+Package pdftex.def Info: regles_sup.png  used on input line 528.
+(pdftex.def)             Requested size: 451.68457pt x 197.6792pt.
+<visu_couche_sup.png, id=517, 833.36343pt x 496.85625pt>
+File: visu_couche_sup.png Graphic file (type png)
+<use visu_couche_sup.png>
+Package pdftex.def Info: visu_couche_sup.png  used on input line 536.
+(pdftex.def)             Requested size: 451.68457pt x 269.29912pt.
+
+
+[16 <./visu_styyle.png> <./logo_rond.png> <./logo_ento.png> <./regles_sup.png>]
+<trois.png, id=526, 24.84282pt x 24.09pt>
+File: trois.png Graphic file (type png)
+<use trois.png>
+Package pdftex.def Info: trois.png  used on input line 542.
+(pdftex.def)             Requested size: 22.58423pt x 21.90059pt.
+<classif.png, id=527, 367.3725pt x 310.15875pt>
+File: classif.png Graphic file (type png)
+<use classif.png>
+Package pdftex.def Info: classif.png  used on input line 544.
+(pdftex.def)             Requested size: 376.40381pt x 317.80592pt.
+
+
+[17 <./visu_couche_sup.png> <./trois.png> <./classif.png>]
+<classif_2.png, id=535, 348.55219pt x 450.9347pt>
+File: classif_2.png Graphic file (type png)
+<use classif_2.png>
+Package pdftex.def Info: classif_2.png  used on input line 552.
+(pdftex.def)             Requested size: 376.40381pt x 486.99533pt.
+<button_valid.png, id=536, 34.62938pt x 34.62938pt>
+File: button_valid.png Graphic file (type png)
+<use button_valid.png>
+Package pdftex.def Info: button_valid.png  used on input line 558.
+(pdftex.def)             Requested size: 22.58423pt x 22.58437pt.
+<button_filtre.png, id=537, 28.60687pt x 29.35968pt>
+File: button_filtre.png Graphic file (type png)
+<use button_filtre.png>
+Package pdftex.def Info: button_filtre.png  used on input line 561.
+(pdftex.def)             Requested size: 22.58423pt x 23.17953pt.
+<visu_filtre.png, id=538, 491.58656pt x 517.935pt>
+File: visu_filtre.png Graphic file (type png)
+<use visu_filtre.png>
+Package pdftex.def Info: visu_filtre.png  used on input line 563.
+(pdftex.def)             Requested size: 451.68457pt x 475.91324pt.
+
+
+[18 <./classif_2.png> <./button_valid.png> <./button_filtre.png>]
+<button_table.png, id=546, 29.35968pt x 32.37094pt>
+File: button_table.png Graphic file (type png)
+<use button_table.png>
+Package pdftex.def Info: button_table.png  used on input line 572.
+(pdftex.def)             Requested size: 22.58423pt x 24.9005pt.
+<visuu_table.png, id=547, 774.64406pt x 316.93407pt>
+File: visuu_table.png Graphic file (type png)
+<use visuu_table.png>
+Package pdftex.def Info: visuu_table.png  used on input line 574.
+(pdftex.def)             Requested size: 451.68457pt x 184.80359pt.
+
+
+[19 <./visu_filtre.png> <./button_table.png>]
+<button_bin.png, id=554, 28.60687pt x 29.35968pt>
+File: button_bin.png Graphic file (type png)
+<use button_bin.png>
+Package pdftex.def Info: button_bin.png  used on input line 583.
+(pdftex.def)             Requested size: 22.58423pt x 23.17953pt.
+<button_graph.png, id=555, 27.85406pt x 27.85406pt>
+File: button_graph.png Graphic file (type png)
+<use button_graph.png>
+Package pdftex.def Info: button_graph.png  used on input line 586.
+(pdftex.def)             Requested size: 22.58423pt x 22.58417pt.
+<widgets.png, id=556, 371.88937pt x 415.5525pt>
+File: widgets.png Graphic file (type png)
+<use widgets.png>
+Package pdftex.def Info: widgets.png  used on input line 588.
+(pdftex.def)             Requested size: 451.68457pt x 504.72867pt.
+
+
+[20 <./visuu_table.png> <./button_bin.png> <./button_graph.png>]
+<graphiques.png, id=564, 1048.66782pt x 584.1825pt>
+File: graphiques.png Graphic file (type png)
+<use graphiques.png>
+Package pdftex.def Info: graphiques.png  used on input line 596.
+(pdftex.def)             Requested size: 451.68457pt x 251.62143pt.
+
+
+[21 <./widgets.png>]
+<button_down.png, id=571, 33.12375pt x 29.35968pt>
+File: button_down.png Graphic file (type png)
+<use button_down.png>
+Package pdftex.def Info: button_down.png  used on input line 602.
+(pdftex.def)             Requested size: 22.58423pt x 20.01805pt.
+<button_i.png, id=572, 29.35968pt x 30.86531pt>
+File: button_i.png Graphic file (type png)
+<use button_i.png>
+Package pdftex.def Info: button_i.png  used on input line 605.
+(pdftex.def)             Requested size: 22.58423pt x 23.74232pt.
+<visu_fonds.png, id=573, 317.38576pt x 67.452pt>
 File: visu_fonds.png Graphic file (type png)
 <use visu_fonds.png>
-Package pdftex.def Info: visu_fonds.png  used on input line 466.
+Package pdftex.def Info: visu_fonds.png  used on input line 615.
 (pdftex.def)             Requested size: 451.68457pt x 95.99657pt.
 
 
-[14 <./visu_annotation.png> <./visu_couches_barre.png> <./visu_couches_reglages
-.png>]
-<visu_fct.png, id=435, 28.30576pt x 359.54324pt>
+[22 <./graphiques.png> <./button_down.png> <./button_i.png> <./visu_fonds.png>]
+<visu_fct.png, id=582, 28.30576pt x 359.54324pt>
 File: visu_fct.png Graphic file (type png)
 <use visu_fct.png>
-Package pdftex.def Info: visu_fct.png  used on input line 474.
+Package pdftex.def Info: visu_fct.png  used on input line 626.
 (pdftex.def)             Requested size: 37.64038pt x 478.12616pt.
-
-
-[15 <./visu_fonds.png> <./visu_fct.png>]
-<visu_print.png, id=443, 618.51076pt x 460.72125pt>
+<print.png, id=583, 54.9553pt x 51.19125pt>
+File: print.png Graphic file (type png)
+<use print.png>
+Package pdftex.def Info: print.png  used on input line 635.
+(pdftex.def)             Requested size: 22.58423pt x 21.03697pt.
+<visu_print.png, id=584, 618.51076pt x 460.72125pt>
 File: visu_print.png Graphic file (type png)
 <use visu_print.png>
-Package pdftex.def Info: visu_print.png  used on input line 485.
+Package pdftex.def Info: visu_print.png  used on input line 637.
 (pdftex.def)             Requested size: 451.68457pt x 336.45729pt.
-<visu_download.png, id=444, 373.395pt x 394.47375pt>
+
+
+[23 <./visu_fct.png> <./print.png>]
+<import1.png, id=591, 55.70813pt x 49.68562pt>
+File: import1.png Graphic file (type png)
+<use import1.png>
+Package pdftex.def Info: import1.png  used on input line 646.
+(pdftex.def)             Requested size: 22.58423pt x 20.14227pt.
+<export.png, id=592, 70.01157pt x 62.48344pt>
+File: export.png Graphic file (type png)
+<use export.png>
+Package pdftex.def Info: export.png  used on input line 649.
+(pdftex.def)             Requested size: 22.58423pt x 20.15622pt.
+<ajout.png, id=593, 72.27pt x 59.47218pt>
+File: ajout.png Graphic file (type png)
+<use ajout.png>
+Package pdftex.def Info: ajout.png  used on input line 652.
+(pdftex.def)             Requested size: 22.58423pt x 18.585pt.
+<app.png, id=594, 39.14626pt x 42.91031pt>
+File: app.png Graphic file (type png)
+<use app.png>
+Package pdftex.def Info: app.png  used on input line 655.
+(pdftex.def)             Requested size: 22.58423pt x 24.75638pt.
+<mesure.png, id=595, 43.66313pt x 37.64063pt>
+File: mesure.png Graphic file (type png)
+<use mesure.png>
+Package pdftex.def Info: mesure.png  used on input line 658.
+(pdftex.def)             Requested size: 22.58423pt x 19.46927pt.
+<enreg.png, id=596, 39.89906pt x 36.88782pt>
+File: enreg.png Graphic file (type png)
+<use enreg.png>
+Package pdftex.def Info: enreg.png  used on input line 661.
+(pdftex.def)             Requested size: 22.58423pt x 20.87991pt.
+<visu_download.png, id=597, 373.395pt x 394.47375pt>
 File: visu_download.png Graphic file (type png)
 <use visu_download.png>
-Package pdftex.def Info: visu_download.png  used on input line 521.
+Package pdftex.def Info: visu_download.png  used on input line 663.
 (pdftex.def)             Requested size: 451.68457pt x 477.20636pt.
 
 
-[16 <./visu_print.png>]
+[24 <./visu_print.png> <./import1.png> <./export.png> <./ajout.png> <./app.png>
+ <./mesure.png> <./enreg.png>]
 
-[17 <./visu_download.png>]
-<app_global.png, id=461, 1033.461pt x 504.08325pt>
+[25 <./visu_download.png>]
+<app_global.png, id=620, 1033.461pt x 504.08325pt>
 File: app_global.png Graphic file (type png)
 <use app_global.png>
-Package pdftex.def Info: app_global.png  used on input line 580.
+Package pdftex.def Info: app_global.png  used on input line 710.
 (pdftex.def)             Requested size: 451.68457pt x 220.31282pt.
-<app_dashboard.png, id=462, 1153.911pt x 508.90125pt>
+<buttons.png, id=621, 247.67531pt x 73.02281pt>
+File: buttons.png Graphic file (type png)
+<use buttons.png>
+Package pdftex.def Info: buttons.png  used on input line 719.
+(pdftex.def)             Requested size: 150.56152pt x 44.39006pt.
+
+
+[26 <./app_global.png> <./buttons.png>]
+<dash.png, id=632, 57.21375pt x 57.21375pt>
+File: dash.png Graphic file (type png)
+<use dash.png>
+Package pdftex.def Info: dash.png  used on input line 725.
+(pdftex.def)             Requested size: 22.58423pt x 22.5839pt.
+<app_dashboard.png, id=633, 1153.911pt x 508.90125pt>
 File: app_dashboard.png Graphic file (type png)
 <use app_dashboard.png>
-Package pdftex.def Info: app_dashboard.png  used on input line 585.
+Package pdftex.def Info: app_dashboard.png  used on input line 727.
 (pdftex.def)             Requested size: 451.68457pt x 199.2006pt.
-
-
-[18 <./app_global.png>]
-<app_geostory.png, id=473, 766.66425pt x 490.83376pt>
+<geostory.png, id=635, 55.70813pt x 56.46094pt>
+File: geostory.png Graphic file (type png)
+<use geostory.png>
+Package pdftex.def Info: geostory.png  used on input line 752.
+(pdftex.def)             Requested size: 22.58423pt x 22.88895pt.
+<app_geostory.png, id=636, 766.66425pt x 490.83376pt>
 File: app_geostory.png Graphic file (type png)
 <use app_geostory.png>
-Package pdftex.def Info: app_geostory.png  used on input line 604.
+Package pdftex.def Info: app_geostory.png  used on input line 754.
 (pdftex.def)             Requested size: 451.68457pt x 289.17747pt.
 
 
-[19 <./app_dashboard.png>]
+[27 <./dash.png> <./app_dashboard.png> <./geostory.png>]
 
-[20 <./app_geostory.png>]
-<import.png, id=493, 1061.1645pt x 434.22224pt>
+[28 <./app_geostory.png>]
+<import.png, id=659, 1061.1645pt x 434.22224pt>
 File: import.png Graphic file (type png)
 <use import.png>
-Package pdftex.def Info: import.png  used on input line 650.
+Package pdftex.def Info: import.png  used on input line 804.
 (pdftex.def)             Requested size: 451.68457pt x 184.8236pt.
-<import_proj.png, id=494, 960.58875pt x 528.7755pt>
+<import_proj.png, id=660, 960.58875pt x 528.7755pt>
 File: import_proj.png Graphic file (type png)
 <use import_proj.png>
-Package pdftex.def Info: import_proj.png  used on input line 662.
+Package pdftex.def Info: import_proj.png  used on input line 820.
 (pdftex.def)             Requested size: 469.75453pt x 258.60202pt.
 
 
-[21 <./import.png> <./import_proj.png>]
-<import_csv.png, id=502, 1063.5735pt x 366.168pt>
+[29 <./import.png> <./import_proj.png>]
+<import_csv.png, id=667, 1063.5735pt x 366.168pt>
 File: import_csv.png Graphic file (type png)
 <use import_csv.png>
-Package pdftex.def Info: import_csv.png  used on input line 679.
+Package pdftex.def Info: import_csv.png  used on input line 840.
 (pdftex.def)             Requested size: 469.74272pt x 161.729pt.
-<import_shape_titre.png, id=503, 944.328pt x 380.622pt>
+<import_shape_titre.png, id=668, 944.328pt x 380.622pt>
 File: import_shape_titre.png Graphic file (type png)
 <use import_shape_titre.png>
-Package pdftex.def Info: import_shape_titre.png  used on input line 691.
+Package pdftex.def Info: import_shape_titre.png  used on input line 855.
 (pdftex.def)             Requested size: 451.68457pt x 182.0576pt.
-<import_shape_keyword.png, id=504, 567.3195pt x 428.802pt>
+
+
+[30 <./import_csv.png> <./import_shape_titre.png>]
+<import_shape_keyword.png, id=675, 567.3195pt x 428.802pt>
 File: import_shape_keyword.png Graphic file (type png)
 <use import_shape_keyword.png>
-Package pdftex.def Info: import_shape_keyword.png  used on input line 696.
+Package pdftex.def Info: import_shape_keyword.png  used on input line 864.
 (pdftex.def)             Requested size: 451.68457pt x 341.39977pt.
-
-
-[22 <./import_csv.png> <./import_shape_titre.png>]
-<import_shape_time.png, id=511, 613.0905pt x 341.47575pt>
+<import_shape_time.png, id=676, 613.0905pt x 341.47575pt>
 File: import_shape_time.png Graphic file (type png)
 <use import_shape_time.png>
-Package pdftex.def Info: import_shape_time.png  used on input line 701.
+Package pdftex.def Info: import_shape_time.png  used on input line 872.
 (pdftex.def)             Requested size: 451.68457pt x 251.58347pt.
-<import_shape_processus.png, id=512, 598.03426pt x 257.16075pt>
+
+
+[31 <./import_shape_keyword.png>]
+<import_shape_processus.png, id=682, 598.03426pt x 257.16075pt>
 File: import_shape_processus.png Graphic file (type png)
 <use import_shape_processus.png>
-Package pdftex.def Info: import_shape_processus.png  used on input line 706.
+Package pdftex.def Info: import_shape_processus.png  used on input line 880.
 (pdftex.def)             Requested size: 451.68457pt x 194.22777pt.
-
-
-[23 <./import_shape_keyword.png> <./import_shape_time.png>]
-<import_shape_pub.png, id=519, 877.47826pt x 412.54124pt>
+<import_shape_pub.png, id=683, 877.47826pt x 412.54124pt>
 File: import_shape_pub.png Graphic file (type png)
 <use import_shape_pub.png>
-Package pdftex.def Info: import_shape_pub.png  used on input line 711.
+Package pdftex.def Info: import_shape_pub.png  used on input line 888.
 (pdftex.def)             Requested size: 451.68457pt x 212.35724pt.
 
 
-[24 <./import_shape_processus.png> <./import_shape_pub.png>]
+[32 <./import_shape_time.png> <./import_shape_processus.png>]
+<plugin_base.png, id=690, 475.02469pt x 301.125pt>
+File: plugin_base.png Graphic file (type png)
+<use plugin_base.png>
+Package pdftex.def Info: plugin_base.png  used on input line 900.
+(pdftex.def)             Requested size: 451.68457pt x 286.3428pt.
 
-[25]
 
-[26
+[33 <./import_shape_pub.png> <./plugin_base.png>]
+<plugin_aff.png, id=698, 426.09187pt x 216.81pt>
+File: plugin_aff.png Graphic file (type png)
+<use plugin_aff.png>
+Package pdftex.def Info: plugin_aff.png  used on input line 914.
+(pdftex.def)             Requested size: 451.68457pt x 229.84727pt.
+<plugin_down.png, id=699, 371.88937pt x 207.77625pt>
+File: plugin_down.png Graphic file (type png)
+<use plugin_down.png>
+Package pdftex.def Info: plugin_down.png  used on input line 923.
+(pdftex.def)             Requested size: 451.68457pt x 252.3643pt.
+
+
+[34 <./plugin_aff.png> <./plugin_down.png>]
+
+[35]
+
+[36
 
 ]
 Chapitre 2.
-<cat_barre.png, id=544, 649.2255pt x 34.32825pt>
+<cat_barre.png, id=722, 649.2255pt x 34.32825pt>
 File: cat_barre.png Graphic file (type png)
 <use cat_barre.png>
-Package pdftex.def Info: cat_barre.png  used on input line 787.
+Package pdftex.def Info: cat_barre.png  used on input line 995.
 (pdftex.def)             Requested size: 469.75018pt x 24.83939pt.
 
 
-[27 <./cat_barre.png>]
-<cat_meta.png, id=556, 1094.8905pt x 455.301pt>
+[37 <./cat_barre.png>]
+<cat_meta.png, id=734, 1094.8905pt x 455.301pt>
 File: cat_meta.png Graphic file (type png)
 <use cat_meta.png>
-Package pdftex.def Info: cat_meta.png  used on input line 799.
+Package pdftex.def Info: cat_meta.png  used on input line 1010.
 (pdftex.def)             Requested size: 469.75793pt x 195.33792pt.
-<cat_fiche.png, id=557, 1140.05925pt x 505.89pt>
+<cat_fiche.png, id=735, 1140.05925pt x 505.89pt>
 File: cat_fiche.png Graphic file (type png)
 <use cat_fiche.png>
-Package pdftex.def Info: cat_fiche.png  used on input line 805.
+Package pdftex.def Info: cat_fiche.png  used on input line 1019.
 (pdftex.def)             Requested size: 469.75836pt x 208.45833pt.
 
 
-[28 <./cat_meta.png> <./cat_fiche.png>]
-<cat_gerer.png, id=564, 692.5875pt x 199.947pt>
+[38 <./cat_meta.png> <./cat_fiche.png>]
+<cat_gerer.png, id=742, 692.5875pt x 199.947pt>
 File: cat_gerer.png Graphic file (type png)
 <use cat_gerer.png>
-Package pdftex.def Info: cat_gerer.png  used on input line 819.
+Package pdftex.def Info: cat_gerer.png  used on input line 1036.
 (pdftex.def)             Requested size: 469.76964pt x 135.62349pt.
-<cat_privileges.png, id=565, 696.80325pt x 355.92975pt>
+<cat_privileges.png, id=743, 696.80325pt x 355.92975pt>
 File: cat_privileges.png Graphic file (type png)
 <use cat_privileges.png>
-Package pdftex.def Info: cat_privileges.png  used on input line 824.
+Package pdftex.def Info: cat_privileges.png  used on input line 1044.
 (pdftex.def)             Requested size: 469.75839pt x 239.97066pt.
 
 
-[29 <./cat_gerer.png> <./cat_privileges.png>]
-<cat_admin_parties.png, id=588, 873.2625pt x 236.082pt>
+[39 <./cat_gerer.png> <./cat_privileges.png>]
+<ajout_fiche.png, id=752, 834.11626pt x 280.79906pt>
+File: ajout_fiche.png Graphic file (type png)
+<use ajout_fiche.png>
+Package pdftex.def Info: ajout_fiche.png  used on input line 1055.
+(pdftex.def)             Requested size: 469.762pt x 158.14616pt.
+<ajout_lien.png, id=753, 465.23813pt x 487.8225pt>
+File: ajout_lien.png Graphic file (type png)
+<use ajout_lien.png>
+Package pdftex.def Info: ajout_lien.png  used on input line 1063.
+(pdftex.def)             Requested size: 469.77321pt x 492.61494pt.
+
+
+[40 <./ajout_fiche.png>]
+<create_link.png, id=759, 627.84563pt x 589.4522pt>
+File: create_link.png Graphic file (type png)
+<use create_link.png>
+Package pdftex.def Info: create_link.png  used on input line 1073.
+(pdftex.def)             Requested size: 469.7526pt x 441.05371pt.
+
+
+[41 <./ajout_lien.png>]
+
+[42 <./create_link.png>]
+<cat_admin_parties.png, id=786, 873.2625pt x 236.082pt>
 File: cat_admin_parties.png Graphic file (type png)
 <use cat_admin_parties.png>
-Package pdftex.def Info: cat_admin_parties.png  used on input line 869.
+Package pdftex.def Info: cat_admin_parties.png  used on input line 1121.
 (pdftex.def)             Requested size: 469.75586pt x 126.99605pt.
-<cat_modele.png, id=589, 853.38824pt x 413.1435pt>
+<cat_modele.png, id=787, 853.38824pt x 413.1435pt>
 File: cat_modele.png Graphic file (type png)
 <use cat_modele.png>
-Package pdftex.def Info: cat_modele.png  used on input line 878.
+Package pdftex.def Info: cat_modele.png  used on input line 1133.
 (pdftex.def)             Requested size: 419.75253pt x 203.20486pt.
-<cat_user.png, id=590, 590.80725pt x 364.9635pt>
+<cat_user.png, id=788, 590.80725pt x 364.9635pt>
 File: cat_user.png Graphic file (type png)
 <use cat_user.png>
-Package pdftex.def Info: cat_user.png  used on input line 888.
+Package pdftex.def Info: cat_user.png  used on input line 1146.
 (pdftex.def)             Requested size: 419.76456pt x 259.33194pt.
 
 
-[30 <./cat_admin_parties.png> <./cat_modele.png>]
-<cat_moisson.png, id=599, 1147.8885pt x 395.67825pt>
+[43 <./cat_admin_parties.png> <./cat_modele.png>]
+<cat_moisson.png, id=796, 1147.8885pt x 395.67825pt>
 File: cat_moisson.png Graphic file (type png)
 <use cat_moisson.png>
-Package pdftex.def Info: cat_moisson.png  used on input line 898.
+Package pdftex.def Info: cat_moisson.png  used on input line 1159.
 (pdftex.def)             Requested size: 419.75526pt x 144.69002pt.
 
 
-[31 <./cat_user.png> <./cat_moisson.png>]
-<cat_stats.png, id=608, 1118.37825pt x 467.94826pt>
+[44 <./cat_user.png> <./cat_moisson.png>]
+<cat_stats.png, id=805, 1118.37825pt x 467.94826pt>
 File: cat_stats.png Graphic file (type png)
 <use cat_stats.png>
-Package pdftex.def Info: cat_stats.png  used on input line 917.
+Package pdftex.def Info: cat_stats.png  used on input line 1181.
 (pdftex.def)             Requested size: 419.74919pt x 175.63011pt.
-<cat_rapport.png, id=609, 774.4935pt x 374.5995pt>
+<cat_rapport.png, id=806, 774.4935pt x 374.5995pt>
 File: cat_rapport.png Graphic file (type png)
 <use cat_rapport.png>
-Package pdftex.def Info: cat_rapport.png  used on input line 928.
+Package pdftex.def Info: cat_rapport.png  used on input line 1195.
 (pdftex.def)             Requested size: 419.75658pt x 203.03522pt.
 
 
-[32 <./cat_stats.png> <./cat_rapport.png>]
-<cat_thes.png, id=616, 627.5445pt x 362.5545pt>
+[45 <./cat_stats.png> <./cat_rapport.png>]
+<cat_thes.png, id=814, 627.5445pt x 362.5545pt>
 File: cat_thes.png Graphic file (type png)
 <use cat_thes.png>
-Package pdftex.def Info: cat_thes.png  used on input line 960.
+Package pdftex.def Info: cat_thes.png  used on input line 1230.
 (pdftex.def)             Requested size: 419.7536pt x 242.52301pt.
-<cat_param.png, id=617, 1145.4795pt x 352.31625pt>
+<thesaurus.png, id=815, 581.17125pt x 316.18124pt>
+File: thesaurus.png Graphic file (type png)
+<use thesaurus.png>
+Package pdftex.def Info: thesaurus.png  used on input line 1245.
+(pdftex.def)             Requested size: 419.7643pt x 228.38364pt.
+
+
+[46 <./cat_thes.png> <./thesaurus.png>]
+LaTeX Font Info:    Font shape `T1/txtt/m/it' in size <10> not available
+(Font)              Font shape `T1/txtt/m/sl' tried instead on input line 1259.
+
+<cat_param.png, id=823, 1145.4795pt x 352.31625pt>
 File: cat_param.png Graphic file (type png)
 <use cat_param.png>
-Package pdftex.def Info: cat_param.png  used on input line 970.
+Package pdftex.def Info: cat_param.png  used on input line 1277.
 (pdftex.def)             Requested size: 419.74828pt x 129.10776pt.
-
-
-[33 <./cat_thes.png> <./cat_param.png>]
-<cat_outil.png, id=626, 1133.4345pt x 422.17725pt>
+<cat_outil.png, id=825, 1133.4345pt x 422.17725pt>
 File: cat_outil.png Graphic file (type png)
 <use cat_outil.png>
-Package pdftex.def Info: cat_outil.png  used on input line 987.
+Package pdftex.def Info: cat_outil.png  used on input line 1297.
 (pdftex.def)             Requested size: 419.76198pt x 156.35129pt.
-<mapstore_contexte.png, id=629, 1151.502pt x 436.63126pt>
+
+
+[47 <./cat_param.png>]
+<mapstore_contexte.png, id=836, 1151.502pt x 436.63126pt>
 File: mapstore_contexte.png Graphic file (type png)
 <use mapstore_contexte.png>
-Package pdftex.def Info: mapstore_contexte.png  used on input line 1026.
+Package pdftex.def Info: mapstore_contexte.png  used on input line 1340.
 (pdftex.def)             Requested size: 451.68457pt x 171.27155pt.
 
 
-[34 <./cat_outil.png>]
-<mapstore_plugins.png, id=637, 679.338pt x 325.215pt>
+[48 <./cat_outil.png>]
+<mapstore_plugins.png, id=844, 679.338pt x 325.215pt>
 File: mapstore_plugins.png Graphic file (type png)
 <use mapstore_plugins.png>
-Package pdftex.def Info: mapstore_plugins.png  used on input line 1033.
+Package pdftex.def Info: mapstore_plugins.png  used on input line 1350.
 (pdftex.def)             Requested size: 451.68457pt x 216.23547pt.
 
 
-[35 <./mapstore_contexte.png> <./mapstore_plugins.png>]
-<geos_interface.png, id=653, 935.29425pt x 445.665pt>
+[49 <./mapstore_contexte.png> <./mapstore_plugins.png>]
+<geos_interface.png, id=861, 935.29425pt x 445.665pt>
 File: geos_interface.png Graphic file (type png)
 <use geos_interface.png>
-Package pdftex.def Info: geos_interface.png  used on input line 1083.
+Package pdftex.def Info: geos_interface.png  used on input line 1411.
 (pdftex.def)             Requested size: 469.75815pt x 223.84518pt.
 
 
-[36 <./geos_interface.png>]
-<geos_secu.png, id=662, 677.53125pt x 398.08725pt>
+[50 <./geos_interface.png>]
+<styles.png, id=870, 931.22906pt x 347.04657pt>
+File: styles.png Graphic file (type png)
+<use styles.png>
+Package pdftex.def Info: styles.png  used on input line 1450.
+(pdftex.def)             Requested size: 469.74832pt x 175.07973pt.
+<geos_secu.png, id=873, 677.53125pt x 398.08725pt>
 File: geos_secu.png Graphic file (type png)
 <use geos_secu.png>
-Package pdftex.def Info: geos_secu.png  used on input line 1123.
+Package pdftex.def Info: geos_secu.png  used on input line 1466.
 (pdftex.def)             Requested size: 469.77148pt x 276.02899pt.
-<geos_result.png, id=663, 484.81125pt x 154.176pt>
+
+
+[51 <./styles.png>]
+<geos_result.png, id=880, 484.81125pt x 154.176pt>
 File: geos_result.png Graphic file (type png)
 <use geos_result.png>
-Package pdftex.def Info: geos_result.png  used on input line 1155.
+Package pdftex.def Info: geos_result.png  used on input line 1501.
 (pdftex.def)             Requested size: 469.77809pt x 149.40701pt.
 
 
-[37 <./geos_secu.png>]
-<user_dashboard.png, id=674, 720.291pt x 333.04425pt>
+[52 <./geos_secu.png> <./geos_result.png>]
+<services.png, id=887, 840.13875pt x 440.39531pt>
+File: services.png Graphic file (type png)
+<use services.png>
+Package pdftex.def Info: services.png  used on input line 1509.
+(pdftex.def)             Requested size: 469.7566pt x 246.24338pt.
+<user_dashboard.png, id=893, 720.291pt x 333.04425pt>
 File: user_dashboard.png Graphic file (type png)
 <use user_dashboard.png>
-Package pdftex.def Info: user_dashboard.png  used on input line 1200.
+Package pdftex.def Info: user_dashboard.png  used on input line 1557.
 (pdftex.def)             Requested size: 469.75526pt x 217.21814pt.
 
 
-[38 <./geos_result.png>]
-<user_user.png, id=685, 748.59676pt x 405.31425pt>
+[53 <./services.png>]
+<user_user.png, id=904, 748.59676pt x 405.31425pt>
 File: user_user.png Graphic file (type png)
 <use user_user.png>
-Package pdftex.def Info: user_user.png  used on input line 1208.
+Package pdftex.def Info: user_user.png  used on input line 1568.
 (pdftex.def)             Requested size: 469.74513pt x 254.34743pt.
-<user_user_user.png, id=686, 708.84825pt x 486.618pt>
+<user_user_user.png, id=905, 708.84825pt x 486.618pt>
 File: user_user_user.png Graphic file (type png)
 <use user_user_user.png>
-Package pdftex.def Info: user_user_user.png  used on input line 1213.
+Package pdftex.def Info: user_user_user.png  used on input line 1576.
 (pdftex.def)             Requested size: 469.75575pt x 322.5054pt.
 
 
-[39 <./user_dashboard.png> <./user_user.png>]
-<user_orga.png, id=694, 733.5405pt x 186.6975pt>
+[54 <./user_dashboard.png> <./user_user.png>]
+<user_orga.png, id=912, 733.5405pt x 186.6975pt>
 File: user_orga.png Graphic file (type png)
 <use user_orga.png>
-Package pdftex.def Info: user_orga.png  used on input line 1221.
+Package pdftex.def Info: user_orga.png  used on input line 1594.
 (pdftex.def)             Requested size: 469.75533pt x 119.5629pt.
-<user_orga_orga.png, id=695, 717.882pt x 517.935pt>
+<user_orga_orga.png, id=913, 717.882pt x 517.935pt>
 File: user_orga_orga.png Graphic file (type png)
 <use user_orga_orga.png>
-Package pdftex.def Info: user_orga_orga.png  used on input line 1226.
+Package pdftex.def Info: user_orga_orga.png  used on input line 1602.
 (pdftex.def)             Requested size: 469.75061pt x 338.92982pt.
 
 
-[40 <./user_user_user.png> <./user_orga.png>]
-<user_role.png, id=702, 701.62125pt x 418.56375pt>
+[55 <./user_user_user.png> <./user_orga.png>]
+<user_role.png, id=920, 701.62125pt x 418.56375pt>
 File: user_role.png Graphic file (type png)
 <use user_role.png>
-Package pdftex.def Info: user_role.png  used on input line 1234.
+Package pdftex.def Info: user_role.png  used on input line 1613.
 (pdftex.def)             Requested size: 469.76262pt x 280.25742pt.
 
 
-[41 <./user_orga_orga.png>]
+[56 <./user_orga_orga.png>]
 
-[42 <./user_role.png>]
-<ana.png, id=713, 883.04906pt x 645.16031pt>
+[57 <./user_role.png>]
+<ana.png, id=932, 883.04906pt x 645.16031pt>
 File: ana.png Graphic file (type png)
 <use ana.png>
-Package pdftex.def Info: ana.png  used on input line 1312.
+Package pdftex.def Info: ana.png  used on input line 1694.
 (pdftex.def)             Requested size: 469.75194pt x 343.22293pt.
 
 
-[43 <./ana.png>]
+[58 <./ana.png>]
+File: plugin_base.png Graphic file (type png)
+<use plugin_base.png>
+Package pdftex.def Info: plugin_base.png  used on input line 1724.
+(pdftex.def)             Requested size: 451.68457pt x 286.3428pt.
 
-[44
+
+[59]
+
+[60
 
 ]
 Chapitre 3.
 
 
-[45]
+[61]
 
-[46]
-LaTeX Font Info:    Font shape `T1/txtt/m/it' in size <10> not available
-(Font)              Font shape `T1/txtt/m/sl' tried instead on input line 1507.
-
+[62]
 LaTeX Font Info:    Trying to load font information for TS1+txtt on input line 
-1510.
+1964.
 
 (C:\Users\ztoffv\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\ts1txtt.fd
 File: ts1txtt.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Font shape `TS1/txtt/m/it' in size <10> not available
-(Font)              Font shape `TS1/txtt/m/sl' tried instead on input line 1514
-.
 LaTeX Font Info:    Font shape `T1/txtt/b/n' in size <10> not available
-(Font)              Font shape `T1/txtt/bx/n' tried instead on input line 1545.
+(Font)              Font shape `T1/txtt/bx/n' tried instead on input line 2004.
 
 
-
-[47{C:/Users/ztoffv/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}]
-
-Underfull \vbox (badness 10000) detected at line 1610
- []
-
-
-Overfull \vbox (3.12196pt too high) detected at line 1610
+Overfull \hbox (585.49191pt too wide) in paragraph at lines 2013--2013
+[][]\T1/txtt/m/n/10 ***********************************************************
+*******************************************************************************
+*************************************************************|  
  []
 
 
 
-[48]
-Overfull \vbox (1.87393pt too high) detected at line 1751
- []
+[63]
+
+[64]
+<geoserver_global.png, id=993, 490.83376pt x 217.5628pt>
+File: geoserver_global.png Graphic file (type png)
+<use geoserver_global.png>
+Package pdftex.def Info: geoserver_global.png  used on input line 2122.
+(pdftex.def)             Requested size: 419.77206pt x 186.07455pt.
+<geoserver_services.png, id=994, 846.16125pt x 193.47281pt>
+File: geoserver_services.png Graphic file (type png)
+<use geoserver_services.png>
+Package pdftex.def Info: geoserver_services.png  used on input line 2138.
+(pdftex.def)             Requested size: 419.74846pt x 95.97746pt.
 
 
+[65 <./geoserver_global.png> <./geoserver_services.png>]
 
-[49]
-Underfull \vbox (badness 10000) detected at line 1751
- []
+[66]
 
-
-Underfull \vbox (badness 10000) detected at line 1751
- []
-
-
-
-[50]
-Underfull \vbox (badness 10000) detected at line 1751
- []
-
-
-Underfull \vbox (badness 10000) detected at line 1751
- []
-
-
-
-[51]
-
-[52]
-
-[53]
-
-[54]
-Underfull \vbox (badness 10000) detected at line 2118
- []
-
-
-Underfull \vbox (badness 10000) detected at line 2118
- []
-
-
-
-[55]
-Underfull \vbox (badness 10000) detected at line 2118
- []
-
-
-Underfull \vbox (badness 10000) detected at line 2118
- []
-
-
-
-[56]
-Underfull \vbox (badness 10000) detected at line 2118
- []
-
-
-Underfull \vbox (badness 10000) detected at line 2118
- []
-
-
-
-[57]
-Underfull \vbox (badness 10000) detected at line 2118
- []
-
-
-Underfull \vbox (badness 10000) detected at line 2118
- []
-
-
-
-[58]
-
-[59]
-<debian_paquet.png, id=823, 639.5895pt x 104.18925pt>
+[67]
+<debian_paquet.png, id=1026, 639.5895pt x 104.18925pt>
 File: debian_paquet.png Graphic file (type png)
 <use debian_paquet.png>
-Package pdftex.def Info: debian_paquet.png  used on input line 2193.
+Package pdftex.def Info: debian_paquet.png  used on input line 2402.
 (pdftex.def)             Requested size: 469.76569pt x 76.52649pt.
- (plateformecartographiqueole.ind)
 
-[60 <./debian_paquet.png>] (plateformecartographiqueole.aux)
+
+[68 <./debian_paquet.png>] (plateformecartographiqueole.ind)
+
+[69] (plateformecartographiqueole.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
  ***********
 Package rerunfilecheck Info: File `plateformecartographiqueole.out' has not cha
 nged.
-(rerunfilecheck)             Checksum: 694CEDFCA99D25B2F50205C4F8AFB9A9;11329.
+(rerunfilecheck)             Checksum: AF4436CB2715E040B21C5521C146FBFE;14057.
  ) 
 Here is how much of TeX's memory you used:
- 21407 strings out of 473899
- 388344 string characters out of 5726028
- 1001657 words of memory out of 5000000
- 43670 multiletter control sequences out of 15000+600000
- 618411 words of font info for 84 fonts, out of 8000000 for 9000
+ 21865 strings out of 473899
+ 398440 string characters out of 5726028
+ 808542 words of memory out of 5000000
+ 44101 multiletter control sequences out of 15000+600000
+ 612568 words of font info for 79 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
- 72i,12n,79p,822b,657s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,12n,79p,2767b,640s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/ztoffv/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome
 5/FontAwesome5Free-Solid.pfb><C:/Users/ztoffv/AppData/Local/Programs/MiKTeX/fon
 ts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/ztoffv/AppData/Local/Programs/M
@@ -1512,11 +1737,10 @@ ers/ztoffv/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/t1xbtt.pfb>
 <C:/Users/ztoffv/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/t1xtt
 .pfb><C:/Users/ztoffv/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/
 t1xtt.pfb><C:/Users/ztoffv/AppData/Local/Programs/MiKTeX/fonts/type1/public/txf
-onts/tcxtt.pfb><C:/Users/ztoffv/AppData/Local/Programs/MiKTeX/fonts/type1/urw/t
-imes/utmr8a.pfb>
-Output written on plateformecartographiqueole.pdf (64 pages, 8208811 bytes).
+onts/tcxtt.pfb>
+Output written on plateformecartographiqueole.pdf (73 pages, 9268417 bytes).
 PDF statistics:
- 919 PDF objects out of 1000 (max. 8388607)
- 189 named destinations out of 1000 (max. 500000)
- 873 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1134 PDF objects out of 1200 (max. 8388607)
+ 222 named destinations out of 1000 (max. 500000)
+ 1214 words of extra memory for PDF output out of 10000 (max. 10000000)
 

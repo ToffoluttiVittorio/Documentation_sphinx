@@ -1,70 +1,82 @@
 \babel@toc {french}{}\relax 
 \contentsline {chapter}{\numberline {1}Documentation utilisateur}{3}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Catalogue}{3}{section.1.1}%
+\contentsline {section}{\numberline {1.1}Le catalogue}{3}{section.1.1}%
 \contentsline {subsection}{\numberline {1.1.1}Introduction}{3}{subsection.1.1.1}%
-\contentsline {subsection}{\numberline {1.1.2}La recherche des données dans le catalogue}{3}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.2}La recherche de donnée dans le catalogue}{3}{subsection.1.1.2}%
 \contentsline {subsection}{\numberline {1.1.3}Les fonctionnalités des fiches de données}{6}{subsection.1.1.3}%
-\contentsline {subsubsection}{Description de la donnée}{6}{subsubsection*.6}%
-\contentsline {subsubsection}{Prévisualisation de la donnée}{7}{subsubsection*.7}%
-\contentsline {subsubsection}{Téléchargement de la donnée}{9}{subsubsection*.8}%
-\contentsline {section}{\numberline {1.2}Visualiseur}{10}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}Introduction}{10}{subsection.1.2.1}%
+\contentsline {subsubsection}{Description de la donnée}{6}{subsubsection*.9}%
+\contentsline {subsubsection}{Prévisualisation de la donnée}{7}{subsubsection*.10}%
+\contentsline {subsubsection}{Téléchargement de la donnée}{9}{subsubsection*.11}%
+\contentsline {section}{\numberline {1.2}Le visualiseur}{10}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Introduction}{11}{subsection.1.2.1}%
 \contentsline {subsection}{\numberline {1.2.2}La gestion des couches}{11}{subsection.1.2.2}%
-\contentsline {subsection}{\numberline {1.2.3}Les fonctionnalités techniques}{15}{subsection.1.2.3}%
-\contentsline {section}{\numberline {1.3}Application \sphinxhyphen {} Cartothèque}{18}{section.1.3}%
-\contentsline {subsection}{\numberline {1.3.1}Introduction}{18}{subsection.1.3.1}%
-\contentsline {subsection}{\numberline {1.3.2}Dashboard}{19}{subsection.1.3.2}%
-\contentsline {subsection}{\numberline {1.3.3}GeoStory}{20}{subsection.1.3.3}%
-\contentsline {section}{\numberline {1.4}Import de données}{20}{section.1.4}%
-\contentsline {subsection}{\numberline {1.4.1}Introduction}{21}{subsection.1.4.1}%
-\contentsline {subsection}{\numberline {1.4.2}Intégration de shapefile}{21}{subsection.1.4.2}%
-\contentsline {subsection}{\numberline {1.4.3}Intégration de CSV}{22}{subsection.1.4.3}%
-\contentsline {subsection}{\numberline {1.4.4}Processus d’intégration}{22}{subsection.1.4.4}%
-\contentsline {section}{\numberline {1.5}Erreurs fréquentes}{24}{section.1.5}%
-\contentsline {subsection}{\numberline {1.5.1}La couche ne charge pas dans le visualiseur}{25}{subsection.1.5.1}%
-\contentsline {subsection}{\numberline {1.5.2}Pas de table attributaire}{25}{subsection.1.5.2}%
-\contentsline {chapter}{\numberline {2}Documentation administrateur}{27}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Catalogue \sphinxhyphen {} GeoNetwork}{27}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Introduction}{27}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Gestion des fiches de métadonnées}{28}{subsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.1.3}Gérer les droits d’accès aux fiches de métadonnées}{29}{subsection.2.1.3}%
-\contentsline {subsection}{\numberline {2.1.4}Administration}{29}{subsection.2.1.4}%
-\contentsline {subsubsection}{Métadonnées et modèles}{30}{subsubsection*.37}%
-\contentsline {subsubsection}{Utilisateur et groupe}{31}{subsubsection*.38}%
-\contentsline {subsubsection}{Moissonnage}{31}{subsubsection*.39}%
-\contentsline {subsubsection}{Statistique et statut}{32}{subsubsection*.40}%
-\contentsline {subsubsection}{Rapports}{32}{subsubsection*.41}%
-\contentsline {subsubsection}{Thésaurus}{33}{subsubsection*.42}%
-\contentsline {subsubsection}{Paramètres}{33}{subsubsection*.43}%
-\contentsline {subsubsection}{Outils}{34}{subsubsection*.44}%
-\contentsline {section}{\numberline {2.2}MapStore}{34}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Introduction}{34}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Les contextes}{34}{subsection.2.2.2}%
-\contentsline {section}{\numberline {2.3}Services \sphinxhyphen {} GeoServer}{35}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Introduction}{36}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Les données stockées en interne}{36}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}La diffusion des données avec les flux OGC}{36}{subsection.2.3.3}%
-\contentsline {subsection}{\numberline {2.3.4}La restriction d’accès aux données}{37}{subsection.2.3.4}%
-\contentsline {section}{\numberline {2.4}Utilsateur \sphinxhyphen {} console admin}{38}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Introduction}{38}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Utilisateurs}{39}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}Organismes}{40}{subsection.2.4.3}%
-\contentsline {subsection}{\numberline {2.4.4}Rôles}{41}{subsection.2.4.4}%
-\contentsline {subsection}{\numberline {2.4.5}Autres :}{42}{subsection.2.4.5}%
-\contentsline {section}{\numberline {2.5}Application}{43}{section.2.5}%
-\contentsline {chapter}{\numberline {3}Documentation d’installation}{45}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Installation}{45}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Introduction}{45}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Ansible}{46}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3}Serveur web}{46}{subsection.3.1.3}%
-\contentsline {subsection}{\numberline {3.1.4}Script de personnalisation}{47}{subsection.3.1.4}%
-\contentsline {section}{\numberline {3.2}Configuration}{53}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Introduction}{53}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Localisation des différents répertoires}{53}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Fichiers de configuration du datadir}{53}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Versionnement des modules}{54}{subsection.3.2.4}%
-\contentsline {subsection}{\numberline {3.2.5}Base de donnée}{59}{subsection.3.2.5}%
-\contentsline {subsection}{\numberline {3.2.6}Relancer l’infrastructure}{59}{subsection.3.2.6}%
-\contentsline {section}{\numberline {3.3}Mise à jour}{59}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Introduction}{60}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Paquets debians}{60}{subsection.3.3.2}%
+\contentsline {subsubsection}{Ajouter des données dans l’interface}{12}{subsubsection*.16}%
+\contentsline {subsubsection}{Changer les paramètre de la couches \sphinxhyphen {} Style \sphinxhyphen {} Informations \sphinxhyphen {} Légende}{14}{subsubsection*.17}%
+\contentsline {subsection}{\numberline {1.2.3}Les fonctionnalités techniques}{23}{subsection.1.2.3}%
+\contentsline {section}{\numberline {1.3}La cartothèque \sphinxhyphen {} page Application}{26}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Introduction}{26}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Dashboard}{27}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}GeoStory}{27}{subsection.1.3.3}%
+\contentsline {section}{\numberline {1.4}L’intégration de données \sphinxhyphen {} page Import}{28}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}Introduction}{29}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {1.4.2}Intégration de shapefile}{29}{subsection.1.4.2}%
+\contentsline {subsection}{\numberline {1.4.3}Intégration de CSV}{30}{subsection.1.4.3}%
+\contentsline {subsection}{\numberline {1.4.4}Processus d’intégration}{30}{subsection.1.4.4}%
+\contentsline {section}{\numberline {1.5}Le plugin QGIS}{33}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Les erreurs fréquentes}{35}{section.1.6}%
+\contentsline {chapter}{\numberline {2}Documentation administrateur}{37}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Catalogue \sphinxhyphen {} GeoNetwork}{37}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Introduction}{37}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Gestion des fiches de métadonnées}{38}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Gérer les droits d’accès aux fiches de métadonnées}{39}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}Créer une fiche à la main}{40}{subsection.2.1.4}%
+\contentsline {subsection}{\numberline {2.1.5}Administration}{42}{subsection.2.1.5}%
+\contentsline {subsubsection}{Métadonnées et modèles}{43}{subsubsection*.41}%
+\contentsline {subsubsection}{Utilisateur et groupe}{44}{subsubsection*.42}%
+\contentsline {subsubsection}{Moissonnage}{44}{subsubsection*.43}%
+\contentsline {subsubsection}{Statistique et statut}{45}{subsubsection*.44}%
+\contentsline {subsubsection}{Rapports}{45}{subsubsection*.45}%
+\contentsline {subsubsection}{Thesaurus}{46}{subsubsection*.46}%
+\contentsline {subsubsection}{Paramètres}{47}{subsubsection*.48}%
+\contentsline {subsubsection}{Outils}{48}{subsubsection*.49}%
+\contentsline {section}{\numberline {2.2}MapStore}{48}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Introduction}{48}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Les contextes}{48}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}Services \sphinxhyphen {} GeoServer}{49}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Introduction}{50}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Les données stockées en interne}{50}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}La diffusion des données avec les flux OGC}{51}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Définir des styles pour les flux WMS}{51}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.5}La restriction d’accès aux données}{51}{subsection.2.3.5}%
+\contentsline {subsection}{\numberline {2.3.6}La restriction d’accès aux services}{53}{subsection.2.3.6}%
+\contentsline {section}{\numberline {2.4}Utilsateur \sphinxhyphen {} console admin}{53}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Introduction}{53}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Utilisateurs}{54}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Organismes}{55}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}Rôles}{56}{subsection.2.4.4}%
+\contentsline {subsection}{\numberline {2.4.5}Autres :}{58}{subsection.2.4.5}%
+\contentsline {section}{\numberline {2.5}Analytics}{58}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Le plugin QGIS}{59}{section.2.6}%
+\contentsline {chapter}{\numberline {3}Documentation d’installation \sphinxhyphen {} Développeur}{61}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Installation}{61}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Introduction}{62}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Ansible}{62}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Erreurs fréquentes}{63}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}Serveur mail}{64}{subsection.3.1.4}%
+\contentsline {subsection}{\numberline {3.1.5}Script de personnalisation}{64}{subsection.3.1.5}%
+\contentsline {subsection}{\numberline {3.1.6}Thesaurus}{64}{subsection.3.1.6}%
+\contentsline {subsection}{\numberline {3.1.7}Activer le module analytics}{64}{subsection.3.1.7}%
+\contentsline {subsection}{\numberline {3.1.8}Certificat ssl}{65}{subsection.3.1.8}%
+\contentsline {subsection}{\numberline {3.1.9}Personnalisation du GeoServer}{65}{subsection.3.1.9}%
+\contentsline {subsection}{\numberline {3.1.10}Relancer l’infrastructure}{66}{subsection.3.1.10}%
+\contentsline {subsection}{\numberline {3.1.11}Se rendre sur l’application}{66}{subsection.3.1.11}%
+\contentsline {section}{\numberline {3.2}Configuration}{66}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Introduction}{66}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Localisation des différents répertoires}{67}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Fichiers de configuration du datadir}{67}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Versionnement des modules}{67}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}Base de donnée}{68}{subsection.3.2.5}%
+\contentsline {subsection}{\numberline {3.2.6}Scripts de personnalisation}{68}{subsection.3.2.6}%
+\contentsline {section}{\numberline {3.3}Mise à jour}{68}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Introduction}{68}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Paquets debians}{68}{subsection.3.3.2}%
